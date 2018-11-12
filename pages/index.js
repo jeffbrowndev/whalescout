@@ -9,7 +9,7 @@ class App extends React.Component {
   componentDidMount() {
     // Whale Scout API URL
     const url = "https://www.whalescout.org/wp-json";
-    // connect to Whale Scout API / load into state
+    // Connect to Whale Scout API / load into state
     fetch(url)
       .then(res => res.json())
       .then(res => this.setState(res));
@@ -25,7 +25,7 @@ class App extends React.Component {
           />
         </Head>
         <div className={`${styles.app} app`}>
-          <MobileNavigation />
+          <DesktopNavigation />
           <Footer />
         </div>
       </div>

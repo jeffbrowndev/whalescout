@@ -1,5 +1,75 @@
+@import "variables";
+
 .footer {
-  h1 {
-    color: red;
+  position: absolute;
+  bottom: 0;
+  padding: 50px;
+  width: 100%;
+  background-size: cover;
+  background: $blue;
+  //background-image: url("/static/images/ws_footer_background.png");
+  .footer_container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    .site_map {
+      display: flex;
+      font-family: $raleway-light;
+      color: $white;
+      font-size: 12px;
+      line-height: 2;
+      letter-spacing: 1px;
+      .site_map_column {
+        padding-right: 5%;
+        .bold {
+          font-family: $raleway-extrabold;
+        }
+      }
+    }
+    .footer_connect {
+      color: white;
+      h3 {
+        font-family: $voltage;
+        font-size: 32px;
+      }
+      .news_letter {
+        .signup_form {
+          display: flex;
+          input {
+            font-family: $raleway-regular;
+            font-size: 16px;
+            width: 300px;
+            padding: 20px 15px;
+            border-style: none;
+            border: none;
+            height: 56px;
+          }
+          button {
+            font-family: $raleway-extrabold;
+            font-size: 16px;
+            width: 100px;
+            height: 56px;
+            border-style: none;
+            background: $mediumgreen;
+            color: $white;
+          }
+          span {
+            border-top: 28px solid $mediumgreen;
+            border-bottom: 28px solid $mediumgreen;
+            border-right: 10px solid transparent;
+            height: 0;
+            width: 0;
+          }
+        }
+      }
+      .connect {
+        display: flex;
+        p {
+          font-family: $raleway-regular;
+          font-size: 16px;
+          line-height: 1.5;
+        }
+      }
+    }
   }
 }

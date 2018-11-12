@@ -7,7 +7,17 @@
   src: url("/static/fonts/Raleway-ExtraBold.ttf");
 }
 
+@font-face {
+  font-family: "raleway-light";
+  src: url("/static/fonts/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: "raleway-regular";
+  src: url("/static/fonts/Raleway-Regular.ttf");
+}
+
 // colors
+$blue: #192e55;
 $lightgreen: #8fc5bc;
 $mediumgreen: #76b3a8;
 $darkgreen: #58aa9c;
@@ -16,6 +26,8 @@ $white: white;
 //fonts
 $voltage: "volt", sans-serif;
 $raleway-extrabold: "raleway-extrabold";
+$raleway-light: "raleway-light";
+$raleway-regular: "raleway-regular";
 
 //transitions
 $fast: 0.1s;

@@ -12,6 +12,7 @@ class MobileNavigation extends React.Component {
   render() {
     return (
       <div className={styles.mobile_navigation}>
+        <img src="/static/images/ws_logo.png" alt="Logo" />
         <div className={styles.hamburger}>
           <label htmlFor="open" className={styles.hamburger_icon}>
             <div className={styles.line} />
