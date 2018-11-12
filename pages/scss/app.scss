@@ -1,0 +1,16 @@
+// CSS Resets
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+// Global Styles
+.icon {
+  margin-left: 5px;
+  transform: translateY(-2.5px);
+}

@@ -1,0 +1,79 @@
+@import "variables";
+@import "mixins";
+
+.mobile_navigation {
+  position: relative;
+  width: 100%;
+  background: $lightgreen;
+  .hamburger {
+    position: relative;
+    width: 100%;
+    padding: 30px 0;
+    input[type="checkbox"] {
+      display: none;
+    }
+    // Display menu
+    input:checked ~ .menu {
+      display: block;
+    }
+    .hamburger_icon {
+      position: absolute;
+      right: 24px;
+      top: 0;
+      margin-top: 19px;
+      z-index: 9999;
+    }
+    label {
+      cursor: pointer;
+      .line {
+        background: $white;
+        height: 2px;
+        width: 50px;
+      }
+      // Middle hamburger line
+      .line:nth-child(2) {
+        margin: 6px 0;
+      }
+    }
+    .menu {
+      padding-top: 60px;
+      background: $lightgreen;
+      opacity: 0.9;
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: $raleway-extrabold;
+      color: $white;
+      font-size: 16px;
+      letter-spacing: 3px;
+      display: none;
+      width: 100%;
+      text-align: center;
+      li {
+        border-top: 1px solid #aad1cb;
+        padding: 15px 0;
+        .about_label:checked ~ .about_dropdown {
+          display: block;
+          margin-bottom: -15px;
+        }
+
+        .act_label:checked ~ .act_dropdown {
+          display: block;
+          margin-bottom: -15px;
+        }
+        .join_label:checked ~ .join_dropdown {
+          display: block;
+          margin-bottom: -15px;
+        }
+        .about_dropdown,
+        .act_dropdown,
+        .join_dropdown {
+          display: none;
+          margin-top: 15px;
+          padding-bottom: 0;
+          background: $mediumgreen;
+        }
+      }
+    }
+  }
+}

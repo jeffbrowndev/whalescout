@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "volt";
+  src: url("/static/fonts/Voltage Bold.otf");
+}
+@font-face {
+  font-family: "raleway-extrabold";
+  src: url("/static/fonts/Raleway-ExtraBold.ttf");
+}
+
+// colors
+$lightgreen: #8fc5bc;
+$mediumgreen: #76b3a8;
+$darkgreen: #58aa9c;
+$white: white;
+
+//fonts
+$voltage: "volt", sans-serif;
+$raleway-extrabold: "raleway-extrabold";
+
+//transitions
+$fast: 0.1s;
