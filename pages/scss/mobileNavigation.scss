@@ -2,6 +2,7 @@
 @import "mixins";
 
 .mobile_navigation {
+  z-index: 9999;
   position: relative;
   width: 100%;
   background: $lightgreen;

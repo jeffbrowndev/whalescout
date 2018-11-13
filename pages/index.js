@@ -26,6 +26,7 @@ class App extends React.Component {
         </Head>
         <div className={`${styles.app} app`}>
           <DesktopNavigation />
+          <MobileNavigation />
           <Footer />
         </div>
       </div>

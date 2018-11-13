@@ -1,3 +1,4 @@
+// Import fonts
 @font-face {
   font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf");
@@ -16,18 +17,24 @@
   src: url("/static/fonts/Raleway-Regular.ttf");
 }
 
-// colors
-$blue: #192e55;
-$lightgreen: #8fc5bc;
-$mediumgreen: #76b3a8;
-$darkgreen: #58aa9c;
-$white: white;
-
-//fonts
+// Fonts
 $voltage: "volt", sans-serif;
 $raleway-extrabold: "raleway-extrabold";
 $raleway-light: "raleway-light";
 $raleway-regular: "raleway-regular";
 
-//transitions
+// Colors
+$blue: #002d49;
+$lightgreen: #8fc5bc;
+$mediumgreen: #76b3a8;
+$darkgreen: #58aa9c;
+$white: white;
+
+// Transitions
 $fast: 0.1s;
+$slow: 0.3s;
+
+// Breakpoints
+$tablet: 1200px;
+$mobile-large: 960px;
+$mobile-small: 450px;
