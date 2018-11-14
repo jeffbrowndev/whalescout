@@ -14,7 +14,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className={styles.footer}>
-        <img src="static/images/ws_footer_background.png" alt="Rock" />
+        <img src="/static/images/ws_footer_background.png" alt="Rock" />
         <div className={styles.footer_background}>
           <div className={styles.footer_container}>
             <div className={styles.site_map}>

@@ -7,10 +7,10 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "./scss/app.scss": [
+  "../scss/desktopNavigation.scss": [
     {
-      "id": "./pages/scss/app.scss",
-      "name": "./pages/scss/app.scss",
+      "id": "./pages/scss/desktopNavigation.scss",
+      "name": "./pages/scss/desktopNavigation.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -41,10 +41,10 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "../scss/desktopNavigation.scss": [
+  "./scss/app.scss": [
     {
-      "id": "./pages/scss/desktopNavigation.scss",
-      "name": "./pages/scss/desktopNavigation.scss",
+      "id": "./pages/scss/app.scss",
+      "name": "./pages/scss/app.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

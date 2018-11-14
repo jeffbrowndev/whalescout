@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../scss/mobileNavigation.scss";
 import global from "../scss/app.scss";
 import MediaQuery from "react-responsive";
+import Link from "next/link";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSortDown } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +25,9 @@ class MobileNavigation extends React.Component {
               </label>
               <input type="checkbox" id="open" />
               <ul className={styles.menu}>
-                <li>HOME</li>
+                <Link href="/">
+                  <li>HOME</li>
+                </Link>
                 <li className={styles.dropdown}>
                   <input
                     type="checkbox"
@@ -39,12 +42,20 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.about_dropdown}>
-                    <li>TEAM/SUPPORTERS</li>
-                    <li>CONTACT</li>
+                    <Link href="team">
+                      <li>TEAM/SUPPORTERS</li>
+                    </Link>
+                    <Link href="contact">
+                      <li>CONTACT</li>
+                    </Link>
                   </ul>
                 </li>
-                <li>LEARN</li>
-                <li>WATCH</li>
+                <Link href="learn">
+                  <li>LEARN</li>
+                </Link>
+                <Link href="watch">
+                  <li>WATCH</li>
+                </Link>
                 <li className={styles.dropdown}>
                   <input
                     type="checkbox"
@@ -59,11 +70,17 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.act_dropdown}>
-                    <li>HELPIN' OUT EVENTS</li>
-                    <li>STEWARDSHIP</li>
+                    <Link href="events">
+                      <li>HELPIN' OUT EVENTS</li>
+                    </Link>
+                    <Link href="stewardship">
+                      <li>STEWARDSHIP</li>
+                    </Link>
                   </ul>
                 </li>
-                <li>PROTECT</li>
+                <Link href="protect">
+                  <li>PROTECT</li>
+                </Link>
                 <li className={styles.dropdown}>
                   <input
                     type="checkbox"
@@ -78,12 +95,20 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.join_dropdown}>
-                    <li>VOLUNTEER</li>
-                    <li>STORE</li>
-                    <li>DONATE</li>
+                    <Link href="volunteer">
+                      <li>VOLUNTEER</li>
+                    </Link>
+                    <Link href="store">
+                      <li>STORE</li>
+                    </Link>
+                    <Link href="donate">
+                      <li>DONATE</li>
+                    </Link>
                   </ul>
                 </li>
-                <li>PODCAST</li>
+                <Link href="podcast">
+                  <li>PODCAST</li>
+                </Link>
               </ul>
             </div>
           </div>

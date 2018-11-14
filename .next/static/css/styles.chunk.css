@@ -1,15 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-li {
-  list-style: none; }
-
-._20QzFcLPlWfMAa4oCl1rkM {
-  margin-left: 5px;
-  transform: translateY(-2.5px); }
-
 @font-face {
   font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
@@ -64,6 +52,18 @@ li {
             background: #76b3a8; }
       .US1i8ceJRbcsr53kzy92p ._3HeJm-bNSzK_5JvLuBf17V ._2-zPZJFoR7NRFQv6tTyodg:hover ul {
         display: block; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+li {
+  list-style: none; }
+
+._20QzFcLPlWfMAa4oCl1rkM {
+  margin-left: 5px;
+  transform: translateY(-2.5px); }
 
 @font-face {
   font-family: "volt";
@@ -121,7 +121,8 @@ li {
     letter-spacing: 2px;
     display: none;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    cursor: pointer; }
     ._2V92VTr4YTW0IIYKc_Xq9G ._3jdSyCwLqAQe7ns5-jGDp2 .OpxTQCv7b2-c1a4LMQJ5y label {
       user-select: none; }
     ._2V92VTr4YTW0IIYKc_Xq9G ._3jdSyCwLqAQe7ns5-jGDp2 .OpxTQCv7b2-c1a4LMQJ5y li {
