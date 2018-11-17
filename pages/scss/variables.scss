@@ -24,11 +24,12 @@ $raleway-light: "raleway-light";
 $raleway-regular: "raleway-regular";
 
 // Colors
-$blue: #002d49;
-$lightgreen: #8fc5bc;
+$blue: #032c4a;
+$lightgreen: #a6d5cd;
 $mediumgreen: #76b3a8;
 $darkgreen: #58aa9c;
 $white: white;
+$yellow: #e9df81;
 
 // Transitions
 $fast: 0.1s;
@@ -38,3 +39,10 @@ $slow: 0.3s;
 $tablet: 1200px;
 $mobile-large: 960px;
 $mobile-small: 450px;
+
+// Global padding/margins
+$spacer: 150px;
+$spacermobile: 75px;
+$sectionpadding: 150px 3%;
+$sectionpaddingmobile: 75px 3%;
+$h2margin: 25px;

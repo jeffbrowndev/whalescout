@@ -1,16 +1,33 @@
+@import "variables";
 // CSS Resets
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 li {
   list-style: none;
 }
-
 // Global Styles
 .icon {
   margin-left: 5px;
   transform: translateY(-2.5px);
+}
+.main_button {
+  cursor: pointer;
+  border: none;
+  min-width: 225px;
+  text-align: center;
+  color: $white;
+  background: $blue;
+  font-family: $raleway-extrabold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 50px;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+html {
+  background: $mediumgreen;
 }

@@ -2,8 +2,7 @@
 @import "mixins";
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  background: $lightgreen;
   width: 100%;
   overflow: hidden;
   img {

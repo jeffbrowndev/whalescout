@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./components/navigation";
 import Header from "./components/head";
 import Footer from "./components/footer";
+import Router from "next/router";
 
 class Learn extends React.Component {
   render() {

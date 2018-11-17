@@ -24,51 +24,51 @@ class DesktopNavigation extends React.Component {
                 ABOUT
                 <FontAwesomeIcon icon={faSortDown} className={global.icon} />
                 <ul>
-                  <Link href="/team">
+                  <Link href="team">
                     <li>TEAM/SUPPORTERS</li>
                   </Link>
-                  <Link href="/contact">
+                  <Link href="contact">
                     <li>CONTACT</li>
                   </Link>
                 </ul>
               </li>
-              <Link href="/learn">
+              <Link href="learn">
                 <li>LEARN</li>
               </Link>
-              <Link href="/watch">
+              <Link href="watch">
                 <li>WATCH</li>
               </Link>
               <li className={styles.dropdown}>
                 ACT
                 <FontAwesomeIcon icon={faSortDown} className={global.icon} />
                 <ul>
-                  <Link href="/events">
+                  <Link href="events">
                     <li>HELPIN' OUT EVENTS</li>
                   </Link>
-                  <Link href="/stewardship">
+                  <Link href="stewardship">
                     <li>STEWARDSHIP</li>
                   </Link>
                 </ul>
               </li>
-              <Link href="/protect">
+              <Link href="protect">
                 <li>PROTECT</li>
               </Link>
               <li className={styles.dropdown}>
                 JOIN
                 <FontAwesomeIcon icon={faSortDown} className={global.icon} />
                 <ul>
-                  <Link href="/volunteer">
+                  <Link href="volunteer">
                     <li>VOLUNTEER</li>
                   </Link>
-                  <Link href="/store">
+                  <Link href="store">
                     <li>STORE</li>
                   </Link>
-                  <Link href="/donate">
+                  <Link href="donate">
                     <li>DONATE</li>
                   </Link>
                 </ul>
               </li>
-              <Link href="/podcast">
+              <Link href="podcast">
                 <li>PODCAST</li>
               </Link>
             </ul>

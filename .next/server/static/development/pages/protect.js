@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -232,7 +232,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/team",
+        href: "team",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
@@ -245,7 +245,7 @@ function (_React$Component) {
         },
         __self: this
       }, "TEAM/SUPPORTERS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/contact",
+        href: "contact",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30
@@ -258,7 +258,7 @@ function (_React$Component) {
         },
         __self: this
       }, "CONTACT")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/learn",
+        href: "learn",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
@@ -271,7 +271,7 @@ function (_React$Component) {
         },
         __self: this
       }, "LEARN")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/watch",
+        href: "watch",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
@@ -305,7 +305,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/events",
+        href: "events",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 45
@@ -318,7 +318,7 @@ function (_React$Component) {
         },
         __self: this
       }, "HELPIN' OUT EVENTS")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/stewardship",
+        href: "stewardship",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
@@ -331,7 +331,7 @@ function (_React$Component) {
         },
         __self: this
       }, "STEWARDSHIP")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/protect",
+        href: "protect",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
@@ -365,7 +365,7 @@ function (_React$Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/volunteer",
+        href: "volunteer",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 60
@@ -378,7 +378,7 @@ function (_React$Component) {
         },
         __self: this
       }, "VOLUNTEER")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/store",
+        href: "store",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
@@ -391,7 +391,7 @@ function (_React$Component) {
         },
         __self: this
       }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/donate",
+        href: "donate",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
@@ -404,7 +404,7 @@ function (_React$Component) {
         },
         __self: this
       }, "DONATE")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/podcast",
+        href: "podcast",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 71
@@ -1417,7 +1417,8 @@ function (_React$Component) {
 /***/ (function(module, exports) {
 
 module.exports = {
-	"icon": "_20QzFcLPlWfMAa4oCl1rkM"
+	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
+	"main_button": "_2UxR3fjEklPY0IlBPttLXV"
 };
 
 /***/ }),
@@ -1486,7 +1487,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!********************************!*\
   !*** multi ./pages/protect.js ***!
   \********************************/
