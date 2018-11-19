@@ -1,8 +1,8 @@
 {
-  "../scss/app.scss": [
+  "../scss/desktopNavigation.scss": [
     {
-      "id": "./pages/scss/app.scss",
-      "name": "./pages/scss/app.scss",
+      "id": "./pages/scss/desktopNavigation.scss",
+      "name": "./pages/scss/desktopNavigation.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -45,18 +45,10 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "../pages/scss/home.scss": [
+  "../scss/app.scss": [
     {
-      "id": "./pages/scss/home.scss",
-      "name": "./pages/scss/home.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/desktopNavigation.scss": [
-    {
-      "id": "./pages/scss/desktopNavigation.scss",
-      "name": "./pages/scss/desktopNavigation.scss",
+      "id": "./pages/scss/app.scss",
+      "name": "./pages/scss/app.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -69,10 +61,10 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "../scss/footer.scss": [
+  "../pages/scss/home.scss": [
     {
-      "id": "./pages/scss/footer.scss",
-      "name": "./pages/scss/footer.scss",
+      "id": "./pages/scss/home.scss",
+      "name": "./pages/scss/home.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -81,6 +73,14 @@
     {
       "id": "./pages/scss/mobileNavigation.scss",
       "name": "./pages/scss/mobileNavigation.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/footer.scss": [
+    {
+      "id": "./pages/scss/footer.scss",
+      "name": "./pages/scss/footer.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

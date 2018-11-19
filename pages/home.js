@@ -58,9 +58,12 @@ class Home extends React.Component {
           <section className={styles.home_events_feed}>
             <h1>Events</h1>
             <div className={styles.event_slider}>
-              <Event />
-              <Event />
-              <Event />
+              <Event
+                date="November 16th, 2018"
+                title="Sample Event"
+                description="This is just some sample text"
+                image="/static/images/ws_home_subheader_fish.svg"
+              />
             </div>
           </section>
           <section className={styles.home_news_and_podcasts}>
