@@ -1,12 +1,12 @@
-import styles from "../scss/footer.scss";
-import React from "react";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import styles from '../scss/footer.scss';
+import React from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
   faTwitter,
   faInstagram
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 
 library.add(faFacebook, faInstagram, faTwitter);
 
@@ -14,7 +14,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className={styles.footer}>
-        <img src="/static/images/ws_footer_background.png" alt="Rock" />
+        <img src='/static/images/ws_footer_background.png' alt='Rock' />
         <div className={styles.footer_background}>
           <div className={styles.footer_container}>
             <div className={styles.site_map}>
@@ -46,7 +46,7 @@ class Footer extends React.Component {
               <div className={styles.news_letter}>
                 <h3>Join Our Newsletter</h3>
                 <div className={styles.signup_form}>
-                  <input type="text" placeholder="Your e-mail" />
+                  <input type='text' placeholder='Your e-mail' />
                   <button>SIGN UP</button>
                   <span />
                 </div>
@@ -67,17 +67,17 @@ class Footer extends React.Component {
                 <div className={styles.social}>
                   <h3>Follow</h3>
                   <FontAwesomeIcon
-                    size="2x"
+                    size='2x'
                     icon={faInstagram}
                     className={styles.social_icon}
                   />
                   <FontAwesomeIcon
-                    size="2x"
+                    size='2x'
                     icon={faFacebook}
                     className={styles.social_icon}
                   />
                   <FontAwesomeIcon
-                    size="2x"
+                    size='2x'
                     icon={faTwitter}
                     className={styles.social_icon}
                   />

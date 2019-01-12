@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 // CSS Resets
 * {
   margin: 0;
@@ -12,6 +12,13 @@ li {
 .icon {
   margin-left: 5px;
   transform: translateY(-2.5px);
+}
+button {
+  cursor: pointer;
+  border: none;
+  background: $blue;
+  color: $white;
+  font-family: $raleway-extrabold;
 }
 .main_button {
   cursor: pointer;

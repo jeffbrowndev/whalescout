@@ -1,15 +1,21 @@
 {
-  "../scss/desktopNavigation.scss": [
+  "./noop": [
     {
-      "id": "./pages/scss/desktopNavigation.scss",
-      "name": "./pages/scss/desktopNavigation.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
+      "id": "./node_modules/next/dist/client/noop.js",
+      "name": "./node_modules/next/dist/client/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
     }
   ],
   "undefined": [
     {
-      "id": 4,
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -21,34 +27,42 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 8,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 9,
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "../scss/app.scss": [
+  "../pages/scss/app.scss": [
     {
       "id": "./pages/scss/app.scss",
       "name": "./pages/scss/app.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/desktopNavigation.scss": [
+    {
+      "id": "./pages/scss/desktopNavigation.scss",
+      "name": "./pages/scss/desktopNavigation.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -57,6 +71,22 @@
     {
       "id": "./pages/scss/event.scss",
       "name": "./pages/scss/event.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/eventSlider.scss": [
+    {
+      "id": "./pages/scss/eventSlider.scss",
+      "name": "./pages/scss/eventSlider.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/footer.scss": [
+    {
+      "id": "./pages/scss/footer.scss",
+      "name": "./pages/scss/footer.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -75,22 +105,6 @@
       "name": "./pages/scss/mobileNavigation.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/footer.scss": [
-    {
-      "id": "./pages/scss/footer.scss",
-      "name": "./pages/scss/footer.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./noop": [
-    {
-      "id": "./node_modules/next/dist/client/noop.js",
-      "name": "./node_modules/next/dist/client/noop.js",
-      "file": "static/chunks/0.js",
-      "publicPath": "static/chunks/0.js"
     }
   ]
 }

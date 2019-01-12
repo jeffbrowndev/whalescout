@@ -30,7 +30,7 @@ module.exports = {"icon":"_20QzFcLPlWfMAa4oCl1rkM","main_button":"_2UxR3fjEklPY0
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1542529896955");
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262814883");
           });
       }
     }
@@ -68,7 +68,7 @@ module.exports = {"desktop_navigation":"US1i8ceJRbcsr53kzy92p","links":"_3HeJm-b
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1542529897202");
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262814956");
           });
       }
     }
@@ -84,7 +84,7 @@ module.exports = {"desktop_navigation":"US1i8ceJRbcsr53kzy92p","links":"_3HeJm-b
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
-module.exports = {"event":"_1yLpjNyKTZoYHuY1yqdh30","event_footer":"_2aEPoYjuM8nrVz2KFGw6Lq"};;
+module.exports = {"event":"_1yLpjNyKTZoYHuY1yqdh30","event_header":"_2QK4mqSyNtFDv-QPdyeHbL","event_date_banner":"_2wgJxkBCUCvsNP-k2tgW2B","event_date":"_1noeolM_cbKqIRbRCYgaPr","tail":"Gxwed2j4aT07sO-cbR6p-","event_footer":"_2aEPoYjuM8nrVz2KFGw6Lq","event_footer_content":"_3MYSveXw6GbJNt41Mx7bT-"};;
     if (true) {
       var injectCss = function injectCss(prev, href) {
         var link = prev.cloneNode();
@@ -106,7 +106,44 @@ module.exports = {"event":"_1yLpjNyKTZoYHuY1yqdh30","event_footer":"_2aEPoYjuM8n
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1542530013750");
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262815110");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/scss/eventSlider.scss":
+/*!*************************************!*\
+  !*** ./pages/scss/eventSlider.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262814888");
           });
       }
     }
@@ -144,7 +181,7 @@ module.exports = {"footer":"_4lkSwLZRVGCVsPJFOBMMz","footer_background":"_3_Xrnn
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1542529897175");
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262815083");
           });
       }
     }
@@ -182,7 +219,7 @@ module.exports = {"home":"QdqAr08iIzV0N7tn1hiLA","home_header":"_2iLkmMmEmfdGXdZ
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1542529897104");
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262815010");
           });
       }
     }
@@ -220,7 +257,7 @@ module.exports = {"mobile_navigation":"_2V92VTr4YTW0IIYKc_Xq9G","hamburger":"_3j
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1542529897054");
+            injectCss(link, link.href.split("?")[0] + "?unix=1547262815138");
           });
       }
     }
