@@ -1,10 +1,11 @@
-@import "variables";
-@import "mixins";
+@import 'variables';
+@import 'mixins';
 
 .home {
+  // Header
   .home_header {
     width: 100%;
-    background: url("/static/images/ws_home_header.svg") no-repeat;
+    background: url('/static/images/ws_home_header.svg') no-repeat;
     background-size: cover;
     background-position: bottom;
     min-height: 750px;
@@ -16,7 +17,7 @@
       max-width: 1100px;
       color: $white;
       font-family: $raleway-regular;
-      font-size: 52px;
+      font-size: 48px;
       text-align: center;
       span {
         color: $lightgreen;
@@ -34,6 +35,7 @@
       }
     }
   }
+  // Sub-header
   .sub_header {
     background: $mediumgreen;
     padding: $sectionpadding;
@@ -46,7 +48,7 @@
     p {
       color: $white;
       font-family: $raleway-regular;
-      font-size: 22px;
+      font-size: 21px;
       line-height: 1.5;
     }
     img {
@@ -92,25 +94,27 @@
       }
     }
   }
-  .home_news_and_podcasts {
-    padding: $sectionpadding;
-  }
+  // Event slider
   .home_events_feed {
     background: $blue;
-    padding: $sectionpadding;
+    padding: 76px 0 100px 0;
+    @include mQ(575px) {
+      padding: 25px 0 0;
+    }
     h1 {
       color: $yellow;
       text-align: center;
-      font-size: 64px;
+      font-size: 52px;
       font-family: $voltage;
-    }
-    .event_slider {
-      display: flex;
+      padding-bottom: 25px;
     }
   }
+  // News and podcasts
+  .home_news_and_podcasts {
+    padding: $sectionpadding;
+  }
   @include mQ($tablet) {
-    .home_news_and_podcasts,
-    .home_events_feed {
+    .home_news_and_podcasts {
       padding: $sectionpaddingmobile;
     }
   }

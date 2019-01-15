@@ -1,19 +1,7 @@
-import React from "react";
-import Navigation from "./components/navigation";
-import Header from "./components/head";
-import Footer from "./components/footer";
+import Layout from './components/layout';
 
-class Protect extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Navigation />
-        <h1>Protect</h1>
-        <Footer />
-      </div>
-    );
-  }
-}
-
-export default Protect;
+export default () => (
+  <Layout>
+    <h1>Protect</h1>
+  </Layout>
+);

@@ -20,7 +20,7 @@ class Event extends React.Component {
         <div className={styles.event_footer}>
           <div className={styles.event_footer_content}>
             {/* Event title */}
-            {ReactHtmlParser(this.props.title)}
+            <h4>{ReactHtmlParser(this.props.title)}</h4>
             {/* Event description */}
             {ReactHtmlParser(this.props.description)}
             <Link href='#'>

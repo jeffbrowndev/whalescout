@@ -1,5 +1,19 @@
 @import 'variables';
+@import 'mixins';
 
 .event_slider {
-  // display: flex;
+  width: 1525px;
+  margin: auto;
+  @include mQ(1640px) {
+    width: 1300px;
+  }
+  @include mQ(1420px) {
+    width: 875px;
+  }
+  @include mQ(1000px) {
+    width: 450px;
+  }
+  @include mQ(575px) {
+    width: 100%;
+  }
 }

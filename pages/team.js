@@ -1,16 +1,22 @@
-import DesktopNavigation from "./components/desktopNavigation";
-import MobileNavigation from "./components/mobileNavigation";
-import Footer from "./components/footer";
+import Layout from './components/layout';
+import Member from './components/member';
+import styles from './scss/team.scss';
+import team from '../static/scripts/helpers';
 
-const Team = () => {
-  return (
-    <div>
-      <DesktopNavigation />
-      <MobileNavigation />
-      <h1>Team/Supporters</h1>
-      <Footer />
+export default () => (
+  <Layout>
+    <div className={styles.team}>
+      {team.map(member => (
+        <Member
+          key={member.name}
+          image={member.image}
+          color={member.color}
+          name={member.name}
+          role={member.role}
+          email={member.email}
+          about={member.about}
+        />
+      ))}
     </div>
-  );
-};
-
-export default Team;
+  </Layout>
+);

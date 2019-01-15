@@ -1,0 +1,68 @@
+@import 'variables';
+@import 'mixins';
+
+.member {
+  display: flex;
+  margin: auto;
+  padding: 75px 0;
+  max-width: 1200px;
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    .team_about {
+      padding-left: 0;
+      padding-right: 5%;
+    }
+  }
+  .team_image {
+    align-self: center;
+    position: relative;
+    width: 40%;
+    img {
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+    .square {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-100%) rotate(5deg);
+    }
+  }
+  .team_about {
+    width: 60%;
+    padding-left: 5%;
+    align-self: center;
+    h1,
+    h2,
+    h3,
+    p {
+      text-align: center;
+    }
+    h1 {
+      font-family: $voltage;
+      color: $blue;
+      font-size: 48px;
+    }
+    h2,
+    h3 {
+      font-family: $raleway-regular;
+      color: $mediumgreen;
+    }
+    h2 {
+      padding-top: 10px;
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 16px;
+      padding-bottom: 20px;
+    }
+    p {
+      font-family: $raleway-regular;
+      color: $blue;
+      line-height: 2;
+      font-size: 15px;
+    }
+  }
+}

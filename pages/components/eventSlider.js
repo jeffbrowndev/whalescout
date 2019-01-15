@@ -1,74 +1,67 @@
 import React from 'react';
 import styles from '../scss/eventSlider.scss';
 import Event from './event';
-import { gql } from 'apollo-boost';
-import { graphql } from 'react-apollo';
+import Slider from 'react-slick';
 const ellipsis = require('text-ellipsis');
 
-// Get all everts
-const getAllEvents = gql`
-  {
-    posts(where: { categoryId: 4 }) {
-      edges {
-        node {
-          date
-          title
-          content
-          featuredImage {
-            sourceUrl
+export default class EventSlider extends React.Component {
+  isImage(image) {
+    if (image) return image.source_url;
+    else return '../../static/images/ws_home_header.svg';
+  }
+  isDesc(desc) {
+    if (desc) return ellipsis(desc.rendered, 100);
+    else return 'Sorry, no description available';
+  }
+  // isLink(link) {
+  //   if (link) return link;
+  //   else return 'https://www.facebook.com/whalescout';
+  // }
+  render() {
+    // Slick slider config
+    const settings = {
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      responsive: [
+        {
+          breakpoint: 1420,
+          settings: {
+            slidesToShow: 2
           }
-          author {
-            name
+        },
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 1
+          }
+        },
+        {
+          breakpoint: 575,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
           }
         }
-      }
-    }
-  }
-`;
-
-class EventSlider extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { events: null };
-  }
-  componentDidMount() {
-    // Load events into local state
-    fetch('https://www.whalescout.org/wp-json/wp/v2/posts')
-      .then(response => response.json())
-      .then(events => this.setState({ events }));
-  }
-  // Handle required fields
-  isImage(event) {
-    //
-  }
-  isDescription(event) {
-    //
-  }
-  isTitle(event) {
-    //
-  }
-  isDate(event) {
-    //
-  }
-  render() {
-    // All events, shortened
-    const events = this.props.data.posts.edges;
+      ]
+    };
     return (
-      <div className={styles.event_slider}>
-        {/* // Display all upcoming events and remove old ones */}
-        {events.map(event => {
+      <Slider {...settings} className={styles.event_slider}>
+        {this.props.events.map(event => {
           return (
             <Event
-              date={this.isDate(event)}
-              title={this.isTitle(event)}
-              description={this.isDescription(event)}
-              image={this.isImage(event)}
+              key={event.id}
+              date={event.acf.date || 'Coming soon!'}
+              title={event.title.rendered || "Helpin' Out Event!"}
+              image={this.isImage(event.better_featured_image)}
+              description={this.isDesc(event.excerpt)}
+              // link={this.isLink(this.acf.facebook_link)}
             />
           );
         })}
-      </div>
+      </Slider>
     );
   }
 }
-
-export default graphql(getAllEvents)(EventSlider);

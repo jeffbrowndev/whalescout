@@ -1,19 +1,7 @@
-import React from "react";
-import Navigation from "./components/navigation";
-import Header from "./components/head";
-import Footer from "./components/footer";
+import Layout from './components/layout';
 
-class Volunteer extends React.Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Navigation />
-        <h1>Volunteer</h1>
-        <Footer />
-      </div>
-    );
-  }
-}
-
-export default Volunteer;
+export default () => (
+  <Layout>
+    <h1>Volunteer</h1>
+  </Layout>
+);
