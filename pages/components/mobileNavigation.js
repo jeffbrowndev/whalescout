@@ -1,12 +1,12 @@
-import React from "react";
-import styles from "../scss/mobileNavigation.scss";
-import global from "../scss/app.scss";
-import MediaQuery from "react-responsive";
-import Link from "next/link";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSortDown } from "@fortawesome/free-solid-svg-icons";
-import { faSortUp } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+import styles from '../scss/mobileNavigation.scss';
+import global from '../scss/app.scss';
+import MediaQuery from 'react-responsive';
+import Link from 'next/link';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSortDown } from '@fortawesome/free-solid-svg-icons';
+import { faSortUp } from '@fortawesome/free-solid-svg-icons';
 
 library.add(faSortDown, faSortUp);
 
@@ -16,25 +16,25 @@ class MobileNavigation extends React.Component {
       <div>
         <MediaQuery maxWidth={960}>
           <div className={styles.mobile_navigation}>
-            <img src="/static/images/ws_logo.png" alt="Logo" />
+            <img src='/static/images/ws_logo.png' alt='Logo' />
             <div className={styles.hamburger}>
-              <label htmlFor="open" className={styles.hamburger_icon}>
+              <label htmlFor='open' className={styles.hamburger_icon}>
                 <div className={styles.line} />
                 <div className={styles.line} />
                 <div className={styles.line} />
               </label>
-              <input type="checkbox" id="open" />
+              <input type='checkbox' id='open' />
               <ul className={styles.menu}>
-                <Link href="/">
+                <Link href='/'>
                   <li>HOME</li>
                 </Link>
                 <li className={styles.dropdown}>
                   <input
-                    type="checkbox"
-                    id="about_label"
+                    type='checkbox'
+                    id='about_label'
                     className={styles.about_label}
                   />
-                  <label htmlFor="about_label">
+                  <label htmlFor='about_label'>
                     ABOUT
                     <FontAwesomeIcon
                       icon={faSortDown}
@@ -42,27 +42,27 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.about_dropdown}>
-                    <Link href="team">
+                    <Link prefetch href='team'>
                       <li>TEAM/SUPPORTERS</li>
                     </Link>
-                    <Link href="contact">
+                    <Link href='contact'>
                       <li>CONTACT</li>
                     </Link>
                   </ul>
                 </li>
-                <Link href="learn">
+                <Link href='learn'>
                   <li>LEARN</li>
                 </Link>
-                <Link href="watch">
+                <Link href='watch'>
                   <li>WATCH</li>
                 </Link>
                 <li className={styles.dropdown}>
                   <input
-                    type="checkbox"
-                    id="act_label"
+                    type='checkbox'
+                    id='act_label'
                     className={styles.act_label}
                   />
-                  <label htmlFor="act_label">
+                  <label htmlFor='act_label'>
                     ACT
                     <FontAwesomeIcon
                       icon={faSortDown}
@@ -70,24 +70,24 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.act_dropdown}>
-                    <Link href="events">
+                    <Link href='events'>
                       <li>HELPIN' OUT EVENTS</li>
                     </Link>
-                    <Link href="stewardship">
+                    <Link href='stewardship'>
                       <li>STEWARDSHIP</li>
                     </Link>
                   </ul>
                 </li>
-                <Link href="protect">
+                <Link href='protect'>
                   <li>PROTECT</li>
                 </Link>
                 <li className={styles.dropdown}>
                   <input
-                    type="checkbox"
-                    id="join_label"
+                    type='checkbox'
+                    id='join_label'
                     className={styles.join_label}
                   />
-                  <label htmlFor="join_label">
+                  <label htmlFor='join_label'>
                     JOIN
                     <FontAwesomeIcon
                       icon={faSortDown}
@@ -95,18 +95,18 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.join_dropdown}>
-                    <Link href="volunteer">
+                    <Link href='volunteer'>
                       <li>VOLUNTEER</li>
                     </Link>
-                    <Link href="store">
+                    <Link href='store'>
                       <li>STORE</li>
                     </Link>
-                    <Link href="donate">
+                    <Link href='donate'>
                       <li>DONATE</li>
                     </Link>
                   </ul>
                 </li>
-                <Link href="podcast">
+                <Link href='podcast'>
                   <li>PODCAST</li>
                 </Link>
               </ul>

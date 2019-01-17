@@ -1,4 +1,7 @@
-@import 'variables';
+@import './variables.scss';
+@import './member.scss';
+@import './home.scss';
+@import './team.scss';
 // CSS Resets
 * {
   margin: 0;
@@ -34,7 +37,10 @@ button {
   margin-top: 25px;
   margin-right: 25px;
 }
-
-html {
-  background: $mediumgreen;
+.line {
+  width: 75px;
+  height: 2px;
+  background: $red;
+  margin: 0 auto 25px;
+  border-radius: 2px;
 }

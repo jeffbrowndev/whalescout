@@ -24,7 +24,7 @@ class DesktopNavigation extends React.Component {
                 ABOUT
                 <FontAwesomeIcon icon={faSortDown} className={global.icon} />
                 <ul>
-                  <Link href='team'>
+                  <Link prefetch href='team'>
                     <li>TEAM/SUPPORTERS</li>
                   </Link>
                   <Link href='contact'>

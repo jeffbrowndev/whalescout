@@ -4,8 +4,16 @@
 .member {
   display: flex;
   margin: auto;
-  padding: 75px 0;
+  padding: 50px 0;
   max-width: 1200px;
+  @include mQ(1350px) {
+    display: block;
+    &:nth-child(even) {
+      .team_about {
+        padding: 0 3% !important;
+      }
+    }
+  }
   &:nth-child(even) {
     flex-direction: row-reverse;
     .team_about {
@@ -17,6 +25,14 @@
     align-self: center;
     position: relative;
     width: 40%;
+    margin: auto;
+    @include mQ(1350px) {
+      width: 400px;
+      margin-bottom: 20px;
+    }
+    @include mQ(500px) {
+      width: 80%;
+    }
     img {
       width: 100%;
       position: relative;
@@ -32,8 +48,33 @@
   }
   .team_about {
     width: 60%;
+    margin: auto;
     padding-left: 5%;
     align-self: center;
+    @include mQ(1350px) {
+      width: 100%;
+      padding: 0 3%;
+      p {
+        width: 660px;
+        margin: auto;
+      }
+    }
+    @include mQ(750px) {
+      p {
+        width: 100%;
+      }
+    }
+    @include mQ(500px) {
+      h1 {
+        font-size: 36px !important;
+      }
+      h2 {
+        font-size: 18px !important;
+      }
+      h3 {
+        font-size: 14px !important;
+      }
+    }
     h1,
     h2,
     h3,
@@ -49,6 +90,7 @@
     h3 {
       font-family: $raleway-regular;
       color: $mediumgreen;
+      padding-top: 5px;
     }
     h2 {
       padding-top: 10px;

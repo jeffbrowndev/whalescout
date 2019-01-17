@@ -1,5 +1,5 @@
-@import "variables";
-@import "mixins";
+@import 'variables';
+@import 'mixins';
 
 .mobile_navigation {
   z-index: 9999;
@@ -13,7 +13,7 @@
     width: 40%;
   }
   .hamburger {
-    input[type="checkbox"] {
+    input[type='checkbox'] {
       display: none;
     }
     // Display menu

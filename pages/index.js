@@ -1,8 +1,7 @@
 import React from 'react';
 import Layout from './components/layout';
 import fetch from 'isomorphic-unfetch';
-import global from '../pages/scss/app.scss';
-import styles from '../pages/scss/home.scss';
+import styles from '../pages/scss/app.scss';
 import EventSlider from './components/eventSlider';
 import Link from 'next/link';
 
@@ -38,9 +37,9 @@ const Index = props => (
               Anyone can contribute by donating or volunteering at our Helpin'
               Out Events.
             </p>
-            <button className={global.main_button}>DONATE</button>
+            <button className={styles.main_button}>DONATE</button>
             <Link href='volunteer'>
-              <button className={global.main_button}>VOLUNTEER</button>
+              <button className={styles.main_button}>VOLUNTEER</button>
             </Link>
           </div>
           <img src='/static/images/ws_home_subheader_volunteers.svg' alt='' />

@@ -1,7 +1,15 @@
 {
+  "../scss/desktopNavigation.scss": [
+    {
+      "id": "./pages/scss/desktopNavigation.scss",
+      "name": "./pages/scss/desktopNavigation.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
   "undefined": [
     {
-      "id": 11,
+      "id": 4,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -13,19 +21,7 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 8,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 13,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -37,76 +33,14 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 12,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": 9,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../pages/scss/app.scss": [
+    },
     {
-      "id": "./pages/scss/app.scss",
-      "name": "./pages/scss/app.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/desktopNavigation.scss": [
-    {
-      "id": "./pages/scss/desktopNavigation.scss",
-      "name": "./pages/scss/desktopNavigation.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/event.scss": [
-    {
-      "id": "./pages/scss/event.scss",
-      "name": "./pages/scss/event.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/eventSlider.scss": [
-    {
-      "id": "./pages/scss/eventSlider.scss",
-      "name": "./pages/scss/eventSlider.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/footer.scss": [
-    {
-      "id": "./pages/scss/footer.scss",
-      "name": "./pages/scss/footer.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../pages/scss/home.scss": [
-    {
-      "id": "./pages/scss/home.scss",
-      "name": "./pages/scss/home.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/member.scss": [
-    {
-      "id": "./pages/scss/member.scss",
-      "name": "./pages/scss/member.scss",
+      "id": 10,
+      "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
@@ -119,10 +53,34 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "./scss/team.scss": [
+  "../scss/eventSlider.scss": [
     {
-      "id": "./pages/scss/team.scss",
-      "name": "./pages/scss/team.scss",
+      "id": "./pages/scss/eventSlider.scss",
+      "name": "./pages/scss/eventSlider.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./scss/app.scss": [
+    {
+      "id": "./pages/scss/app.scss",
+      "name": "./pages/scss/app.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/event.scss": [
+    {
+      "id": "./pages/scss/event.scss",
+      "name": "./pages/scss/event.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "../scss/footer.scss": [
+    {
+      "id": "./pages/scss/footer.scss",
+      "name": "./pages/scss/footer.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
