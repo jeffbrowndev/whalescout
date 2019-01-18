@@ -8,3 +8,27 @@
     @content;
   }
 }
+@mixin headerBold {
+  text-shadow: 1px 1px 1px rgb(51, 51, 51);
+  font-size: 75px;
+  font-family: $raleway-black;
+  text-align: center;
+  color: white;
+  letter-spacing: 15px;
+  position: relative;
+  z-index: 10;
+  transform: translateX(7.5px);
+  @include mQ(1350px) {
+    font-size: 54px;
+  }
+  @include mQ(500px) {
+    font-size: 42px;
+    letter-spacing: 8px;
+    transform: translateX(4px);
+  }
+  @include mQ(375px) {
+    font-size: 42px;
+    letter-spacing: 6px;
+    transform: translateX(3px);
+  }
+}

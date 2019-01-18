@@ -1,19 +1,27 @@
 @import 'variables';
 @import 'mixins';
 
-.event_slider {
-  width: 1525px;
-  margin: auto;
-  @include mQ(1640px) {
-    width: 1300px;
-  }
-  @include mQ(1420px) {
-    width: 875px;
-  }
-  @include mQ(1000px) {
-    width: 450px;
-  }
+.event_slider_wrapper {
+  background: $blue;
+  border-bottom: 1px solid $blue;
+  padding: 75px 0;
   @include mQ(575px) {
-    width: 100%;
+    padding: 0;
+  }
+  .event_slider {
+    width: 1525px;
+    margin: auto;
+    @include mQ(1640px) {
+      width: 1300px;
+    }
+    @include mQ(1420px) {
+      width: 875px;
+    }
+    @include mQ(1000px) {
+      width: 450px;
+    }
+    @include mQ(575px) {
+      width: 100%;
+    }
   }
 }

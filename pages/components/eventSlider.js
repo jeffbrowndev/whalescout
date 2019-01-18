@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../scss/eventSlider.scss';
+import styles from '../scss/app.scss';
 import Event from './event';
 import Slider from 'react-slick';
 const ellipsis = require('text-ellipsis');
@@ -48,20 +48,22 @@ export default class EventSlider extends React.Component {
       ]
     };
     return (
-      <Slider {...settings} className={styles.event_slider}>
-        {this.props.events.map(event => {
-          return (
-            <Event
-              key={event.id}
-              date={event.acf.date || 'Coming soon!'}
-              title={event.title.rendered || "Helpin' Out Event!"}
-              image={this.isImage(event.better_featured_image)}
-              description={this.isDesc(event.excerpt)}
-              // link={this.isLink(this.acf.facebook_link)}
-            />
-          );
-        })}
-      </Slider>
+      <div className={styles.event_slider_wrapper}>
+        <Slider {...settings} className={styles.event_slider}>
+          {this.props.events.map(event => {
+            return (
+              <Event
+                key={event.id}
+                date={event.acf.date || 'Coming soon!'}
+                title={event.title.rendered || "Helpin' Out Event!"}
+                image={this.isImage(event.better_featured_image)}
+                description={this.isDesc(event.excerpt)}
+                // link={this.isLink(this.acf.facebook_link)}
+              />
+            );
+          })}
+        </Slider>
+      </div>
     );
   }
 }

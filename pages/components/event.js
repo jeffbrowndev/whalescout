@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from '../scss/event.scss';
-import global from '../scss/app.scss';
+import styles from '../scss/app.scss';
 import ReactHtmlParser from 'react-html-parser';
 import Link from 'next/link';
 

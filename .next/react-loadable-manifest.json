@@ -31,34 +31,6 @@
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 9,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 10,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/mobileNavigation.scss": [
-    {
-      "id": "./pages/scss/mobileNavigation.scss",
-      "name": "./pages/scss/mobileNavigation.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "../scss/eventSlider.scss": [
-    {
-      "id": "./pages/scss/eventSlider.scss",
-      "name": "./pages/scss/eventSlider.scss",
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
     }
   ],
   "./scss/app.scss": [
@@ -69,10 +41,10 @@
       "publicPath": "static/chunks/styles.js"
     }
   ],
-  "../scss/event.scss": [
+  "../scss/mobileNavigation.scss": [
     {
-      "id": "./pages/scss/event.scss",
-      "name": "./pages/scss/event.scss",
+      "id": "./pages/scss/mobileNavigation.scss",
+      "name": "./pages/scss/mobileNavigation.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

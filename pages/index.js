@@ -47,7 +47,6 @@ const Index = props => (
       </section>
       {/* Events slider */}
       <section className={styles.home_events_feed}>
-        <h1>Events</h1>
         <EventSlider events={props.events} />
       </section>
       <section className={styles.home_news_and_podcasts}>

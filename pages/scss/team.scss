@@ -4,6 +4,27 @@
 .team {
   background: white;
   margin-bottom: -300px;
+  @include mQ(500px) {
+    margin-bottom: -350px;
+  }
+}
+.team_header {
+  background-image: url('/static/images/ws_team_header.svg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $mediumgreen;
+  margin-bottom: 75px;
+  h1 {
+    @include headerBold;
+    padding: 8% 0;
+    @include mQ(1350px) {
+      padding: 100px 0;
+    }
+  }
+  .background_container {
+    position: fixed;
+  }
 }
 .team_footer {
   width: 100%;
@@ -15,11 +36,18 @@
   z-index: -1;
   padding: 75px 3% 400px;
   transform: translateY(375px);
+  .line {
+    margin: auto;
+  }
   h1 {
     font-family: $voltage;
     text-align: center;
-    font-size: 64px;
+    font-size: 48px;
+    padding-bottom: 10px;
     color: $blue;
+    @include mQ(500px) {
+      font-size: 36px;
+    }
   }
   .supporters {
     display: flex;

@@ -5,6 +5,9 @@ import styles from './scss/app.scss';
 
 export default () => (
   <Layout>
+    <div className={styles.team_header}>
+      <h1>OUR TEAM</h1>
+    </div>
     <div className={styles.team}>
       {team.map(member => (
         <Member
@@ -35,21 +38,22 @@ export default () => (
           <li>Figure Four Online</li>
           <li>F.O.L.K.S. (Friends of Lime Kiln Society)</li>
           <li>Forterra</li>
+          <li>Friends of Lake Sammamish State Park</li>
           <li>Friends of North Creek Forest</li>
           <li>King County Parks</li>
           <li>MidSound Fisheries Enhancement Group</li>
-          <li>The Nature Conservancy</li>
         </ul>
         <ul>
+          <li>The Nature Conservancy</li>
           <li>OneBothell</li>
           <li>Orca Behavior Institute</li>
           <li>Orca Network</li>
           <li>Orca Salmon Alliance</li>
           <li>Orca Watcher Photography</li>
           <li>The Rose Foundation</li>
-          <li>Ross Family</li>
         </ul>
         <ul>
+          <li>Ross Family</li>
           <li>Salish SEA</li>
           <li>San Juan County Land Bank</li>
           <li>Seattle Aquarium</li>

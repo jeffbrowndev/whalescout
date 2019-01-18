@@ -7,7 +7,10 @@
   font-family: 'raleway-extrabold';
   src: url('/static/fonts/Raleway-ExtraBold.ttf');
 }
-
+@font-face {
+  font-family: 'raleway-black';
+  src: url('/static/fonts/Raleway-Black.ttf');
+}
 @font-face {
   font-family: 'raleway-light';
   src: url('/static/fonts/Raleway-Light.ttf');
@@ -27,6 +30,7 @@ $raleway-extrabold: 'raleway-extrabold';
 $raleway-bold: 'raleway-bold';
 $raleway-light: 'raleway-light';
 $raleway-regular: 'raleway-regular';
+$raleway-black: 'raleway-black';
 
 // Colors
 $blue: #032c4a;

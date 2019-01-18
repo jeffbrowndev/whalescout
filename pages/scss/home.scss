@@ -94,21 +94,6 @@
       }
     }
   }
-  // Event slider
-  .home_events_feed {
-    background: $blue;
-    padding: 76px 0 100px 0;
-    @include mQ(575px) {
-      padding: 25px 0 0;
-    }
-    h1 {
-      color: $yellow;
-      text-align: center;
-      font-size: 52px;
-      font-family: $voltage;
-      padding-bottom: 25px;
-    }
-  }
   // News and podcasts
   .home_news_and_podcasts {
     padding: $sectionpadding;

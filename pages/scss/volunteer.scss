@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'mixins';
+
+.volunteer {
+  overflow-x: hidden;
+  .volunteer_header {
+    background-image: url('/static/images/ws_volunteer_header.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .volunteer_header_text {
+      padding: 288px 0;
+      @include mQ(1350px) {
+        padding: 150px 0;
+      }
+      @include mQ(575px) {
+        padding: 100px 0;
+      }
+      h1 {
+        @include headerBold;
+      }
+      h2 {
+        text-align: center;
+        font-family: $raleway-regular;
+        color: $white;
+        font-size: 32px;
+        text-shadow: 1px 1px 1px rgb(51, 51, 51);
+        @include mQ(1350px) {
+          font-size: 26px;
+        }
+        @include mQ(500px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  .perks {
+    .perk {
+      padding: 0 25px;
+      width: 425px;
+      text-align: center;
+
+      h3 {
+        font-family: $raleway-bold;
+        color: $blue;
+        padding: 10px 0;
+      }
+      p {
+        font-family: $raleway-regular;
+        font-size: 15px;
+        color: $blue;
+        line-height: 2;
+      }
+      img {
+        width: 100px;
+      }
+    }
+    .perks_top {
+      background: $lightgreen;
+    }
+    .perks_top,
+    .perks_bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 50px 0;
+      @include mQ(866px) {
+        .perk {
+          padding: 0 3%;
+          &:not(:last-child) {
+            padding-bottom: 50px;
+          }
+        }
+      }
+    }
+  }
+}

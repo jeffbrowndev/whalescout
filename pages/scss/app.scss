@@ -2,6 +2,9 @@
 @import './member.scss';
 @import './home.scss';
 @import './team.scss';
+@import './volunteer.scss';
+@import './event.scss';
+@import './eventSlider.scss';
 // CSS Resets
 * {
   margin: 0;
@@ -41,6 +44,44 @@ button {
   width: 75px;
   height: 2px;
   background: $red;
-  margin: 0 auto 25px;
+  margin: 15px 0 30px;
   border-radius: 2px;
+}
+
+// All Article Styles
+.article_container {
+  padding: 35px 0 50px;
+}
+.article_section {
+  width: 1200px;
+  margin: 0 auto 25px;
+  @include mQ(1300px) {
+    width: 94%;
+    h1 {
+      font-size: 32px !important;
+    }
+  }
+  h1 {
+    font-family: $voltage;
+    color: $blue;
+    font-size: 48px;
+  }
+  h3 {
+    font-family: $raleway-bold;
+    color: $blue;
+    padding-bottom: 10px;
+  }
+  h4 {
+    color: $lightgreen;
+    font-family: $raleway-bold;
+    line-height: 2;
+    padding-bottom: 5px;
+  }
+  p {
+    font-family: $raleway-regular;
+    line-height: 2;
+    padding-bottom: 5px;
+    font-size: 15px;
+    color: $blue;
+  }
 }

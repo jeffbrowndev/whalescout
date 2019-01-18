@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -425,6 +425,285 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (DesktopNavigation);
+
+/***/ }),
+
+/***/ "./pages/components/event.js":
+/*!***********************************!*\
+  !*** ./pages/components/event.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_html_parser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-html-parser */ "react-html-parser");
+/* harmony import */ var react_html_parser__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_html_parser__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\event.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+var Event =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Event, _React$Component);
+
+  function Event() {
+    _classCallCheck(this, Event);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Event).apply(this, arguments));
+  }
+
+  _createClass(Event, [{
+    key: "render",
+    value: function render() {
+      var imageSrc = {
+        backgroundImage: "url(".concat(this.props.image, ")")
+      };
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_header,
+        style: imageSrc,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date_banner,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, this.props.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tail,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer_content,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react_html_parser__WEBPACK_IMPORTED_MODULE_2___default()(this.props.title)), react_html_parser__WEBPACK_IMPORTED_MODULE_2___default()(this.props.description), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, "VIEW DETAILS")))));
+    }
+  }]);
+
+  return Event;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Event);
+
+/***/ }),
+
+/***/ "./pages/components/eventSlider.js":
+/*!*****************************************!*\
+  !*** ./pages/components/eventSlider.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return EventSlider; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./event */ "./pages/components/event.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-slick */ "react-slick");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\eventSlider.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+var ellipsis = __webpack_require__(/*! text-ellipsis */ "text-ellipsis");
+
+var EventSlider =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(EventSlider, _React$Component);
+
+  function EventSlider() {
+    _classCallCheck(this, EventSlider);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(EventSlider).apply(this, arguments));
+  }
+
+  _createClass(EventSlider, [{
+    key: "isImage",
+    value: function isImage(image) {
+      if (image) return image.source_url;else return '../../static/images/ws_home_header.svg';
+    }
+  }, {
+    key: "isDesc",
+    value: function isDesc(desc) {
+      if (desc) return ellipsis(desc.rendered, 100);else return 'Sorry, no description available';
+    } // isLink(link) {
+    //   if (link) return link;
+    //   else return 'https://www.facebook.com/whalescout';
+    // }
+
+  }, {
+    key: "render",
+    value: function render() {
+      var _this = this;
+
+      // Slick slider config
+      var settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        responsive: [{
+          breakpoint: 1420,
+          settings: {
+            slidesToShow: 2
+          }
+        }, {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 1
+          }
+        }, {
+          breakpoint: 575,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
+          }
+        }]
+      };
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider_wrapper,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_3___default.a, _extends({}, settings, {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }), this.props.events.map(function (event) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          key: event.id,
+          date: event.acf.date || 'Coming soon!',
+          title: event.title.rendered || "Helpin' Out Event!",
+          image: _this.isImage(event.better_featured_image),
+          description: _this.isDesc(event.excerpt) // link={this.isLink(this.acf.facebook_link)}
+          ,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 55
+          },
+          __self: this
+        });
+      })));
+    }
+  }]);
+
+  return EventSlider;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+
 
 /***/ }),
 
@@ -912,97 +1191,6 @@ var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Wh
 
 /***/ }),
 
-/***/ "./pages/components/member.js":
-/*!************************************!*\
-  !*** ./pages/components/member.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\member.js";
-
-
-
-var getColor = function getColor(color) {
-  return {
-    background: "".concat(color)
-  };
-};
-
-var Member = function Member(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.member,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.team_image,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: props.image,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.square,
-    style: getColor(props.color),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.team_about,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, props.role), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, props.email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, props.about)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Member);
-
-/***/ }),
-
 /***/ "./pages/components/mobileNavigation.js":
 /*!**********************************************!*\
   !*** ./pages/components/mobileNavigation.js ***!
@@ -1478,6 +1666,93 @@ var Navigation = function Navigation() {
 
 /***/ }),
 
+/***/ "./pages/components/perk.js":
+/*!**********************************!*\
+  !*** ./pages/components/perk.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\perk.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+var Perk =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Perk, _React$Component);
+
+  function Perk() {
+    _classCallCheck(this, Perk);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Perk).apply(this, arguments));
+  }
+
+  _createClass(Perk, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.perk,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: this.props.src,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9
+        },
+        __self: this
+      }, this.props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10
+        },
+        __self: this
+      }, this.props.description));
+    }
+  }]);
+
+  return Perk;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Perk);
+
+/***/ }),
+
 /***/ "./pages/scss/app.scss":
 /*!*****************************!*\
   !*** ./pages/scss/app.scss ***!
@@ -1592,341 +1867,380 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./pages/team.js":
-/*!***********************!*\
-  !*** ./pages/team.js ***!
-  \***********************/
+/***/ "./pages/volunteer.js":
+/*!****************************!*\
+  !*** ./pages/volunteer.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
-/* harmony import */ var _components_member__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/member */ "./pages/components/member.js");
-/* harmony import */ var _static_scripts_team_members__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../static/scripts/team_members */ "./static/scripts/team_members.js");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\team.js";
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_eventSlider__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/eventSlider */ "./pages/components/eventSlider.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_perk__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/perk */ "./pages/components/perk.js");
+
+var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\volunteer.js";
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.team_header,
+
+
+var Volunteer = function Volunteer(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.volunteer,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "OUR TEAM")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.team,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.volunteer_header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.volunteer_header_text,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, _static_scripts_team_members__WEBPACK_IMPORTED_MODULE_3__["default"].map(function (member) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_member__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      key: member.name,
-      image: member.image,
-      color: member.color,
-      name: member.name,
-      role: member.role,
-      email: member.email,
-      about: member.about,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    });
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.team_footer,
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }, "VOLUNTEER"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 13
     },
     __self: this
-  }, "Meet Our Partners"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.line,
+  }, "Everyone can help improve habitat"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_eventSlider__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    events: props.events,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.supporters,
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 17
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 19
     },
     __self: this
-  }, "Center for Whale Research"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Become A Whale Scout Naturalist"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.line,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 20
     },
     __self: this
-  }, "City of Bothell"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 21
     },
     __self: this
-  }, "Creag Foundation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Role Of Volunteers"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 22
     },
     __self: this
-  }, "Defenders of Wildlife NW"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Whale Scout volunteer naturalists play a vital role in the recovery of endangered Southern Resident killer whales as outlined in the NOAA orca recovery plan. Volunteers facilitate land-based whale watching experiences offering the public opportunities to connect and learn about whales for free in a manner that does not contribute to underwater noise. Our educational programs, stewardship messages, and salmon habitat restoration efforts address two other threats to Southern Resident killer whales: lack of prey and toxins. Our team of volunteers is distributed throughout Puget Sound from Olympia to San Juan Island creating a regional network of on-the-ground orca and salmon educators and advocates.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 36
     },
     __self: this
-  }, "EarthCorps"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "Edson Family"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "Evergreen Karate and Jiu Jitsu")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Volunteer Programs"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, "Figure Four Online"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "F.O.L.K.S. (Friends of Lime Kiln Society)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Forterra"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "1. Land-based whale watching in Puget Sound and on San Juan Island"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
-  }, "Friends of Lake Sammamish State Park"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, "Friends of North Creek Forest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "King County Parks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "MidSound Fisheries Enhancement Group")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Puget Sound"), " - Volunteers station themselves at public beaches on the shorelines of Puget Sound both opportunistically when whales are reported in the area and at scheduled times, the second Sunday of the month, and at special events.", ' '), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }, "The Nature Conservancy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
-  }, "OneBothell"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "San Juan Island"), " - Whale Scout is a partner in the San Juan Island Naturalist Program where volunteers are stationed at the Westside Preserve to provide information about whales, the Salish Sea, and the unique coastal prairie ecosystem found at the site. Summer months only."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 54
     },
     __self: this
-  }, "Orca Behavior Institute"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "Orca Network"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, "Orca Salmon Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, "Orca Watcher Photography"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "The Rose Foundation")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, "2. Education and outreach"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Throughout the year, Whale Scout attends community events and fairs, visits classrooms and other small groups. We offer educational programming and activities that share information about whales, salmon, and the importance of habitat. Our family felt board activity offers a unique way for kids to understand stewardship actions and how they connect to the larger ecosystem."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 63
     },
     __self: this
-  }, "Ross Family"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "3. Habitat restoration"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 64
     },
     __self: this
-  }, "Salish SEA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Whale Scout offers twelve \u201CHelpin\u2019 Out\u201D events each year. We work to restore native vegetation and natural processes along rivers, streams, shorelines, and forests that provide critical habitat for salmon and forage fish. Activities at these events usually includes removal of invasive plants, installing native trees and shrubs, and removing litter from beaches. We recommend that all volunteers try to attend 1-2 events each year and play a role in these events. People of all abilities are able to play a role in the success of these events from signing people in, to providing snacks, taking photos, or assisting with the planning process."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 76
     },
     __self: this
-  }, "San Juan County Land Bank"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "4. Administration"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 77
     },
     __self: this
-  }, "Seattle Aquarium"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "There are many opportunities to help with the everyday functioning of our organization. Activities include helping with mailing, fundraising, communication, graphic design, organization, etc.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60
+      lineNumber: 83
     },
     __self: this
-  }, "Skagit Fisheries Enhancement Group"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 84
     },
     __self: this
-  }, "Washington Department of Fish and Wildlife"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Volunteer Benefits"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 85
     },
     __self: this
-  }, "The Whale Museum")))));
-});
+  }, "Volunteers are given opportunities to make a difference for the whales, fish and wildlife, and communities whom share the Salish Sea ecosystem. Through our continuing education programs (training sessions, field trips, book club) volunteers are also the chance to learn more about marine mammals of the Salish Sea, the issues they face, and creative solutions to aid in the recovery of endangered species. Volunteers promote change in their community by helping others watch whales from shore, and encouraging people to channel their interest in whales into stewardship actions such as engaging in habitat restoration. Working with the public, volunteers develop skills in interpretation in communication. Many also learn to identify whale pods and individuals, and interpret scientific findings.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, "Volunteer Expectations"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, "Time commitment"), " - We ask that volunteers commit to an average of 2 hours per month or 24 hours per year of service in any program or combination of programs. We also ask that volunteers commit to attending at least one training session per year."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.perks,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.perks_top,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_perk__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    src: "./static/images/volunteer_icons/book.svg",
+    title: "Whale Scout Book Club",
+    description: "Join our group to read and discuss books about a variety of topics related to whales, Puget Sound, science, etc. We meet about every three months on Saturdays at McMenamins in Bothell. Books are selected based on volunteer selections and a group vote.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_perk__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    src: "./static/images/volunteer_icons/map.svg",
+    title: "Field Trips",
+    description: "Past trips have included Cedar River salmon viewing, Elwha River restoration and salmon viewing, Chum salmon viewing on Kitsap. Typically these are day trips but there have been some overnight trips.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_perk__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    src: "./static/images/volunteer_icons/training.svg",
+    title: "Training Sessions",
+    description: "Three volunteer training sessions are offered throughout the year. Volunteers are required to attend at least one per year to stay current on the latest scientific findings, messages, and programs offered. Join our newsletter to be informed about our next training opportunity.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.perks_bottom,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_perk__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    src: "./static/images/volunteer_icons/baloons.svg",
+    title: "Appreciation Parties",
+    description: "An annual party held in the spring or summer celebrates all our volunteers for the year of service. We enjoy food, drinks, and a lovely atmosphere at a property in Bellevue - all graciously donated!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 130
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_perk__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    src: "./static/images/volunteer_icons/hat.svg",
+    title: "Earn Swag!",
+    description: "20 hours of land-based whale watching service - extra loaner pair of binoculars\r 2 years of service - Whale Scout beanie\r Plus, every year new interpretive materials are given to each volunteer including ID guides.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 135
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_perk__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    src: "./static/images/volunteer_icons/friends.svg",
+    title: "Make Friends",
+    description: "Hopefully we can find another perk to add here to make it an even three. This way this section will match the section above and create a sense of order and symmetry. Let try to think of one!",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  })))));
+}; // Fetch data from Wordpress REST API
+
+
+Volunteer.getInitialProps =
+/*#__PURE__*/
+_asyncToGenerator(
+/*#__PURE__*/
+_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+  var events;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default()('https://www.whalescout.org/wp-json/wp/v2/posts?categories=4').then(function (events) {
+            return events.json();
+          });
+
+        case 2:
+          events = _context.sent;
+          return _context.abrupt("return", {
+            events: events
+          });
+
+        case 4:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, _callee, this);
+}));
+/* harmony default export */ __webpack_exports__["default"] = (Volunteer);
 
 /***/ }),
 
-/***/ "./static/scripts/team_members.js":
-/*!****************************************!*\
-  !*** ./static/scripts/team_members.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// Create team member
-function Member(name, role, email, about, image, color) {
-  this.name = name;
-  this.role = role;
-  this.email = email;
-  this.about = about;
-  this.image = image;
-  this.color = color;
-} // Angled square color palette
-
-
-var green = '#a6d5cd';
-var blue = '#032c4a';
-var red = '#b91e1e';
-var yellow = '#e9df81'; // Add new team members below this line
-
-var Whitney = new Member('Whitney Neugebauer', 'Director', 'director@whalescout.org', 'Whitney Neugebauer completed degrees in Geology and Anthropology from Eckerd College prior to receiving her master’s degree in Marine and Environmental Affairs from the University of Washington. She went on to found Whale Scout in 2013. Previously, Whitney served on the board of Sound Action and she currently serves on the board of One Bothell and Friends of North Creek Forest. She teaches kids jiu jitsu at Evergreen Karate and Jiu Jitsu in Bothell with her husband, Bryan Alvarez. Together they have one daughter and too many cats.', './static/images/whitney.jpg', green);
-var Juliana = new Member('Juliana Houghton', 'Board Member', 'houghtonjuliana@gmail.com', 'Juliana is a graduate of the University of Washington’s School of Aquatic and Fishery Sciences. She completed her Master’s thesis in 2014 on the relationship between vessel traffic and the noise levels received by killer whales. She and her collaborators aimed to figure out what whale’s actually experience at depth by attaching digital acoustic recording tags (Dtags) to them with suction cups. She found that vessel speed was the most important contributor to noise levels received by whales (Houghton et al. 2015). Juliana hopes her findings will allow more boat-based whale-watchers to be as respectful of the whales as possible. Check out a talk that Juliana gave at Seattle’s Town Hall for more information and her current LinkedIn profile to see what she’s up to now. When Juliana is not working, she is spending time with her family. They enjoy boating, beach-combing, hiking, and camping.', './static/images/juliana.jpg', red);
-var Bryan = new Member('Bryan Alvarez', 'Board Member', 'Bryan@wrestlingobserver.com', 'Bryan Alvarez has been the editor and publisher of Figure Four Weekly since 1995. Besides the newsletter, which covers pro-wrestling and mixed martial arts, he has also written wrestling columns for Penthouse Magazine (Mat Max!) in 1999 and 2000; The Fight Network in Canada and Fighting Spirit Magazine in the UK; co-authored Death of WCW with RD Reynolds in 2004; wrestled professionally throughout the US and Canada since 1993; and trains extensively in Gracie Jiu-Jitsu where he holds a brown belt under Master Pedro Sauer. He currently works as host of Wrestling Observer Live on the Sports Byline Radio Network and Sirius Satellite Radio channel 92/94/794 every Sunday night from 3-5 PM PST; and hosts Figure Four Daily, Wrestling Observer Radio, and the Bryan & Vinny Show at www.wrestlingobserver.com. He has also appeared on a number of broadcast and cable television programs talking pro-wrestling, including Nancy Grace and ABC Nightline.  He lives in Bothell with his wife and three cats.', './static/images/bryan.jpg', blue);
-var Kailey = new Member('Kailey Genther', 'Board Member, San Juan Island Naturalist Program Coordinator', 'SJINaturalist@gmail.com', 'Kailey holds a B.S. from the University of Washington School of Aquatic and Fishery Science and a M.M.A. from the University of Washington’s School of Marine and Environmental Affairs. Her undergraduate work focused on the effects of the aquarium trade on the Southern Resident Killer Whale population, whereas her masters work investigated the similarities and differences in the rare cooperative fisheries that have existed and exist throughout the world between humans and 5 cetacean species. Kailey currently works at NOAA in the Protected Resources Division with the Northwest Marine Mammal Stranding Network. Kailey currently lives in Friday Harbor, WA with her husband, son, two cats, and a dog. When she is not involved in marine mammal work she can be found in ballet class (she’s danced many forms of dance since a little girl), enjoying the outdoors and spending time with friends and family.', './static/images/kailey.jpg', yellow);
-var David = new Member('David Bain', 'Program Advisor', 'dbaing17@gmail.com', 'David Bain is a marine mammal biologist and environmental educator who has worked with killer whales for 40 years. “It has become clear to me that improving habitat at the base of the food web is the key to recovering endangered killer whales. To accomplish this, I’ve chosen to complement my research by working with government officials who make decisions that influence the environment on a large scale and educating individuals whose day-to-day decisions add up to determine environmental health. He has a Ph.D. in Biology from the University of California at Santa Cruz, with post-doctoral work at the UC-Davis and the National Marine Mammal Lab in Seattle. He helped develop killer whale recovery strategies in the US and Canada, and the marine-life portion of the Northwest’s oil spill response plan. Dave is president of Cascadia Environmental Science Center and Vice President of Friends of North Creek Forest. He serves on the boards of Sound Action, SnoKing Watershed Council, NaWhare and Orca Conservancy and has been active in the King and Snohomish/Camano ECO Nets. He received a Puget Sound Hero Award  from People for Puget Sound for his work protecting the nearshore habitat of Maury Island from development. He has lived in Bothell since 1998.', './static/images/david.jpg', green);
-var Lindsey = new Member('Lindsey Mann', 'Volunteer Book Club Coordinator', 'thundershire@live.com', 'Originally born in South Dakota, Lindsey currently resides in Seattle, WA. She was trained as a certified Marine Naturalist through The Whale Museum on San Juan Island. She’s a Clinical Trials Assistant with Seattle Children’s Hospital focusing on Cystic Fibrosis research. When she’s not busy organizing our book club or nose deep in a whale book, she is usually spending time with her family or her corgi Dougan. In the meantime, she likes to horseback ride and read Tolkien books while cuddling her 2 cats. She also enjoys playing video games, going on walks with her husband Sam, or playing her Irish fiddle. You can also find her taking pictures of beautiful PNW scenery; she loves macro photography in particular. She has been interested in whales ever since she was little. Her mom would take her to San Juan Island every summer as a sort of holy pilgrimage. It was the magical chance each year to see orcas.  She’s been fortunate a few times to see our Southern Resident killer whales up close. The spectacular encounters left her inspired and enraptured with them. She can’t remember a time when she wasn’t a passionate advocate for all whales, but especially for our local Southern Resident killer whales.', './static/images/lindsey.jpg', red);
-var Ariel = new Member('Ariel Yseth', 'Newsletter Editor and Podcast Producer', 'Ariel@whalescout.org', 'Ariel is originally from eastern South Dakota but has always had the Pacific Northwest in her heart.  She first fell in love with our Southern Resident Killer Whales at the age of two when J1 Ruffles and J2 Granny appeared in the opening sequence of the movie Free Willy. Between her junior and senior year of college, Ariel got her first taste of the PNW when she worked at a summer camp on Orcas Island, WA, in 2012. She moved to Lynnwood, WA, in fall 2013 and began working as a registered nurse on the organ transplant unit at Swedish Hospital in downtown Seattle. She completed the Marine Naturalist Training Program in the fall of 2015 and has since spent hundreds of hours on the shores of the Salish Sea educating the public about our killer whales. In the summertime, Ariel can most often be found wandering the trails of American Camp, San Juan Island. Her favorite activity involves dragging her friends and family on camping trips to the San Juan’s to see the whales. Ariel also loves kayaking (if you meet her be sure to ask about her folding kayak), photography, and considers herself to be a movie buff. You can bet that so long as the activity has something to do with whales or the sea, Ariel loves it. After all, what do you expect from a mermaid?', './static/images/ariel.jpg', blue); // All team members
-
-var team = [Whitney, Juliana, Bryan, Kailey, David, Lindsey, Ariel];
-/* harmony default export */ __webpack_exports__["default"] = (team);
-
-/***/ }),
-
-/***/ 4:
-/*!*****************************!*\
-  !*** multi ./pages/team.js ***!
-  \*****************************/
+/***/ 3:
+/*!**********************************!*\
+  !*** multi ./pages/volunteer.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/team.js */"./pages/team.js");
+module.exports = __webpack_require__(/*! ./pages/volunteer.js */"./pages/volunteer.js");
 
+
+/***/ }),
+
+/***/ "@babel/runtime/regenerator":
+/*!*********************************************!*\
+  !*** external "@babel/runtime/regenerator" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
 
 /***/ }),
 
@@ -1974,6 +2288,17 @@ module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
+
+/***/ }),
+
 /***/ "next/head":
 /*!****************************!*\
   !*** external "next/head" ***!
@@ -2007,6 +2332,17 @@ module.exports = require("react");
 
 /***/ }),
 
+/***/ "react-html-parser":
+/*!************************************!*\
+  !*** external "react-html-parser" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-html-parser");
+
+/***/ }),
+
 /***/ "react-responsive":
 /*!***********************************!*\
   !*** external "react-responsive" ***!
@@ -2016,7 +2352,29 @@ module.exports = require("react");
 
 module.exports = require("react-responsive");
 
+/***/ }),
+
+/***/ "react-slick":
+/*!******************************!*\
+  !*** external "react-slick" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-slick");
+
+/***/ }),
+
+/***/ "text-ellipsis":
+/*!********************************!*\
+  !*** external "text-ellipsis" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("text-ellipsis");
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=team.js.map
+//# sourceMappingURL=volunteer.js.map
