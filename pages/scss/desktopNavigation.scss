@@ -3,51 +3,14 @@
 
 .desktop_navigation {
   z-index: 9999;
-  position: relative;
   width: 100%;
   background: $lightgreen;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 25px;
+  // position: relative;
+  position: sticky !important;
+  top: 0;
   img {
     width: 250px;
-  }
-  .links {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding-top: 40px;
-    font-family: $raleway-extrabold;
-    li {
-      font-size: 16px;
-      transition: $fast;
-      cursor: pointer;
-      letter-spacing: 2px;
-      color: $white;
-      padding: 0px 18px 25px;
-    }
-    .dropdown {
-      position: relative;
-      ul {
-        min-width: 270px;
-        display: none;
-        position: absolute;
-        top: 44px;
-        left: 15px;
-        text-align: left;
-        li {
-          padding: 20px;
-          background: $lightgreen;
-          margin-top: 1px;
-          &:hover {
-            background: $mediumgreen;
-          }
-        }
-      }
-      &:hover {
-        ul {
-          display: block;
-        }
-      }
-    }
   }
 }

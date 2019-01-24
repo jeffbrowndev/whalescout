@@ -13,7 +13,6 @@ const Volunteer = props => (
           <h2>Everyone can help improve habitat</h2>
         </div>
       </div>
-      <EventSlider events={props.events} />
       <div className={styles.article_container}>
         <div className={styles.article_section}>
           <h1>Become A Whale Scout Naturalist</h1>
@@ -80,6 +79,18 @@ const Volunteer = props => (
             fundraising, communication, graphic design, organization, etc.
           </p>
         </div>
+      </div>
+      <EventSlider events={props.events} />
+      <div className={styles.article_container}>
+        <div className={styles.article_section}>
+          <h3>Volunteer Expectations</h3>
+          <p>
+            <u>Time commitment</u> - We ask that volunteers commit to an average
+            of 2 hours per month or 24 hours per year of service in any program
+            or combination of programs. We also ask that volunteers commit to
+            attending at least one training session per year.
+          </p>
+        </div>
         <div className={styles.article_section}>
           <h3>Volunteer Benefits</h3>
           <p>
@@ -96,15 +107,6 @@ const Volunteer = props => (
             skills in interpretation in communication. Many also learn to
             identify whale pods and individuals, and interpret scientific
             findings.
-          </p>
-        </div>
-        <div className={styles.article_section}>
-          <h3>Volunteer Expectations</h3>
-          <p>
-            <u>Time commitment</u> - We ask that volunteers commit to an average
-            of 2 hours per month or 24 hours per year of service in any program
-            or combination of programs. We also ask that volunteers commit to
-            attending at least one training session per year.
           </p>
         </div>
       </div>

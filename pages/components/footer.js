@@ -13,7 +13,7 @@ library.add(faFacebook, faInstagram, faTwitter);
 class Footer extends React.Component {
   render() {
     return (
-      <div className={styles.footer}>
+      <div className={styles.footer} style={{ background: this.props.color }}>
         <img src='/static/images/ws_footer_background.png' alt='Rock' />
         <div className={styles.footer_background}>
           <div className={styles.footer_container}>

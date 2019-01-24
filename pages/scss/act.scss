@@ -1,0 +1,89 @@
+@import 'variables';
+@import 'mixins';
+
+.act {
+  .article_container {
+    background-color: $white;
+  }
+  .act_header {
+    background-image: url('/static/images/ws_act_header.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $mediumgreen;
+    overflow-x: hidden;
+    h1 {
+      @include headerBold;
+      padding: 8% 0;
+      @include mQ(1350px) {
+        padding: 100px 0;
+      }
+    }
+  }
+  .monthly_checklist {
+    background: $mediumgreen;
+    padding-top: 100px;
+    @include mQ(750px) {
+      padding-top: 75px;
+      h1 {
+        font-size: 36px !important;
+      }
+      p {
+        font-size: 18px !important;
+        width: 94% !important;
+      }
+    }
+    .monthly_checklist_header {
+      text-align: center;
+      margin-bottom: 100px;
+      @include mQ(750px) {
+        margin-bottom: 50px;
+      }
+      h1 {
+        margin-top: -20px;
+        font-size: 48px;
+        font-family: $voltage;
+        color: $blue;
+      }
+      p {
+        font-size: 21px;
+        font-family: $raleway-regular;
+        color: $white;
+        width: 700px;
+        margin: auto;
+      }
+    }
+    .months {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 960px;
+      margin: auto;
+      @include mQ(1100px) {
+        width: 100%;
+      }
+      .month {
+        text-align: center;
+        width: 320px;
+        margin-bottom: 50px;
+        @include mQ(750px) {
+          margin-bottom: 25px;
+        }
+        h3 {
+          font-family: $raleway-bold;
+          color: $blue;
+          padding: 10px 0;
+        }
+        p {
+          font-family: $raleway-regular;
+          font-size: 16px;
+          color: $blue;
+          line-height: 2;
+        }
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+}

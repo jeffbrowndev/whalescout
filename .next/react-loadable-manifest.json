@@ -1,19 +1,13 @@
 {
-  "../scss/desktopNavigation.scss": [
+  "./scss/app.scss": [
     {
-      "id": "./pages/scss/desktopNavigation.scss",
-      "name": "./pages/scss/desktopNavigation.scss",
+      "id": "./pages/scss/app.scss",
+      "name": "./pages/scss/app.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }
   ],
   "undefined": [
-    {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
     {
       "id": 5,
       "name": null,
@@ -29,14 +23,6 @@
     {
       "id": 7,
       "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./scss/app.scss": [
-    {
-      "id": "./pages/scss/app.scss",
-      "name": "./pages/scss/app.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     }

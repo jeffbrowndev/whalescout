@@ -56,31 +56,12 @@ class MobileNavigation extends React.Component {
                 <Link href='watch'>
                   <li>WATCH</li>
                 </Link>
-                <li className={styles.dropdown}>
-                  <input
-                    type='checkbox'
-                    id='act_label'
-                    className={styles.act_label}
-                  />
-                  <label htmlFor='act_label'>
-                    ACT
-                    <FontAwesomeIcon
-                      icon={faSortDown}
-                      className={global.icon}
-                    />
-                  </label>
-                  <ul className={styles.act_dropdown}>
-                    <Link href='events'>
-                      <li>HELPIN' OUT EVENTS</li>
-                    </Link>
-                    <Link href='stewardship'>
-                      <li>STEWARDSHIP</li>
-                    </Link>
-                  </ul>
-                </li>
-                <Link href='protect'>
-                  <li>PROTECT</li>
+                <Link href='act'>
+                  <li>ACT</li>
                 </Link>
+                {/* <Link href='protect'>
+                  <li>PROTECT</li>
+                </Link> */}
                 <li className={styles.dropdown}>
                   <input
                     type='checkbox'

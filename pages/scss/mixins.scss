@@ -9,7 +9,7 @@
   }
 }
 @mixin headerBold {
-  text-shadow: 1px 1px 1px rgb(51, 51, 51);
+  text-shadow: 1px 1px 1px $blue;
   font-size: 75px;
   font-family: $raleway-black;
   text-align: center;

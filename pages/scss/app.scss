@@ -1,10 +1,17 @@
 @import './variables.scss';
 @import './member.scss';
+@import './act.scss';
 @import './home.scss';
 @import './team.scss';
 @import './volunteer.scss';
 @import './event.scss';
 @import './eventSlider.scss';
+@import './watch.scss';
+@import './links.scss';
+@import './desktopNavigation.scss';
+@import './mobileNavigation.scss';
+@import './learn.scss';
+
 // CSS Resets
 * {
   margin: 0;
@@ -50,15 +57,23 @@ button {
 
 // All Article Styles
 .article_container {
-  padding: 35px 0 50px;
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+  img {
+    width: 100%;
+    margin: 50px 0;
+    max-width: 960px;
+  }
 }
 .article_section {
-  width: 1200px;
+  text-align: left;
+  width: 960px;
   margin: 0 auto 25px;
-  @include mQ(1300px) {
+  @include mQ(1150px) {
     width: 94%;
     h1 {
-      font-size: 32px !important;
+      font-size: 36px !important;
     }
   }
   h1 {
@@ -80,8 +95,22 @@ button {
   p {
     font-family: $raleway-regular;
     line-height: 2;
-    padding-bottom: 5px;
-    font-size: 15px;
+    font-size: 16px;
     color: $blue;
   }
+}
+
+.triangle_down {
+  width: 150px;
+  margin: 50px auto 0;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-top: 20px solid $mediumgreen;
+}
+.triangle_right {
+  height: 150px;
+  margin: 0 25px;
+  border-bottom: 75px solid transparent;
+  border-top: 75px solid transparent;
+  border-left: 20px solid $darkgreen;
 }

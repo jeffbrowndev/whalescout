@@ -57,7 +57,7 @@
         user-select: none;
       }
       li {
-        border-top: 1px solid #aad1cb;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
         padding: 15px 0;
         .about_label:checked ~ .about_dropdown {
           display: block;
