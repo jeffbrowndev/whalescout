@@ -1,6 +1,7 @@
 import Layout from './components/layout';
 import styles from './scss/app.scss';
 import Composition from './components/composition';
+import Threats from './components/threats';
 
 export default () => (
   <Layout>
@@ -79,6 +80,169 @@ export default () => (
         </div>
       </div>
       <Composition />
+      <div className={styles.article_container}>
+        <div className={styles.article_section}>
+          <p>
+            Over the last 150 years, Europeans developed the Salish Sea
+            watershed for large-scale human habitation. We didn’t understand how
+            our actions would alter the life of the majestic forest and sea
+            surrounding us. Forests were cleared, beaches were walled up, and
+            rivers were dammed to allow western civilization to flourish.
+            Commercial fisheries were established to bolster the economy and the
+            orcas were seen as vicious, voracious fishing competition. Our
+            western scientific understanding of killer whales was non-existent.
+            Out of fear and misunderstanding, humans shot to kill orcas as
+            recently as the 1960s. <br />
+            <br />
+            Beginning in the early 1960s, the marine park and aquarium industry
+            was booming and began to target killer whales in Puget Sound.
+            Capture teams patrolled Puget Sound by air and boat searching for
+            orcas. When a pod was located, the teams chased the whales into
+            coves, often detonating underwater seal bombs to disorient and
+            frighten them making it easier to corral the group into a net pen
+            and separate and remove the calves to be sold for captivity. It is
+            unknown exactly how many whales were taken, but federal estimates
+            put the number at around 50 individuals—mainly Southern Resident J
+            and L pod individuals. Only one of the captured Southern Residents,
+            named “Lolita” from L pod is alive today and is currently on display
+            at the Miami Seaquarium.
+          </p>
+          <img src='./static/images/learn_images/captured.jpg' />
+        </div>
+        <div className={styles.article_section}>
+          <p>
+            In 1976, the horrific capture of a transient orca pod (including the
+            still wild-living matriarch T46) at Budd Inlet was witnessed by
+            Ralph Munro who, at the time, was an aid to Washington Governor
+            Evans. Motivated by the horror of what he saw, the capture process
+            was later outlawed in the state of Washington. As a result, the
+            federal government hired biologists to study, count, and track local
+            orca populations. Scientists, such as Ken Balcomb with the Center
+            for Whale Research on San Juan Island, began to unravel vibrant
+            lives and cultures of the Salish Sea orcas and our fear of these
+            northwest icons was replaced with awe. <br />
+            <br />
+            As the Center for Whale Research continued monitoring the orca
+            population, they discovered that resident population numbers
+            mirrored that of the salmon returns. In years when the salmon runs
+            were strong, the resident orca population boomed. When the salmon
+            runs were weak, more resident whales died. In 2005, the Southern
+            Resident killer whale population were listed as endangered under the
+            Endangered Species Act following a precipitous in numbers. Today,
+            Southern Resident killer whales number fewer than when they were
+            listed as endangered, a disappointing trend. The main cause of this
+            decline is a lack of&nbsp;salmon.
+          </p>
+          <img src='./static/images/learn_images/graph.jpg' />
+        </div>
+        <div className={styles.article_section}>
+          <p>
+            A well-fed orca has a thick layer of fat, also known as blubber.
+            Aside from providing buoyancy and body heat control, the blubber
+            layer is where an orca stores ingested pollutants. As top predators
+            with long lives, any pollutants in the water (PCBs, DDT, flame
+            retardants, etc.) bioaccumulate at the upper levels of the food
+            chain. Well fed orcas store the pollutants in their blubber layer
+            where their side effects are minimal. The transient orcas of the
+            Salish Sea have an abundant supply of pinnipeds and other marine
+            mammals to feed upon and therefore are able to keep toxins stored
+            away in their blubber. The Southern Residents, despite eating lower
+            on the food chain (marine mammals vs. salmon) are more at risk to
+            toxin exposure since they are metabolizing their blubber stores
+            burning fat during times of low salmon abundance. These toxins are
+            proven to disrupt immune and reproductive systems. Compounding these
+            issues are vessel impacts. Underwater noise disrupts the whale’s
+            echolocation and communication and the presence of boats has been
+            linked with behavior changes.
+          </p>
+        </div>
+      </div>
+      <Threats />
+      <div className={styles.article_container}>
+        <div className={styles.article_section}>
+          <p>
+            To recover these endangered Southern Resident killer whales we must
+            address these three main threats. Whale Scout’s programs address
+            each one and provide ways for you to get involved. First, we offer
+            ways to watch whales from shore without leaving any trace on our
+            waters.(hyperlink to watch section) Second, we help limit toxins
+            from entering our waterways. We offer suggestions each month to
+            become better stewards of the environment which add up to help the
+            whales. (hyperlink? To the monthly list of actions on the back of
+            the “save orcas” brochure? Direct elsewhere to that info on the
+            site?) Our “Helpin’ Out” events (link to Helpin’ Out event listing)
+            also limit toxins from entering our waterways through the natural
+            treatment of stormwater runoff. At these events we plant trees and
+            work to restore ecological function along salmon rivers, streams,
+            and nearshore habitats. This provides salmon more places to live,
+            spawn, and thrive. The more salmon there are, the more food killer
+            whales have to eat. No matter where you live, you can make a
+            difference with PodMatch (link) through your donations or
+            participation with groups throughout the west coast. <br />
+            <br />
+            We must keep in mind that we’re striving for intact ecosystems from
+            the treetops to the outer coast. Not only will the whales benefit
+            from resilient forests, rivers and streams, everyone else will too,
+            including us. The work we do restoring salmon habitat results in
+            cleaner water, air, and more salmon for everyone.
+          </p>
+        </div>
+        <div className={styles.article_section}>
+          <h1>
+            What’s the Connection Between Planting Trees and Saving Whales?
+          </h1>
+          <div className={styles.line} />
+          <p>
+            A significant amount of time spent a volunteer work parties or our
+            “Helpin’ Out” events are spent restoring the “riparian zone” or
+            vegetation immediately along salmon rivers and streams. You may ask,
+            “Why is this important, and how does it help?” Well, with the help
+            of our friends at the Skagit Fisheries Enhancement Group, we came up
+            with a fun way to remember: <strong>6 C's Thanks to Trees!</strong>
+          </p>
+          <br />
+          <h3>Cool</h3>
+          <p>- Trees shade the water keeping it cool in warm months</p>
+          <br />
+          <h3>Clean</h3>
+          <p>
+            - Vegetation and root systems filter toxins in rain runoff before
+            entering into waterways
+          </p>
+          <br />
+          <h3>Clear</h3>
+          <p>
+            - Complex root systems hold the banks of rivers and streams
+            preventing erosion which can smother salmon eggs
+          </p>
+          <br />
+          <h3>Constant</h3>
+          <p>
+            - Consistently flowing waters are critical for salmon. Rushes and
+            low drops in water levels don’t allow fish to move where they need
+            to go or can scour out eggs embedded in streambeds. Rain is slowed
+            down by tree branches and is stored in the ground beneath trees to
+            slowly be released into the main channel.
+          </p>
+          <br />
+          <h3>Critters</h3>
+          <p>
+            - The tiny bugs that baby salmon need to eat live on native
+            vegetation. This gives the orca’s food’s food a place to thrive!
+          </p>
+          <br />
+          <h3>Cover</h3>
+          <p>
+            - Towering trees and fallen logs offer adult migrating salmon some
+            protection and refuge from predators such as birds who may be
+            lurking above.
+          </p>
+        </div>
+      </div>
+      <div className={styles.article_section}>
+        <h1>Additional Links & Resources</h1>
+        <div className={styles.line} />
+      </div>
     </div>
   </Layout>
 );

@@ -1,5 +1,5 @@
 {
-  "./scss/app.scss": [
+  "../pages/scss/app.scss": [
     {
       "id": "./pages/scss/app.scss",
       "name": "./pages/scss/app.scss",
@@ -9,6 +9,12 @@
   ],
   "undefined": [
     {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": 5,
       "name": null,
       "file": "static/chunks/styles.js",
@@ -16,12 +22,6 @@
     },
     {
       "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
