@@ -14,6 +14,7 @@
 @import './composition.scss';
 @import './threats.scss';
 @import './learn.scss';
+@import './contact.scss';
 
 // CSS Resets
 * {
@@ -49,13 +50,20 @@ button {
   height: 50px;
   margin-top: 25px;
   margin-right: 25px;
+  transition: $fast;
+  &:hover {
+    background: $darkgreen;
+  }
 }
 .line {
   width: 75px;
   height: 2px;
   background: $red;
-  margin: 15px 0 30px;
+  margin: 15px 0 25px;
   border-radius: 2px;
+}
+a {
+  text-decoration-color: $blue;
 }
 
 // All Article Styles
@@ -65,7 +73,15 @@ button {
   text-align: center;
   img {
     width: 100%;
-    margin: 50px 0;
+    margin-top: 25px;
+    max-width: 960px;
+  }
+  .image_caption {
+    font-family: $raleway-regular;
+    color: $grey;
+    margin: 5px auto 34px;
+    font-size: 14px;
+    width: 94%;
     max-width: 960px;
   }
 }
@@ -80,9 +96,11 @@ button {
     }
   }
   h1 {
+    line-height: 1;
     font-family: $voltage;
     color: $blue;
     font-size: 48px;
+    padding-bottom: 10px;
   }
   h3 {
     font-family: $raleway-bold;
@@ -93,7 +111,7 @@ button {
     color: $lightgreen;
     font-family: $raleway-bold;
     line-height: 2;
-    padding-bottom: 5px;
+    font-size: 16px;
   }
   p {
     font-family: $raleway-regular;

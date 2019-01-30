@@ -32,6 +32,7 @@ export default () => (
           </p>
         </div>
         <img src='./static/images/learn_images/chinook.jpg' />
+        <p className={styles.image_caption}>Georgia Strait Alliance</p>
         <div className={styles.article_section}>
           <p>
             The temperate forest ecosystem of the Pacific Northwest developed
@@ -50,6 +51,10 @@ export default () => (
           </p>
         </div>
         <img src='./static/images/learn_images/sockeye.jpg' />
+        <p className={styles.image_caption}>
+          Sockeye Salmon in the Adams River, Department of Fisheries and Oceans
+          Canada
+        </p>
         <div className={styles.article_section}>
           <p>
             As salmon migrated across the northeast Pacific for thousands of
@@ -107,8 +112,11 @@ export default () => (
             named “Lolita” from L pod is alive today and is currently on display
             at the Miami Seaquarium.
           </p>
-          <img src='./static/images/learn_images/captured.jpg' />
         </div>
+        <img src='./static/images/learn_images/captured.jpg' />
+        <p className={styles.image_caption}>
+          Members of L pod captured in Penn Cove, Wallie Funk, Associated Press
+        </p>
         <div className={styles.article_section}>
           <p>
             In 1976, the horrific capture of a transient orca pod (including the
@@ -133,8 +141,16 @@ export default () => (
             listed as endangered, a disappointing trend. The main cause of this
             decline is a lack of&nbsp;salmon.
           </p>
-          <img src='./static/images/learn_images/graph.jpg' />
         </div>
+        <img src='./static/images/learn_images/graph.jpg' />
+        <p className={styles.image_caption}>
+          Annual indices of mortality of (a) northern and (b) southern resident
+          killer whales and (c) abundance of Chinook salmon, 1979-2003.
+          Deviations from an annual index value of 1 (a,b) indicate higher or
+          lower than expected mortality rates. Annual abundance indices for
+          Chinook salmon (c) reflect departures from the average abundance over
+          the entire time series. Ford et al., 2009
+        </p>
         <div className={styles.article_section}>
           <p>
             A well-fed orca has a thick layer of fat, also known as blubber.
@@ -185,8 +201,17 @@ export default () => (
             from resilient forests, rivers and streams, everyone else will too,
             including us. The work we do restoring salmon habitat results in
             cleaner water, air, and more salmon for everyone.
+            <br />
+            <br />
+            Southern Resident killer whales have a broad range from Southeast
+            Alaska to to Monterey, California. Some of these west coast rivers
+            extend hundreds of miles inland crossing the backyards and
+            neighborhoods in major population centers. Unfortunately, many of
+            these populations of salmon are also threatened or endangered.
           </p>
         </div>
+        <img src='./static/images/learn_images/salmon_map.svg' />
+        <p className={styles.image_caption} />
         <div className={styles.article_section}>
           <h1>
             What’s the Connection Between Planting Trees and Saving Whales?
@@ -198,50 +223,88 @@ export default () => (
             vegetation immediately along salmon rivers and streams. You may ask,
             “Why is this important, and how does it help?” Well, with the help
             of our friends at the Skagit Fisheries Enhancement Group, we came up
-            with a fun way to remember: <strong>6 C's Thanks to Trees!</strong>
+            with a fun way to remember: 6 C's Thanks to Trees!
           </p>
           <br />
-          <h3>Cool</h3>
-          <p>- Trees shade the water keeping it cool in warm months</p>
-          <br />
-          <h3>Clean</h3>
           <p>
-            - Vegetation and root systems filter toxins in rain runoff before
-            entering into waterways
+            <strong>Cool </strong>- Trees shade the water keeping it cool in
+            warm months
           </p>
           <br />
-          <h3>Clear</h3>
           <p>
-            - Complex root systems hold the banks of rivers and streams
-            preventing erosion which can smother salmon eggs
+            <strong>Clean </strong>- Vegetation and root systems filter toxins
+            in rain runoff before entering into waterways
           </p>
           <br />
-          <h3>Constant</h3>
           <p>
-            - Consistently flowing waters are critical for salmon. Rushes and
-            low drops in water levels don’t allow fish to move where they need
-            to go or can scour out eggs embedded in streambeds. Rain is slowed
-            down by tree branches and is stored in the ground beneath trees to
-            slowly be released into the main channel.
+            <strong>Clear </strong>- Complex root systems hold the banks of
+            rivers and streams preventing erosion which can smother salmon eggs
           </p>
           <br />
-          <h3>Critters</h3>
           <p>
-            - The tiny bugs that baby salmon need to eat live on native
-            vegetation. This gives the orca’s food’s food a place to thrive!
+            <strong>Constant </strong>- Consistently flowing waters are critical
+            for salmon. Rushes and low drops in water levels don’t allow fish to
+            move where they need to go or can scour out eggs embedded in
+            streambeds. Rain is slowed down by tree branches and is stored in
+            the ground beneath trees to slowly be released into the main
+            channel.
           </p>
           <br />
-          <h3>Cover</h3>
           <p>
-            - Towering trees and fallen logs offer adult migrating salmon some
-            protection and refuge from predators such as birds who may be
-            lurking above.
+            <strong>Critters </strong>- The tiny bugs that baby salmon need to
+            eat live on native vegetation. This gives the orca’s food’s food a
+            place to thrive!
+          </p>
+          <br />
+          <p>
+            <strong>Cover </strong>- Towering trees and fallen logs offer adult
+            migrating salmon some protection and refuge from predators such as
+            birds who may be lurking above.
+          </p>
+          <br />
+          <p>
+            Many of our Helpin' Out events are supported by The Nature
+            Conservancy. Planting trees in our cities helps our orcas because of
+            the reasons above and to specifically reduce toxic stormwater which
+            is harmful for salmon, orcas, and all of us.
           </p>
         </div>
-      </div>
-      <div className={styles.article_section}>
-        <h1>Additional Links & Resources</h1>
-        <div className={styles.line} />
+        <img src='./static/images/learn_images/how_were_helping.jpg' />
+        <p className={styles.image_caption}>The Nature Conservancy</p>
+        <div className={styles.article_section}>
+          <h1>Additional Links & Resources</h1>
+          <div className={styles.line} />
+          <a
+            href='http://www.adfg.alaska.gov/index.cfm?adfg=wildlifenews.view_article&articles_id=407&fbclid=IwAR00bl7q7-1MasG0vXosVLD6EYicift8xXHo1X6bw__Ia4NLeDNF2Cs2HhM'
+            target='_blank'
+          >
+            <p>Alaska Department of Fish and Game - Salmon and Trees</p>
+          </a>
+          <a
+            href='https://www.nationalgeographic.org/encyclopedia/blubber/?fbclid=IwAR01p4oC2woY4Ibf_dRx7oHHiXM5ZYeXe4zopiKukhbrSEiEeBNf8uhU-eI'
+            target='_blank'
+          >
+            <p>National Geographic - Blubber</p>
+          </a>
+          <a
+            href='http://www.orcanetwork.org/nathist/OIOM2006edited.pdf'
+            target='_blank'
+          >
+            <p>Orcas in Our Midst</p>
+          </a>
+          <a
+            href='https://www.theolympian.com/news/local/article25320205.html?fbclid=IwAR1WgF5PqPH9R8USQUWc-mIDjXud3g0nqOW1cpaTBtxZZlBqajYemZyKvNc'
+            target='_blank'
+          >
+            <p>The Olympian - Orca Captures</p>
+          </a>
+          <a
+            href='https://www.fisheries.noaa.gov/video/spotlight-southern-resident-killer-whale-interview-noaa-fisheries-biologist-lynne?fbclid=IwAR2bSuEPDR-GPtTM4NcuwunCZ59ppEJO8ok-KtWA3sdf5ZVJiB4OmzfylWM'
+            target='_blank'
+          >
+            <p>NOAA Spotlight on SRKW</p>
+          </a>
+        </div>
       </div>
     </div>
   </Layout>
