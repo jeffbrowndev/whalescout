@@ -14,6 +14,9 @@ library.add(faFacebook, faInstagram, faTwitter);
 const Contact = props => (
   <Layout>
     <div className={styles.contact}>
+      <div className={styles.contact_header}>
+        <h1>CONTACT</h1>
+      </div>
       <div class={styles.contact_content}>
         <div className={styles.contact_content_left}>
           <div className={styles.article_section}>
@@ -30,9 +33,15 @@ const Contact = props => (
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src='./static/images/contact_icons/email.svg'
+              src='./static/images/contact_icons/marker.svg'
             />
-            <p>info@whalescout.org</p>
+            <p>
+              PO Box 426
+              <br />
+              Woodinville, WA
+              <br />
+              98072
+            </p>
           </div>
           <div className={styles.content_icon_section}>
             <img
@@ -44,15 +53,9 @@ const Contact = props => (
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src='./static/images/contact_icons/marker.svg'
+              src='./static/images/contact_icons/email.svg'
             />
-            <p>
-              PO Box 426
-              <br />
-              Woodinville, WA
-              <br />
-              98072
-            </p>
+            <p>info@whalescout.org</p>
           </div>
           <div className={styles.contact_social}>
             <FontAwesomeIcon

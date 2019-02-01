@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from '../scss/app.scss';
-import ReactHtmlParser from 'react-html-parser';
 import Link from 'next/link';
 
 class Event extends React.Component {
@@ -19,10 +18,10 @@ class Event extends React.Component {
         <div className={styles.event_footer}>
           <div className={styles.event_footer_content}>
             {/* Event title */}
-            <h4>{ReactHtmlParser(this.props.title)}</h4>
+            <h4>{this.props.title || "Helpin' Out Event!"}</h4>
             {/* Event description */}
-            {ReactHtmlParser(this.props.description)}
-            <Link href='#'>
+            <p>{this.props.description || 'No description provided.'}</p>
+            <Link href={`/eventPage?title=${this.props.title}`}>
               <button>VIEW DETAILS</button>
             </Link>
           </div>

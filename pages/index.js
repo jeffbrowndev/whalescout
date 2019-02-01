@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 // Home page
 const Index = props => (
-  <Layout>
+  <Layout color='#a6d5cd'>
     <div className={styles.home}>
       {/* Main header */}
       <section className={styles.home_header}>
@@ -65,7 +65,7 @@ const Index = props => (
 Index.getInitialProps = async function() {
   // Get events
   const events = await fetch(
-    'https://www.whalescout.org/wp-json/wp/v2/posts?categories=4'
+    'http://localhost/whalescout/wp-json/wp/v2/posts?categories=2'
   ).then(events => events.json());
 
   // Store events data into 'props'

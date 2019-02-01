@@ -5,8 +5,8 @@
   width: 475px;
   height: 475px;
   @include mQ(1640px) {
-    height: 400px;
-    width: 400px;
+    height: 410px;
+    width: 410px;
   }
   @include mQ(575px) {
     width: 100%;
@@ -29,7 +29,7 @@
         padding: 10px 0;
         text-align: center;
         font-size: 16px;
-        width: 40%;
+        width: 45%;
         background: $yellow;
         color: $blue;
       }
@@ -61,8 +61,10 @@
         font-size: 15px;
         color: $grey;
         font-family: $raleway-regular;
-        padding: 15px 0 20px;
-        overflow: hidden;
+        @include Ellipsis($lineHeight: 1.2em, $lineCount: 3, $bgColor: white);
+        @include mQ(1640px) {
+          @include Ellipsis($lineHeight: 1.2em, $lineCount: 2, $bgColor: white);
+        }
       }
       button {
         padding: 10px 20px;

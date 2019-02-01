@@ -2,34 +2,33 @@ import React from 'react';
 import styles from '../scss/app.scss';
 import Event from './event';
 import Slider from 'react-slick';
-const ellipsis = require('text-ellipsis');
 
 export default class EventSlider extends React.Component {
-  isImage(image) {
-    if (image) return image.source_url;
-    else return '../../static/images/ws_home_header.svg';
+  getSlidesLarge() {
+    // Only show 3 slides max on large desktops
+    const events = this.props.events;
+    if (events.length <= 3 && events.length > 0) return events.length;
+    else if (events.length === 0) return 1;
+    else return 3;
   }
-  isDesc(desc) {
-    if (desc) return ellipsis(desc.rendered, 100);
-    else return 'Sorry, no description available';
+  getSlidesSmall() {
+    // Only show 2 slides max on small desktops, 1 slide on anything smaller
+    const events = this.props.events;
+    if (events.length >= 2) return 2;
+    else return 1;
   }
-  // isLink(link) {
-  //   if (link) return link;
-  //   else return 'https://www.facebook.com/whalescout';
-  // }
   render() {
     // Slick slider config
     const settings = {
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: this.getSlidesLarge(),
       slidesToScroll: 1,
-      autoplay: true,
       responsive: [
         {
           breakpoint: 1420,
           settings: {
-            slidesToShow: 2
+            slidesToShow: this.getSlidesSmall()
           }
         },
         {
@@ -47,23 +46,39 @@ export default class EventSlider extends React.Component {
         }
       ]
     };
-    return (
-      <div className={styles.event_slider_wrapper}>
-        <Slider {...settings} className={styles.event_slider}>
-          {this.props.events.map(event => {
-            return (
-              <Event
-                key={event.id}
-                date={event.acf.date || 'Coming soon!'}
-                title={event.title.rendered || "Helpin' Out Event!"}
-                image={this.isImage(event.better_featured_image)}
-                description={this.isDesc(event.excerpt)}
-                // link={this.isLink(this.acf.facebook_link)}
-              />
-            );
-          })}
-        </Slider>
-      </div>
-    );
+    if (this.props.events.length > 0) {
+      return (
+        <div className={styles.event_slider_wrapper}>
+          <Slider {...settings} className={styles.event_slider}>
+            {this.props.events.map(event => {
+              return (
+                <Event
+                  key={event.acf.title}
+                  title={event.acf.title}
+                  date={event.acf.date}
+                  description={event.acf.description}
+                  // Use default image if no image is provided
+                  image={
+                    event.acf.image || './static/images/ws_home_header.svg'
+                  }
+                />
+              );
+            })}
+          </Slider>
+        </div>
+      );
+    } else {
+      // If no events scheduled, return this message
+      return (
+        <div className={styles.event_slider_wrapper}>
+          <Slider {...settings} className={styles.event_slider}>
+            <h1>
+              No events are currently&nbsp;scheduled. <br />
+              Please check back&nbsp;later!
+            </h1>
+          </Slider>
+        </div>
+      );
+    }
   }
 }

@@ -12,6 +12,15 @@
   .event_slider {
     width: 1525px;
     margin: auto;
+    h1 {
+      color: $white;
+      font-family: $raleway-regular;
+      text-align: center;
+      font-size: 28px;
+      margin: auto;
+      padding: 50px 3%;
+      line-height: 1.25;
+    }
     @include mQ(1640px) {
       width: 1300px;
     }
@@ -20,6 +29,9 @@
     }
     @include mQ(1000px) {
       width: 450px;
+      h1 {
+        font-size: 22px;
+      }
     }
     @include mQ(575px) {
       width: 100%;

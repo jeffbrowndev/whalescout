@@ -6,8 +6,8 @@
   overflow: hidden;
   img {
     width: 100%;
-    transform: translateY(10px);
     z-index: 9999;
+    margin-bottom: -10px;
   }
   .footer_background {
     padding-top: 100px;

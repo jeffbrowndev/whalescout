@@ -54,6 +54,9 @@ button {
   &:hover {
     background: $darkgreen;
   }
+  @include mQ(1200px) {
+    margin: 25px 12.5px 0 12.5px;
+  }
 }
 .line {
   width: 75px;

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1399,105 +1399,76 @@ var Contact = function Contact(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_content,
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_header,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "CONTACT")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    class: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_content,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_content_left,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 23
     },
     __self: this
   }, "Send Us A Message"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.line,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 24
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, "For questions or more information on Whale Scout, please send us a message:")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_contactForm_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 30
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_content_right,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content_icon_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_icon,
-    src: "./static/images/contact_icons/email.svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "info@whalescout.org")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content_icon_section,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_icon,
-    src: "./static/images/contact_icons/phone.svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "425-770-0787")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content_icon_section,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1505,32 +1476,74 @@ var Contact = function Contact(props) {
     src: "./static/images/contact_icons/marker.svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 38
     },
     __self: this
   }, "PO Box 426", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 40
     },
     __self: this
   }), "Woodinville, WA", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 42
     },
     __self: this
   }), "98072")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content_icon_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_icon,
+    src: "./static/images/contact_icons/phone.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, "425-770-0787")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.content_icon_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_icon,
+    src: "./static/images/contact_icons/email.svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "info@whalescout.org")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.contact_social,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
@@ -1539,7 +1552,7 @@ var Contact = function Contact(props) {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faInstagram"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 61
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
@@ -1548,7 +1561,7 @@ var Contact = function Contact(props) {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faFacebook"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 66
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FontAwesomeIcon"], {
@@ -1557,7 +1570,7 @@ var Contact = function Contact(props) {
     icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_6__["faTwitter"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 71
     },
     __self: this
   }))))));
@@ -1658,8 +1671,10 @@ module.exports = {
 	"learn": "_2g7wOHPH2dBKHHrUJhbM8E",
 	"learn_header": "_12xps7v40jCs0lt_1-82el",
 	"contact": "_3Fq2y1n3yfkshXbkJtZLsi",
+	"contact_header": "_3IyHiBZqINu6YBUT4ae2ja",
 	"contact_content": "_10UVk7noiMDmci2RWU-gDF",
 	"contact_content_left": "fk1PyXUqx86FyMfJm29xy",
+	"main_button": "_2UxR3fjEklPY0IlBPttLXV",
 	"contact_content_right": "FBB9v_mmDOE62ct_XapUD",
 	"content_icon_section": "nS4yji_1AK1B03jQYR7yk",
 	"contact_icon": "YtdizLlSI7llE72880icJ",
@@ -1667,7 +1682,6 @@ module.exports = {
 	"contact_social_icon": "rMsfUCE0EE5vsRHGKN0Gc",
 	"contact_form": "_3vF5skp9kQ-kjqJHZvhM9T",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
-	"main_button": "_2UxR3fjEklPY0IlBPttLXV",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
 	"triangle_right": "_3_p2_0YLdW2C3LuHAaKPpF"
 };
@@ -1723,7 +1737,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************************!*\
   !*** multi ./pages/contact.js ***!
   \********************************/

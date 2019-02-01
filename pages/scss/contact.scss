@@ -2,6 +2,21 @@
 @import 'mixins';
 
 .contact {
+  .contact_header {
+    background-image: url('/static/images/ws_contact_header.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $mediumgreen;
+    overflow-x: hidden;
+    h1 {
+      @include headerBold;
+      padding: 8% 0;
+      @include mQ(1350px) {
+        padding: 100px 0;
+      }
+    }
+  }
   .contact_content {
     padding-top: 75px;
     width: 960px;
@@ -9,8 +24,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .contact_content_left {
-      width: 75%;
+      width: 100%;
+      max-width: 720px;
+      .main_button {
+        margin-right: 0 !important;
+      }
+      .article_section {
+        width: 100% !important;
+      }
     }
     .contact_content_right {
       width: 20%;
@@ -22,7 +45,7 @@
           font-size: 18px;
         }
         .contact_icon {
-          width: 40px;
+          width: 50px;
           margin-bottom: 5px;
         }
       }
@@ -34,10 +57,29 @@
         }
       }
     }
+    // Contact wrapper
+    @include mQ(1100px) {
+      width: 94%;
+      display: block;
+      text-align: center !important;
+      .contact_content_left {
+        margin: auto;
+        .article_section {
+          text-align: center;
+          .line {
+            margin: 15px auto 25px;
+          }
+        }
+      }
+      .contact_content_right {
+        margin-top: 50px;
+        width: 100%;
+      }
+    }
   }
 }
 
-// Contact form styles
+// Contact form styles, the form itself is a separate component
 .contact_form {
   width: 100%;
   input,
