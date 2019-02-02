@@ -42,21 +42,21 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.about_dropdown}>
-                    <Link prefetch href='team'>
+                    <Link href='/team'>
                       <li>TEAM/SUPPORTERS</li>
                     </Link>
-                    <Link href='contact'>
+                    <Link href='/contact'>
                       <li>CONTACT</li>
                     </Link>
                   </ul>
                 </li>
-                <Link href='learn'>
+                <Link href='/learn'>
                   <li>LEARN</li>
                 </Link>
-                <Link href='watch'>
+                <Link href='/watch'>
                   <li>WATCH</li>
                 </Link>
-                <Link href='act'>
+                <Link href='/act'>
                   <li>ACT</li>
                 </Link>
                 {/* <Link href='protect'>
@@ -76,18 +76,18 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.join_dropdown}>
-                    <Link href='volunteer'>
+                    <Link href='/volunteer'>
                       <li>VOLUNTEER</li>
                     </Link>
-                    <Link href='store'>
+                    <Link href='/store'>
                       <li>STORE</li>
                     </Link>
-                    <Link href='donate'>
+                    <Link href='/donate'>
                       <li>DONATE</li>
                     </Link>
                   </ul>
                 </li>
-                <Link href='podcast'>
+                <Link href='/podcast'>
                   <li>PODCAST</li>
                 </Link>
               </ul>

@@ -21,7 +21,7 @@ class Event extends React.Component {
             <h4>{this.props.title || "Helpin' Out Event!"}</h4>
             {/* Event description */}
             <p>{this.props.description || 'No description provided.'}</p>
-            <Link href={`/eventPage?title=${this.props.title}`}>
+            <Link href={`/event?slug=${this.props.slug}`}>
               <button>VIEW DETAILS</button>
             </Link>
           </div>

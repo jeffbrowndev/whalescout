@@ -53,7 +53,8 @@ export default class EventSlider extends React.Component {
             {this.props.events.map(event => {
               return (
                 <Event
-                  key={event.acf.title}
+                  key={event.id}
+                  slug={event.slug}
                   title={event.acf.title}
                   date={event.acf.date}
                   description={event.acf.description}
