@@ -1467,6 +1467,9 @@ module.exports = {
 	"contact_social": "_1R63UfkKTlThE4gKs-dn2K",
 	"contact_social_icon": "rMsfUCE0EE5vsRHGKN0Gc",
 	"contact_form": "_3vF5skp9kQ-kjqJHZvhM9T",
+	"event_content": "_3wWN1FgMVLwSx65bucxWRb",
+	"event_caption": "_2mMuYc3pP2rshH9vdnM60m",
+	"event_description": "_3A51eMuNkXVbH_GugLZT0P",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
 	"triangle_right": "_3_p2_0YLdW2C3LuHAaKPpF"
