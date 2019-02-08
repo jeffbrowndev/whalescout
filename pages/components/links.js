@@ -53,7 +53,7 @@ const Links = () => {
             </Link>
           </ul>
         </li>
-        <Link href='/podcast'>
+        <Link href='/podcasts'>
           <li>PODCAST</li>
         </Link>
       </ul>

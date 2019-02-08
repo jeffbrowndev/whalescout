@@ -87,7 +87,7 @@ class MobileNavigation extends React.Component {
                     </Link>
                   </ul>
                 </li>
-                <Link href='/podcast'>
+                <Link href='/podcasts'>
                   <li>PODCAST</li>
                 </Link>
               </ul>

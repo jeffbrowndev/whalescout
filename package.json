@@ -26,9 +26,11 @@
     "node-sass": "^4.10.0",
     "npm": "^6.4.1",
     "react": "^16.6.0",
+    "react-audio-player": "^0.11.0",
     "react-big-calendar": "^0.20.3",
     "react-dom": "^16.6.0",
     "react-responsive": "^6.0.1",
-    "react-slick": "^0.23.2"
+    "react-slick": "^0.23.2",
+    "text-ellipsis": "^1.0.3"
   }
 }
