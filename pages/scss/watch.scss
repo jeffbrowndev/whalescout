@@ -198,6 +198,14 @@
 }
 
 // Google Map marker
-.marker {
-  width: 25px;
+.marker_container {
+  position: relative;
+  height: 25px;
+  width: 32.56px;
+  .marker {
+    position: absolute;
+    bottom: 100%;
+    left: -50%;
+    width: 25px;
+  }
 }

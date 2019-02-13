@@ -105,13 +105,7 @@ export default () => (
         <h1>Where Are Our Volunteers?</h1>
         <div className={styles.triangle_down} />
       </div> */}
-      <Map>
-        <Marker
-          title={'The marker`s title will appear as a tooltip.'}
-          name={'Seattle'}
-          position={{ lat: 47.608013, lng: -122.335167 }}
-        />
-      </Map>
+      <Map />
       <div className={styles.watch_more}>
         <div className={styles.article_container}>
           <div className={styles.article_section}>

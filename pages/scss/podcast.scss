@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $mediumgreen;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   overflow: hidden;
   h1 {
     @include headerBold;
@@ -22,18 +22,29 @@ audio {
   width: 100% !important;
 }
 .search_bar {
-  max-width: 480px;
+  max-width: 1200px;
   margin: auto;
-  padding-bottom: 75px;
-  text-align: center;
+  padding-bottom: 50px;
   input {
-    padding: 15px 10px;
+    padding: 15px 10px 15px 0;
+    margin-left: 12.5px;
     font-family: $raleway-regular;
     font-size: 16px;
-    width: 94%;
+    width: 480px;
     border: none;
     border-bottom: 1px solid $grey;
     outline: none;
+  }
+  @include mQ(1275px) {
+    text-align: center;
+    input {
+      margin-left: 0;
+    }
+  }
+  @include mQ(550px) {
+    input {
+      width: 94%;
+    }
   }
 }
 .podcast_cards {
@@ -107,16 +118,10 @@ audio {
         margin-left: 10px;
       }
     }
-    // &:nth-child(odd) {
-    //   margin-top: -25px;
-    // }
   }
   @include mQ(1275px) {
     width: 94%;
     justify-content: center;
-    .podcast_card {
-      // margin-top: 0 !important;
-    }
   }
 }
 
