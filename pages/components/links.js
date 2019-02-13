@@ -14,30 +14,12 @@ const Links = () => {
         <Link href='/'>
           <li>HOME</li>
         </Link>
-        <li className={styles.dropdown}>
-          ABOUT
-          <FontAwesomeIcon icon={faSortDown} className={styles.icon} />
-          <ul>
-            <Link href='/team'>
-              <li>TEAM/SUPPORTERS</li>
-            </Link>
-            <Link href='/contact'>
-              <li>CONTACT</li>
-            </Link>
-          </ul>
-        </li>
-        <Link href='/learn'>
-          <li>LEARN</li>
+        <Link href='/news'>
+          <li>NEWS</li>
         </Link>
         <Link href='/watch'>
           <li>WATCH</li>
         </Link>
-        <Link href='/act'>
-          <li>ACT</li>
-        </Link>
-        {/* <Link href='protect'>
-                <li>PROTECT</li>
-              </Link> */}
         <li className={styles.dropdown}>
           JOIN
           <FontAwesomeIcon icon={faSortDown} className={styles.icon} />
@@ -50,6 +32,24 @@ const Links = () => {
             </Link>
             <Link href='/donate'>
               <li>DONATE</li>
+            </Link>
+          </ul>
+        </li>
+        <Link href='/act'>
+          <li>ACT</li>
+        </Link>
+        <Link href='/learn'>
+          <li>LEARN</li>
+        </Link>
+        <li className={styles.dropdown}>
+          ABOUT
+          <FontAwesomeIcon icon={faSortDown} className={styles.icon} />
+          <ul>
+            <Link href='/team'>
+              <li>TEAM/SUPPORTERS</li>
+            </Link>
+            <Link href='/contact'>
+              <li>CONTACT</li>
             </Link>
           </ul>
         </li>

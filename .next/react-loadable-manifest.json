@@ -1,5 +1,5 @@
 {
-  "./scss/app.scss": [
+  "../scss/app.scss": [
     {
       "id": "./pages/scss/app.scss",
       "name": "./pages/scss/app.scss",

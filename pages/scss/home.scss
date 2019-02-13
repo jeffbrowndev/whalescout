@@ -94,17 +94,41 @@
       }
     }
   }
-  // News and podcasts
-  .home_news_and_podcasts {
-    padding: $sectionpadding;
-  }
-  @include mQ($tablet) {
-    .home_news_and_podcasts {
-      padding: $sectionpaddingmobile;
-    }
-  }
 }
 .home_footer_image {
   background: $mediumgreen;
   margin-bottom: -10px;
+}
+
+// Media section
+.home_news_and_podcasts {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  padding: 50px 0 100px;
+  u,
+  p,
+  h3 {
+    color: $blue;
+  }
+  p {
+    font-family: $raleway-regular;
+    cursor: pointer;
+  }
+  h3 {
+    font-family: $voltage;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1;
+    margin-bottom: 25px;
+  }
+  .recent_news {
+    width: 960px;
+  }
+  .recent_podcasts {
+    .podcast_card {
+      margin: 0 auto 25px auto;
+    }
+  }
 }

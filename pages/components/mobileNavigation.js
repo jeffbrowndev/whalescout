@@ -28,6 +28,9 @@ class MobileNavigation extends React.Component {
                 <Link href='/'>
                   <li>HOME</li>
                 </Link>
+                <Link href='/news'>
+                  <li>NEWS</li>
+                </Link>
                 <li className={styles.dropdown}>
                   <input
                     type='checkbox'
@@ -50,6 +53,7 @@ class MobileNavigation extends React.Component {
                     </Link>
                   </ul>
                 </li>
+
                 <Link href='/learn'>
                   <li>LEARN</li>
                 </Link>
