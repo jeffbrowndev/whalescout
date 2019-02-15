@@ -409,12 +409,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_footer_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "@fortawesome/fontawesome-svg-core");
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "@fortawesome/free-brands-svg-icons");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "@fortawesome/fontawesome-svg-core");
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "@fortawesome/free-brands-svg-icons");
+/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\footer.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -440,7 +442,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_2__["library"].add(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faFacebook"], _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faInstagram"], _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faTwitter"]);
+
+_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__["library"].add(_fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faFacebook"], _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faInstagram"], _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faTwitter"]);
 
 var Footer =
 /*#__PURE__*/
@@ -463,7 +466,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -471,179 +474,179 @@ function (_React$Component) {
         alt: "Rock",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 18
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_background,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_container,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 22
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 23
         },
         __self: this
-      }, "HOME"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, "ABOUT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, "HOME"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, "TEAM/SUPPORTERS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, "ABOUT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
+        },
+        __self: this
+      }, "TEAM/SUPPORTERS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
         },
         __self: this
       }, "CONTACT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }, "LEARN"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         },
         __self: this
       }, "ACT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         },
         __self: this
       }, "HELPIN' OUT EVENTS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
       }, "STEWARDSHIP"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, "WATCH"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         },
         __self: this
       }, "PROTECT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 38
         },
         __self: this
       }, "JOIN"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         },
         __self: this
       }, "VOLUNTEER"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         },
         __self: this
       }, "STORE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }, "DONATE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         },
         __self: this
       }, "PODCAST")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_connect,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.news_letter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 48
         },
         __self: this
       }, "Join Our Newsletter"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.signup_form,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -651,113 +654,133 @@ function (_React$Component) {
         placeholder: "Your e-mail",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 50
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 51
         },
         __self: this
       }, "SIGN UP"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 52
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.connect,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.address,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 56
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 57
         },
         __self: this
       }, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 58
         },
         __self: this
       }, "P.O. Box 426", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         },
         __self: this
       }), "Woodinville, WA 98072", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 62
         },
         __self: this
       }), "425-770-0787", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 64
         },
         __self: this
       }), "info@whalescout.org")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 68
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }, "Follow"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
-        size: "2x",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faInstagram"],
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 69
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      }, "Follow"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         size: "2x",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faFacebook"],
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faInstagram"],
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 70
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeIcon"], {
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         size: "2x",
-        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__["faTwitter"],
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faFacebook"],
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 75
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+        size: "2x",
+        icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faTwitter"],
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.credits,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 89
         },
         __self: this
-      }, "\xA9 Copyright 2018 Whale Scout\xA0| All Rights Reserved\xA0| Design\xA0by\xA0Jeff\xA0Brown")));
+      }, "\xA9 Copyright 2018 Whale Scout\xA0| All Rights Reserved\xA0| Website\xA0by\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 92
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        href: "http://www.jeffbrowndev.com",
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      }, "Jeff\xA0Brown"))))));
     }
   }]);
 
@@ -2048,6 +2071,12 @@ module.exports = {
 	"podcast_date_banner": "_3vRUIK-g9k09jxxuklqeri",
 	"podcast_date": "_3X7xRFNtzWwwOxGPYNg1cF",
 	"listen": "ijL2Y40qDLLtIu5g3q6pK",
+	"news_card": "_1ip12XehP7i3yOtpyJki3z",
+	"news_content_left": "_4UrVg_mvJdfZ86q9_Z1bV",
+	"news_content_right": "_3vMInAPe0vQqwAbQ3BZBJy",
+	"news_excerpt": "_1nXltfRJ93XEhAoZeuRSUR",
+	"read_more": "_2M0kK62g26n17gSfqPCPpQ",
+	"news": "_3G3ZrdLBkARDkvlEgYNXV6",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
 	"triangle_right": "_3_p2_0YLdW2C3LuHAaKPpF"

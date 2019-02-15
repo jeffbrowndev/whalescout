@@ -4,6 +4,9 @@
 .footer {
   width: 100%;
   overflow: hidden;
+  a {
+    color: $white;
+  }
   img {
     width: 100%;
     z-index: 9999;

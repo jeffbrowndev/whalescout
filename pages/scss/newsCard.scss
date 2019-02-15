@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+
+.news_card {
+  font-family: $raleway-regular;
+  width: 100%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    border-bottom: 1px solid rgb(233, 231, 231);
+  }
+  .news_content_left {
+    width: 30%;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      max-height: 300px;
+      max-width: 100%;
+    }
+  }
+  .news_content_right {
+    width: 70%;
+    color: $blue;
+    .news_excerpt {
+      padding: 25px 0;
+      img {
+        display: none;
+      }
+    }
+    .read_more {
+      cursor: pointer;
+      color: $darkgreen;
+    }
+  }
+}

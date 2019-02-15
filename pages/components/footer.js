@@ -1,5 +1,6 @@
 import styles from '../scss/footer.scss';
 import React from 'react';
+import Link from 'next/link';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -87,7 +88,12 @@ class Footer extends React.Component {
           </div>
           <p className={styles.credits}>
             © Copyright 2018 Whale Scout&nbsp;| All Rights Reserved&nbsp;|
-            Design&nbsp;by&nbsp;Jeff&nbsp;Brown
+            Website&nbsp;by&nbsp;
+            <span>
+              <a href='http://www.jeffbrowndev.com' target='_blank'>
+                <u>Jeff&nbsp;Brown</u>
+              </a>
+            </span>
           </p>
         </div>
       </div>
