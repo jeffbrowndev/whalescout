@@ -5,6 +5,7 @@ import styles from '../pages/scss/app.scss';
 import EventSlider from './components/eventSlider';
 import Link from 'next/link';
 import PodcastCard from './components/podcastCard';
+import NewsCard from './components/newsCard';
 
 // Home page
 const Index = props => (
@@ -52,11 +53,33 @@ const Index = props => (
       </section>
       <section className={styles.home_news_and_podcasts}>
         <div className={styles.recent_news}>
-          <h3>Recent News</h3>
+          <div className={styles.recent_header}>
+            <h3>Recent News</h3>
+            <Link href='./news'>
+              <u className={styles.see_all}>See all news posts</u>
+            </Link>
+          </div>
+
+          {props.news.map(article => (
+            <NewsCard
+              key={article.id}
+              date={article.date}
+              title={article.title.rendered}
+              content={article.content.rendered}
+              image={article.acf.featured_image.url}
+            />
+          ))}
+        </div>
+        <Link href='./news'>
+          <u className={styles.see_all_mobile}>See all news posts</u>
+        </Link>
+        <div className={styles.recent_header}>
+          <h3>Recent Podcasts</h3>
+          <Link href='./podcasts'>
+            <u className={styles.see_all}>See all podcasts</u>
+          </Link>
         </div>
         <div className={styles.recent_podcasts}>
-          <h3>Recent Podcasts</h3>
-
           {props.podcasts.map(podcast => {
             return (
               <PodcastCard
@@ -67,12 +90,10 @@ const Index = props => (
               />
             );
           })}
-          <Link href='/podcasts'>
-            <u>
-              <p>Go to all podcasts</p>
-            </u>
-          </Link>
         </div>
+        <Link href='./podcasts'>
+          <u className={styles.see_all_mobile}>See all podcasts</u>
+        </Link>
       </section>
     </div>
     <img
@@ -101,7 +122,7 @@ Index.getInitialProps = async function() {
   ).then(news => news.json());
 
   // Only grab first 2 podcasts and 3 news posts
-  podcasts.length = 2;
+  podcasts.length = 4;
   news.length = 3;
 
   // Load events, podcasts, and news into 'props'

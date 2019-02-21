@@ -2,6 +2,7 @@
 @import 'mixins';
 
 .event {
+  border-radius: 5px;
   width: 475px;
   height: 475px;
   @include mQ(1640px) {
@@ -10,10 +11,16 @@
   }
   @include mQ(575px) {
     width: 100%;
+    border-radius: 0;
+    .event_header {
+      border-radius: 0 !important;
+    }
   }
   background-color: $white;
   margin: auto;
   .event_header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     height: 60%;
     width: 100%;
     background-repeat: no-repeat;

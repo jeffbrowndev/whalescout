@@ -59,7 +59,7 @@
     }
     .what_we_do,
     .you_can_help {
-      max-width: 1300px;
+      max-width: 1200px;
       margin: auto;
       display: flex;
       justify-content: space-around;
@@ -93,6 +93,11 @@
         padding-top: $spacermobile;
       }
     }
+    @include mQ(600px) {
+      h2 {
+        font-size: 36px;
+      }
+    }
   }
 }
 .home_footer_image {
@@ -104,9 +109,12 @@
 .home_news_and_podcasts {
   width: 1200px;
   margin: auto;
-  display: flex;
-  justify-content: flex-start;
-  padding: 50px 0 100px;
+  padding-bottom: 100px;
+  .see_all_mobile {
+    font-family: $raleway-regular;
+    cursor: pointer;
+    display: none;
+  }
   u,
   p,
   h3 {
@@ -116,19 +124,53 @@
     font-family: $raleway-regular;
     cursor: pointer;
   }
-  h3 {
-    font-family: $voltage;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 1;
-    margin-bottom: 25px;
+  .recent_header {
+    margin-top: 100px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    u {
+      font-family: $raleway-regular;
+      cursor: pointer;
+    }
+    h3 {
+      font-family: $voltage;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 1;
+      margin-bottom: 25px;
+    }
+    @include mQ(600px) {
+      h3 {
+        margin: 0 auto 15px;
+      }
+    }
   }
-  .recent_news {
-    width: 960px;
-  }
+
   .recent_podcasts {
-    .podcast_card {
-      margin: 0 auto 25px auto;
+    display: flex;
+    justify-content: center;
+    @include mQ(900px) {
+      .podcast_card {
+        margin: 0 7.5px 15px;
+      }
+    }
+    @include mQ(500px) {
+      .podcast_card {
+        margin: 0 0 15px;
+      }
+    }
+    @include mQ(1250px) {
+      flex-wrap: wrap;
+    }
+  }
+  @include mQ(1250px) {
+    width: 94%;
+  }
+  @include mQ(600px) {
+    text-align: center;
+    .see_all_mobile {
+      display: block;
     }
   }
 }

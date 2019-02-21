@@ -2,6 +2,7 @@
 @import 'mixins';
 
 .podcast_card {
+  border-radius: 5px;
   transition: $fast;
   width: 275px;
   min-height: 275px;

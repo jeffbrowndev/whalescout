@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -300,142 +300,198 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, "HOME"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, "ABOUT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, "TEAM/SUPPORTERS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, "HOME")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./news",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
-        },
-        __self: this
-      }, "CONTACT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, "LEARN"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
-      }, "ACT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, "HELPIN' OUT EVENTS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, "STEWARDSHIP"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, "NEWS")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./watch",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 30
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, "WATCH")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./volunteer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "VOLUNTEER")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "#",
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 36
         },
         __self: this
-      }, "WATCH"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }, "PROTECT"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, "JOIN"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, "STORE")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "#",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         },
         __self: this
-      }, "VOLUNTEER"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
         },
         __self: this
-      }, "STORE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+      }, "DONATE")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 44
         },
         __self: this
-      }, "DONATE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 45
         },
         __self: this
-      }, "PODCAST")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_connect,
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./act",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, "ACT")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./learn",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, "LEARN")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./team",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "TEAM")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./contact",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }, "CONTACT")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "./podcasts",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, "PODCAST"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_connect,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.news_letter,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 65
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 66
         },
         __self: this
       }, "Join Our Newsletter"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.signup_form,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 67
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -443,76 +499,76 @@ function (_React$Component) {
         placeholder: "Your e-mail",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 68
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 69
         },
         __self: this
       }, "SIGN UP"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 70
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.connect,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 73
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.address,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 74
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 75
         },
         __self: this
       }, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 76
         },
         __self: this
       }, "P.O. Box 426", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 78
         },
         __self: this
       }), "Woodinville, WA 98072", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 80
         },
         __self: this
       }), "425-770-0787", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 82
         },
         __self: this
       }), "info@whalescout.org")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 86
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 87
         },
         __self: this
       }, "Follow"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -521,7 +577,7 @@ function (_React$Component) {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 88
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -530,7 +586,7 @@ function (_React$Component) {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 93
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
@@ -539,20 +595,20 @@ function (_React$Component) {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 98
         },
         __self: this
       }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.credits,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 107
         },
         __self: this
       }, "\xA9 Copyright 2018 Whale Scout\xA0| All Rights Reserved\xA0| Website\xA0by\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 110
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
@@ -560,13 +616,13 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 111
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 112
         },
         __self: this
       }, "Jeff\xA0Brown"))))));
@@ -620,8 +676,7 @@ var Header = function Header() {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
-    type: "text/css",
-    href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -630,10 +685,19 @@ var Header = function Header() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
     rel: "stylesheet",
     type: "text/css",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "stylesheet",
+    type: "text/css",
     href: "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
@@ -642,7 +706,7 @@ var Header = function Header() {
     href: "/static/react-big-calendar.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 22
     },
     __self: this
   }));
@@ -1355,77 +1419,124 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var text_ellipsis__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(text_ellipsis__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\podcastCard.js";
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 
 
 
-var PodcastCard = function PodcastCard(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.podcast_card,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.podcast_date_banner,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.podcast_date,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, props.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tail,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, text_ellipsis__WEBPACK_IMPORTED_MODULE_2___default()(props.title, 140)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    href: "#",
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.listen,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/podcast?slug=".concat(props.slug),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: './static/images/play.svg',
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "LISTEN NOW")));
-};
+
+
+
+var PodcastCard =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(PodcastCard, _React$Component);
+
+  function PodcastCard(props) {
+    _classCallCheck(this, PodcastCard);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(PodcastCard).call(this, props));
+  }
+
+  _createClass(PodcastCard, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4___default.a, {
+        animateIn: "fadeIn",
+        animateOnce: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.podcast_card,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.podcast_date_banner,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.podcast_date,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, this.props.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tail,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, text_ellipsis__WEBPACK_IMPORTED_MODULE_2___default()(this.props.title, 140)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        href: "#",
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.listen,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        href: "/podcast?slug=".concat(this.props.slug),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: './static/images/play.svg',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "LISTEN NOW"))));
+    }
+  }]);
+
+  return PodcastCard;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (PodcastCard);
 
@@ -1653,6 +1764,8 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 /***/ (function(module, exports) {
 
 module.exports = {
+	"aos-animate": "_211VxSOMImdfPatYAL8ZDX",
+	"no-js": "_13vK4KzWAQtm3o4ubwwbOY",
 	"member": "_31aIprjyBDmsvNZgzxNNJn",
 	"team_about": "_2RIpZQWfUl8DAJli_14zqY",
 	"team_image": "_1Ykj-snCIPdebCijdcVZbj",
@@ -1672,7 +1785,8 @@ module.exports = {
 	"you_can_help": "_1vY_ltV4OE-Kme6UDda8wH",
 	"home_footer_image": "_1g85GiWtGJFWIuoFCLdNCj",
 	"home_news_and_podcasts": "sdReeN9ru-ldZX0BUMOME",
-	"recent_news": "fX-sf_FxGFr0bdVHy7zF2",
+	"see_all_mobile": "SBD7C-li_EIenyRpTc17w",
+	"recent_header": "_3sUB93TIVgzoU3dYJqMd5b",
 	"recent_podcasts": "wU47ZMmTyCv2qDxz64lL9",
 	"podcast_card": "_3wFAUIjQ5E0PsxcKo5oXTH",
 	"team": "_34GCJZmVKrJNmFict_LS7L",
@@ -1769,6 +1883,8 @@ module.exports = {
 	"news_content_right": "_3vMInAPe0vQqwAbQ3BZBJy",
 	"news_excerpt": "_1nXltfRJ93XEhAoZeuRSUR",
 	"read_more": "_2M0kK62g26n17gSfqPCPpQ",
+	"see_all": "JxPfD_mEfyN5eIb9Yjhp0",
+	"news_wrapper": "yW04KR3ykmp0-7abWPvkL",
 	"news": "_3G3ZrdLBkARDkvlEgYNXV6",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
@@ -1826,7 +1942,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 7:
+/***/ 3:
 /*!*********************************!*\
   !*** multi ./pages/podcasts.js ***!
   \*********************************/
@@ -1934,6 +2050,17 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-animate-on-scroll":
+/*!******************************************!*\
+  !*** external "react-animate-on-scroll" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-animate-on-scroll");
 
 /***/ }),
 

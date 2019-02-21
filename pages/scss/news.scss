@@ -1,8 +1,11 @@
 @import 'variables';
 @import 'mixins';
 
-.news {
-  padding: 50px 0;
-  width: 960px;
-  margin: auto;
+.news_wrapper {
+  background: $mediumgreen;
+  .news {
+    padding: 50px 0;
+    width: 1200px;
+    margin: auto;
+  }
 }

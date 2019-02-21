@@ -1,18 +1,23 @@
 import Layout from './components/layout';
 import NewsCard from './components/newsCard';
 import styles from './scss/app.scss';
+import fetch from 'isomorphic-unfetch';
 
 const News = props => {
   return (
-    <Layout>
-      <div className={styles.news}>
-        {props.news.map(article => (
-          <NewsCard
-            title={article.title.rendered}
-            content={article.content.rendered}
-            image={article.acf.featured_image.url}
-          />
-        ))}
+    <Layout color='#96cec4'>
+      <div className={styles.news_wrapper}>
+        <div className={styles.news}>
+          {props.news.map(article => (
+            <NewsCard
+              key={article.id}
+              date={article.date}
+              title={article.title.rendered}
+              content={article.content.rendered}
+              image={article.acf.featured_image.url}
+            />
+          ))}
+        </div>
       </div>
     </Layout>
   );

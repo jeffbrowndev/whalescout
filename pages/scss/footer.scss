@@ -32,8 +32,16 @@
         letter-spacing: 1px;
         .site_map_column {
           padding-right: 50px;
+          li {
+            cursor: pointer;
+            transition: $slow;
+            letter-spacing: 2px;
+            &:hover {
+              color: $mediumgreen;
+            }
+          }
           .bold {
-            font-family: $raleway-extrabold;
+            font-family: $raleway-bold;
           }
         }
       }

@@ -3,9 +3,7 @@
 
 .event_slider_wrapper {
   background: $blue;
-  border-top: 1px solid $grey;
-  border-bottom: 1px solid $grey;
-  padding: 75px 0;
+  padding: 35px 0;
   @include mQ(575px) {
     padding: 0;
   }

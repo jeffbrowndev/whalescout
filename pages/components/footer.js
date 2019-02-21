@@ -21,25 +21,43 @@ class Footer extends React.Component {
             <div className={styles.site_map}>
               <div className={styles.site_map_column}>
                 <ul>
-                  <li className={styles.bold}>HOME</li>
-                  <li className={styles.bold}>ABOUT</li>
-                  <li>TEAM/SUPPORTERS</li>
-                  <li>CONTACT</li>
-                  <li className={styles.bold}>LEARN</li>
-                  <li className={styles.bold}>ACT</li>
-                  <li>HELPIN' OUT EVENTS</li>
-                  <li>STEWARDSHIP</li>
+                  <Link href='./'>
+                    <li className={styles.bold}>HOME</li>
+                  </Link>
+                  <Link href='./news'>
+                    <li className={styles.bold}>NEWS</li>
+                  </Link>
+                  <Link href='./watch'>
+                    <li className={styles.bold}>WATCH</li>
+                  </Link>
+                  <Link href='./volunteer'>
+                    <li className={styles.bold}>VOLUNTEER</li>
+                  </Link>
+                  <Link href='#'>
+                    <li className={styles.bold}>STORE</li>
+                  </Link>
+                  <Link href='#'>
+                    <li className={styles.bold}>DONATE</li>
+                  </Link>
                 </ul>
               </div>
               <div className={styles.site_map_column}>
                 <ul>
-                  <li className={styles.bold}>WATCH</li>
-                  <li className={styles.bold}>PROTECT</li>
-                  <li className={styles.bold}>JOIN</li>
-                  <li>VOLUNTEER</li>
-                  <li>STORE</li>
-                  <li>DONATE</li>
-                  <li className={styles.bold}>PODCAST</li>
+                  <Link href='./act'>
+                    <li className={styles.bold}>ACT</li>
+                  </Link>
+                  <Link href='./learn'>
+                    <li className={styles.bold}>LEARN</li>
+                  </Link>
+                  <Link href='./team'>
+                    <li className={styles.bold}>TEAM</li>
+                  </Link>
+                  <Link href='./contact'>
+                    <li className={styles.bold}>CONTACT</li>
+                  </Link>
+                  <Link href='./podcasts'>
+                    <li className={styles.bold}>PODCAST</li>
+                  </Link>
                 </ul>
               </div>
             </div>
