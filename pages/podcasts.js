@@ -3,6 +3,7 @@ import Layout from './components/layout';
 import styles from './scss/app.scss';
 import fetch from 'isomorphic-unfetch';
 import PodcastCard from './components/podcastCard';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Podcasts extends React.Component {
   constructor(props) {
@@ -30,7 +31,9 @@ class Podcasts extends React.Component {
     return (
       <Layout>
         <div className={styles.podcast_header}>
-          <h1>PODCAST</h1>
+          <ScrollAnimation animateIn='fadeIn'>
+            <h1>PODCAST</h1>
+          </ScrollAnimation>
         </div>
         <div className={styles.search_bar}>
           <input

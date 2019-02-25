@@ -1,6 +1,5 @@
 @import './variables.scss';
 @import './mixins.scss';
-@import './aos.scss';
 @import './member.scss';
 @import './act.scss';
 @import './home.scss';
@@ -21,6 +20,7 @@
 @import './podcastCard.scss';
 @import './newsCard.scss';
 @import './news.scss';
+@import './article.scss';
 
 // CSS Resets
 * {
@@ -138,9 +138,9 @@ a {
   border-top: 20px solid $mediumgreen;
 }
 .triangle_right {
-  height: 150px;
-  margin: 0 25px;
-  border-bottom: 75px solid transparent;
-  border-top: 75px solid transparent;
-  border-left: 20px solid $darkgreen;
+  height: 75px;
+  border-bottom: 36.5px solid transparent;
+  border-top: 36.5px solid transparent;
+  border-left: 10px solid $white;
+  margin-right: 25px;
 }

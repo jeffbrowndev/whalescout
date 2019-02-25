@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -917,8 +917,9 @@ var Links = function Links() {
       lineNumber: 31
     },
     __self: this
-  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/donate",
+  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.paypal.com",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -1561,6 +1562,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _components_podcastCard__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/podcastCard */ "./pages/components/podcastCard.js");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6__);
 
 var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\podcasts.js";
 
@@ -1595,6 +1598,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -1652,27 +1656,34 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.podcast_header,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        animateIn: "fadeIn",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 35
         },
         __self: this
-      }, "PODCAST")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      }, "PODCAST"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.search_bar,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 38
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
@@ -1682,21 +1693,21 @@ function (_React$Component) {
         autoFocus: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 39
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.podcast_cards,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 46
         },
         __self: this
       }, !this.state.match && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
         className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.no_match,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 49
         },
         __self: this
       }, "Sorry, no podcasts match your search"), this.state.podcasts.map(function (podcast) {
@@ -1708,7 +1719,7 @@ function (_React$Component) {
             slug: podcast.slug,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 53
+              lineNumber: 56
             },
             __self: this
           });
@@ -1764,8 +1775,6 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 /***/ (function(module, exports) {
 
 module.exports = {
-	"aos-animate": "_211VxSOMImdfPatYAL8ZDX",
-	"no-js": "_13vK4KzWAQtm3o4ubwwbOY",
 	"member": "_31aIprjyBDmsvNZgzxNNJn",
 	"team_about": "_2RIpZQWfUl8DAJli_14zqY",
 	"team_image": "_1Ykj-snCIPdebCijdcVZbj",
@@ -1884,8 +1893,11 @@ module.exports = {
 	"news_excerpt": "_1nXltfRJ93XEhAoZeuRSUR",
 	"read_more": "_2M0kK62g26n17gSfqPCPpQ",
 	"see_all": "JxPfD_mEfyN5eIb9Yjhp0",
+	"news_header": "_3sfYo1EsHHghmXLHiWZD81",
 	"news_wrapper": "yW04KR3ykmp0-7abWPvkL",
 	"news": "_3G3ZrdLBkARDkvlEgYNXV6",
+	"article_content": "_2U5_7zykfOlNvc_oYSxyHq",
+	"article_image_container": "Cq8YxhIXGN36KJYiMVJSE",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
 	"triangle_right": "_3_p2_0YLdW2C3LuHAaKPpF"
@@ -1942,7 +1954,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*********************************!*\
   !*** multi ./pages/podcasts.js ***!
   \*********************************/

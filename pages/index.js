@@ -6,6 +6,7 @@ import EventSlider from './components/eventSlider';
 import Link from 'next/link';
 import PodcastCard from './components/podcastCard';
 import NewsCard from './components/newsCard';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 // Home page
 const Index = props => (
@@ -13,10 +14,12 @@ const Index = props => (
     <div className={styles.home}>
       {/* Main header */}
       <section className={styles.home_header}>
-        <h1>
-          Protecting <span>Pacific Northwest Whales</span> through land based
-          conservation experiences.
-        </h1>
+        <ScrollAnimation animateIn='fadeIn'>
+          <h1>
+            Protecting <span>Pacific Northwest Whales</span> through land based
+            conservation experiences.
+          </h1>
+        </ScrollAnimation>
       </section>
       {/* Sub-header */}
       <section className={styles.sub_header}>
@@ -39,8 +42,10 @@ const Index = props => (
               Anyone can contribute by donating or volunteering at our Helpin'
               Out Events.
             </p>
-            <button className={styles.main_button}>DONATE</button>
-            <Link href='volunteer'>
+            <a href='http://www.paypal.com' target='_blank'>
+              <button className={styles.main_button}>DONATE</button>
+            </a>
+            <Link href='/volunteer'>
               <button className={styles.main_button}>VOLUNTEER</button>
             </Link>
           </div>
@@ -67,6 +72,7 @@ const Index = props => (
               title={article.title.rendered}
               content={article.content.rendered}
               image={article.acf.featured_image.url}
+              slug={article.slug}
             />
           ))}
         </div>

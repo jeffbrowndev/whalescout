@@ -2,11 +2,14 @@ import Layout from './components/layout';
 import Member from './components/member';
 import team from '../static/scripts/team_members';
 import styles from './scss/app.scss';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default () => (
   <Layout>
     <div className={styles.team_header}>
-      <h1>OUR TEAM</h1>
+      <ScrollAnimation animateIn='fadeIn'>
+        <h1>OUR TEAM</h1>
+      </ScrollAnimation>
     </div>
     <div className={styles.team}>
       {team.map(member => (

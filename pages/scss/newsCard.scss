@@ -10,7 +10,7 @@
   display: flex;
   padding-right: 25px;
   align-items: center;
-  background: $lightgreen;
+  background: $white;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
   transition: $fast;
   &:hover {
@@ -22,21 +22,22 @@
     width: 40%;
     max-height: 275px;
     overflow: hidden;
-    margin-right: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     img {
       width: 125%;
-      opacity: 0.9;
+      opacity: 0.8;
     }
   }
   .news_content_right {
     width: 60%;
     color: $blue;
+    margin-left: 25px;
     h2 {
       padding: 15px 0;
       font-family: $raleway-regular;
+      text-align: left !important;
     }
     p {
       font-size: 20px;
@@ -51,7 +52,7 @@
     }
     .read_more {
       p {
-        color: $white;
+        color: $darkgreen;
         display: inline-block;
         font-size: 14px;
         letter-spacing: 2px;
@@ -65,6 +66,7 @@
       display: none;
     }
     .news_content_right {
+      margin: 0;
       padding: 25px;
       width: 100%;
     }

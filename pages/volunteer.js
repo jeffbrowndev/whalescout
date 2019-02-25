@@ -3,15 +3,18 @@ import styles from './scss/app.scss';
 import EventSlider from './components/eventSlider';
 import fetch from 'isomorphic-unfetch';
 import Perk from './components/perk';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Volunteer = props => (
   <Layout>
     <div className={styles.volunteer}>
       <div className={styles.volunteer_header}>
-        <div className={styles.volunteer_header_text}>
-          <h1>VOLUNTEER</h1>
-          <h2>Everyone can help improve habitat</h2>
-        </div>
+        <ScrollAnimation animateIn='fadeIn'>
+          <div className={styles.volunteer_header_text}>
+            <h1>VOLUNTEER</h1>
+            <h2>Everyone can help improve habitat</h2>
+          </div>
+        </ScrollAnimation>
       </div>
       <div className={styles.article_container}>
         <div className={styles.article_section}>

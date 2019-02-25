@@ -9,7 +9,7 @@ const NewsCard = props => {
   const addBreaks = props.content.replace(/\n\n\n\n/g, '<br>');
   return (
     <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
-      <Link>
+      <Link href={`/article?slug=${props.slug}`}>
         <div className={styles.news_card}>
           <div className={styles.news_content_left}>
             <img src={props.image} />

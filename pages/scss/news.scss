@@ -1,11 +1,31 @@
 @import 'variables';
 @import 'mixins';
 
+.news_header {
+  background-image: url('/static/images/ws_news_header.svg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $mediumgreen;
+  overflow: hidden;
+  h1 {
+    @include headerBold;
+    padding: 8% 0;
+    @include mQ(1350px) {
+      padding: 100px 0;
+    }
+  }
+}
 .news_wrapper {
-  background: $mediumgreen;
+  background: $lightgreen;
   .news {
     padding: 50px 0;
     width: 1200px;
     margin: auto;
+  }
+  @include mQ(1250px) {
+    .news {
+      width: 94%;
+    }
   }
 }

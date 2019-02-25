@@ -95,20 +95,20 @@ audio {
     }
     p {
       color: $grey;
+      font-size: 14px;
     }
   }
   h2 {
     font-family: $raleway-regular;
     color: $mediumgreen;
     padding-top: 10px;
-    font-size: 20px;
   }
   p,
   a,
   li,
   u {
     font-family: $raleway-regular;
-    font-size: 15px;
+    font-size: 16px;
     color: $blue;
     line-height: 2;
   }

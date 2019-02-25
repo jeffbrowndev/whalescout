@@ -30,9 +30,9 @@ const Links = () => {
             <Link href='/store'>
               <li>STORE</li>
             </Link>
-            <Link href='/donate'>
+            <a href='http://www.paypal.com' target='_blank'>
               <li>DONATE</li>
-            </Link>
+            </a>
           </ul>
         </li>
         <Link href='/act'>

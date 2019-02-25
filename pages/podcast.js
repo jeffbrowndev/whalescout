@@ -37,8 +37,8 @@ class Podcast extends React.Component {
               <u>Back to all podcasts</u>
             </p>
           </Link>
-          <h1>{this.state.title}</h1>
           <h2>{podcast.podcast_date}</h2>
+          <h1>{this.state.title}</h1>
           <ReactAudioPlayer
             className={styles.podcast_player}
             src={podcast.podcast_mp3}

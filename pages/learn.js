@@ -2,12 +2,15 @@ import Layout from './components/layout';
 import styles from './scss/app.scss';
 import Composition from './components/composition';
 import Threats from './components/threats';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 export default () => (
   <Layout>
     <div className={styles.learn}>
       <div className={styles.learn_header}>
-        <h1>LEARN</h1>
+        <ScrollAnimation animateIn='fadeIn'>
+          <h1>LEARN</h1>
+        </ScrollAnimation>
       </div>
       <div className={styles.article_container}>
         <div className={styles.article_section}>

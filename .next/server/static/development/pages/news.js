@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -917,8 +917,9 @@ var Links = function Links() {
       lineNumber: 31
     },
     __self: this
-  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/donate",
+  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.paypal.com",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -1445,6 +1446,7 @@ var NewsCard = function NewsCard(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/article?slug=".concat(props.slug),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -1529,6 +1531,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6__);
 
 var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\news.js";
 
@@ -1542,26 +1546,47 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 
+
 var News = function News(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    color: "#96cec4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news_wrapper,
+    color: "#a6d5cd",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news,
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news_header,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    animateIn: "fadeIn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "NEWS"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news_wrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }, props.news.map(function (article) {
@@ -1571,9 +1596,10 @@ var News = function News(props) {
       title: article.title.rendered,
       content: article.content.rendered,
       image: article.acf.featured_image.url,
+      slug: article.slug,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 18
       },
       __self: this
     });
@@ -1621,8 +1647,6 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 /***/ (function(module, exports) {
 
 module.exports = {
-	"aos-animate": "_211VxSOMImdfPatYAL8ZDX",
-	"no-js": "_13vK4KzWAQtm3o4ubwwbOY",
 	"member": "_31aIprjyBDmsvNZgzxNNJn",
 	"team_about": "_2RIpZQWfUl8DAJli_14zqY",
 	"team_image": "_1Ykj-snCIPdebCijdcVZbj",
@@ -1741,8 +1765,11 @@ module.exports = {
 	"news_excerpt": "_1nXltfRJ93XEhAoZeuRSUR",
 	"read_more": "_2M0kK62g26n17gSfqPCPpQ",
 	"see_all": "JxPfD_mEfyN5eIb9Yjhp0",
+	"news_header": "_3sfYo1EsHHghmXLHiWZD81",
 	"news_wrapper": "yW04KR3ykmp0-7abWPvkL",
 	"news": "_3G3ZrdLBkARDkvlEgYNXV6",
+	"article_content": "_2U5_7zykfOlNvc_oYSxyHq",
+	"article_image_container": "Cq8YxhIXGN36KJYiMVJSE",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
 	"triangle_right": "_3_p2_0YLdW2C3LuHAaKPpF"
@@ -1799,7 +1826,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!*****************************!*\
   !*** multi ./pages/news.js ***!
   \*****************************/

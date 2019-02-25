@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1128,8 +1128,9 @@ var Links = function Links() {
       lineNumber: 31
     },
     __self: this
-  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/donate",
+  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.paypal.com",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -1656,6 +1657,7 @@ var NewsCard = function NewsCard(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/article?slug=".concat(props.slug),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -1884,12 +1886,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _components_podcastCard__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/podcastCard */ "./pages/components/podcastCard.js");
 /* harmony import */ var _components_newsCard__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/newsCard */ "./pages/components/newsCard.js");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_9__);
 
 var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\index.js";
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 
 
@@ -1905,47 +1910,54 @@ var Index = function Index(props) {
     color: "#a6d5cd",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.home,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.home_header,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }, "Protecting ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_9___default.a, {
+    animateIn: "fadeIn",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "Pacific Northwest Whales"), " through land based conservation experiences.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Protecting ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Pacific Northwest Whales"), " through land based conservation experiences."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.sub_header,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.what_we_do,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -1953,73 +1965,81 @@ var Index = function Index(props) {
     alt: "Fish",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 27
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.description,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 29
     },
     __self: this
   }, "What We Do..."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 30
     },
     __self: this
   }, "Whale Scout leads the public in land-based whale watching experiences. We channel people\u2019s interest and passion about whales to on the ground salmon habitat restoration events protecting the primary food source of struggling orcas in Puget Sound.", ' '))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.you_can_help,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.description,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 40
     },
     __self: this
   }, "You Can Help!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 41
     },
     __self: this
-  }, "Anyone can contribute by donating or volunteering at our Helpin' Out Events."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.main_button,
+  }, "Anyone can contribute by donating or volunteering at our Helpin' Out Events."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "http://www.paypal.com",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "DONATE"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    href: "volunteer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.main_button,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
+    },
+    __self: this
+  }, "DONATE")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    href: "/volunteer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
+    className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.main_button,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
     },
     __self: this
   }, "VOLUNTEER"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -2027,62 +2047,62 @@ var Index = function Index(props) {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 52
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.home_events_feed,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_eventSlider__WEBPACK_IMPORTED_MODULE_5__["default"], {
     events: props.events,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 57
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.home_news_and_podcasts,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.recent_news,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.recent_header,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 62
     },
     __self: this
   }, "Recent News"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
     href: "./news",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 63
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.see_all,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 64
     },
     __self: this
   }, "See all news posts"))), props.news.map(function (article) {
@@ -2092,9 +2112,10 @@ var Index = function Index(props) {
       title: article.title.rendered,
       content: article.content.rendered,
       image: article.acf.featured_image.url,
+      slug: article.slug,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64
+        lineNumber: 69
       },
       __self: this
     });
@@ -2102,48 +2123,48 @@ var Index = function Index(props) {
     href: "./news",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 79
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.see_all_mobile,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 80
     },
     __self: this
   }, "See all news posts")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.recent_header,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 82
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 83
     },
     __self: this
   }, "Recent Podcasts"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
     href: "./podcasts",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.see_all,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 85
     },
     __self: this
   }, "See all podcasts"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.recent_podcasts,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 88
     },
     __self: this
   }, props.podcasts.map(function (podcast) {
@@ -2154,7 +2175,7 @@ var Index = function Index(props) {
       slug: podcast.slug,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 85
+        lineNumber: 91
       },
       __self: this
     });
@@ -2162,14 +2183,14 @@ var Index = function Index(props) {
     href: "./podcasts",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 100
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
     className: _pages_scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.see_all_mobile,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 101
     },
     __self: this
   }, "See all podcasts")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -2178,7 +2199,7 @@ var Index = function Index(props) {
     alt: "Whale",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 105
     },
     __self: this
   }));
@@ -2245,8 +2266,6 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 /***/ (function(module, exports) {
 
 module.exports = {
-	"aos-animate": "_211VxSOMImdfPatYAL8ZDX",
-	"no-js": "_13vK4KzWAQtm3o4ubwwbOY",
 	"member": "_31aIprjyBDmsvNZgzxNNJn",
 	"team_about": "_2RIpZQWfUl8DAJli_14zqY",
 	"team_image": "_1Ykj-snCIPdebCijdcVZbj",
@@ -2365,8 +2384,11 @@ module.exports = {
 	"news_excerpt": "_1nXltfRJ93XEhAoZeuRSUR",
 	"read_more": "_2M0kK62g26n17gSfqPCPpQ",
 	"see_all": "JxPfD_mEfyN5eIb9Yjhp0",
+	"news_header": "_3sfYo1EsHHghmXLHiWZD81",
 	"news_wrapper": "yW04KR3ykmp0-7abWPvkL",
 	"news": "_3G3ZrdLBkARDkvlEgYNXV6",
+	"article_content": "_2U5_7zykfOlNvc_oYSxyHq",
+	"article_image_container": "Cq8YxhIXGN36KJYiMVJSE",
 	"icon": "_20QzFcLPlWfMAa4oCl1rkM",
 	"image_caption": "_9TU9outYq7TIrkAti99NH",
 	"triangle_right": "_3_p2_0YLdW2C3LuHAaKPpF"
@@ -2423,7 +2445,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

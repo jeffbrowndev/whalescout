@@ -8,6 +8,7 @@ import {
   faTwitter,
   faInstagram
 } from '@fortawesome/free-brands-svg-icons';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 library.add(faFacebook, faInstagram, faTwitter);
 
@@ -15,7 +16,9 @@ const Contact = props => (
   <Layout>
     <div className={styles.contact}>
       <div className={styles.contact_header}>
-        <h1>CONTACT</h1>
+        <ScrollAnimation animateIn='fadeIn'>
+          <h1>CONTACT</h1>
+        </ScrollAnimation>
       </div>
       <div class={styles.contact_content}>
         <div className={styles.contact_content_left}>

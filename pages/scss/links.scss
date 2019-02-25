@@ -12,6 +12,9 @@
   background: $lightgreen;
   z-index: 9999;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.25);
+  a {
+    text-decoration: none;
+  }
   li {
     font-size: 16px;
     transition: $slow;
@@ -19,9 +22,6 @@
     letter-spacing: 2px;
     color: $white;
     padding: 0px 18px 25px;
-    &:hover {
-      // color: rgb(226, 226, 226);
-    }
   }
   .dropdown {
     position: relative;

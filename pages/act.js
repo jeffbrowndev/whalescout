@@ -3,12 +3,15 @@ import EventSlider from './components/eventSlider';
 import styles from './scss/app.scss';
 import Month from './components/month';
 import fetch from 'isomorphic-unfetch';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Act = props => (
   <Layout color='#96cec4'>
     <div className={styles.act}>
       <div className={styles.act_header}>
-        <h1>ACT</h1>
+        <ScrollAnimation animateIn='fadeIn'>
+          <h1>ACT</h1>
+        </ScrollAnimation>
       </div>
       <div className={styles.article_container}>
         <div className={styles.article_section}>

@@ -16237,7 +16237,7 @@ Tokenizer.prototype._emitPartial = function(value){
 module.exports = Stream;
 
 var Parser = __webpack_require__(/*! ./Parser.js */ "./node_modules/htmlparser2/lib/Parser.js");
-var WritableStream = __webpack_require__(/*! readable-stream */ 8).Writable;
+var WritableStream = __webpack_require__(/*! readable-stream */ 7).Writable;
 var StringDecoder = __webpack_require__(/*! string_decoder */ "./node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
 var Buffer = __webpack_require__(/*! buffer */ "./node_modules/buffer/index.js").Buffer;
 
@@ -43412,8 +43412,9 @@ var Links = function Links() {
       lineNumber: 31
     },
     __self: this
-  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/donate",
+  }, "STORE")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.paypal.com",
+    target: "_blank",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -43975,6 +43976,7 @@ var NewsCard = function NewsCard(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    href: "/article?slug=".concat(props.slug),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -44078,6 +44080,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! isomorphic-unfetch */ "./node_modules/isomorphic-unfetch/browser.js");
 /* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-animate-on-scroll */ "./node_modules/react-animate-on-scroll/dist/scrollAnimation.min.js");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6__);
 
 var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\news.js";
 
@@ -44091,26 +44095,47 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 
 
+
 var News = function News(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    color: "#96cec4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news_wrapper,
+    color: "#a6d5cd",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news,
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news_header,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    animateIn: "fadeIn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "NEWS"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news_wrapper,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.news,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }, props.news.map(function (article) {
@@ -44120,9 +44145,10 @@ var News = function News(props) {
       title: article.title.rendered,
       content: article.content.rendered,
       image: article.acf.featured_image.url,
+      slug: article.slug,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 18
       },
       __self: this
     });
@@ -44181,18 +44207,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 8:
-/*!*********************************!*\
-  !*** readable-stream (ignored) ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 9:
+/***/ 3:
 /*!*****************************!*\
   !*** multi ./pages/news.js ***!
   \*****************************/
@@ -44203,6 +44218,17 @@ __NEXT_REGISTER_PAGE('/news', function() {
 module.exports = __webpack_require__(/*! ./pages/news.js */"./pages/news.js");
 
 return { page: module.exports.default }});
+
+/***/ }),
+
+/***/ 7:
+/*!*********************************!*\
+  !*** readable-stream (ignored) ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -44217,5 +44243,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=news.js.map
