@@ -34,7 +34,7 @@ const News = props => {
 News.getInitialProps = async function() {
   // Get news/blog posts
   const news = await fetch(
-    'http://localhost/whalescout/wp-json/wp/v2/posts?categories=4'
+    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=3'
   ).then(news => news.json());
 
   return { news };

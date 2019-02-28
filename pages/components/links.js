@@ -30,7 +30,10 @@ const Links = () => {
             <Link href='/store'>
               <li>STORE</li>
             </Link>
-            <a href='http://www.paypal.com' target='_blank'>
+            <a
+              href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url'
+              target='_blank'
+            >
               <li>DONATE</li>
             </a>
           </ul>

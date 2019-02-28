@@ -13,7 +13,7 @@ class Podcast extends React.Component {
   }
   componentDidMount() {
     fetch(
-      `http://localhost/whalescout/wp-json/wp/v2/posts?slug=${
+      `http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
         this.props.url.query.slug
       }`
     )

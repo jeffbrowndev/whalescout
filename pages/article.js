@@ -13,7 +13,7 @@ class Article extends React.Component {
   }
   componentDidMount() {
     fetch(
-      `http://localhost/whalescout/wp-json/wp/v2/posts?slug=${
+      `http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
         this.props.url.query.slug
       }`
     )
@@ -37,9 +37,9 @@ class Article extends React.Component {
           </Link>
           <h2>{moment(article.date).format('LL')}</h2>
           <h1>{article.title}</h1>
-          <div className={styles.article_image_container}>
+          {/* <div className={styles.article_image_container}>
             <img src={article.image} />
-          </div>
+          </div> */}
           <div className={styles.article_body}>
             {ReactHtmlParser(article.description)}
           </div>
