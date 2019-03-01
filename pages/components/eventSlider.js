@@ -7,9 +7,11 @@ export default class EventSlider extends React.Component {
   getSlidesLarge() {
     // Only show 3 slides max on large desktops
     const events = this.props.events;
-    if (events.length <= 3 && events.length > 0) return events.length;
-    else if (events.length === 0) return 1;
-    else return 3;
+    if (events !== undefined) {
+      if (events.length <= 3 && events.length > 0) return events.length;
+      else if (events.length === 0) return 1;
+      else return 3;
+    }
   }
   getSlidesSmall() {
     // Only show 2 slides max on small desktops, 1 slide on anything smaller
