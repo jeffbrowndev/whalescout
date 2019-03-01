@@ -71,7 +71,7 @@ class Podcasts extends React.Component {
 Podcasts.getInitialProps = async function() {
   // Get ALL podcasts
   const podcasts = await fetch(
-    'http://localhost/whalescout/wp-json/wp/v2/posts?categories=3'
+    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=4'
   ).then(podcasts => podcasts.json());
 
   // Add a 'visible' property to each podcast for search bar functionality
