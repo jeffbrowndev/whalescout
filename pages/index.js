@@ -117,17 +117,17 @@ const Index = props => (
 Index.getInitialProps = async function() {
   // Get events
   const events = await fetch(
-    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
+    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
   ).then(events => events.json());
 
   // Get podcasts
   const podcasts = await fetch(
-    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=4'
+    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=4'
   ).then(podcasts => podcasts.json());
 
   // Get news/blog posts
   const news = await fetch(
-    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=3'
+    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=3'
   ).then(news => news.json());
 
   // Only grab first 2 podcasts and 3 news posts

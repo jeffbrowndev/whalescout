@@ -123,7 +123,7 @@ export default Act;
 Act.getInitialProps = async function() {
   // Get events
   const events = await fetch(
-    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
+    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
   ).then(events => events.json());
 
   // Store events data into 'props'

@@ -13,7 +13,7 @@ class Article extends React.Component {
   }
   componentDidMount() {
     fetch(
-      `http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
+      `https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
         this.props.url.query.slug
       }`
     )
