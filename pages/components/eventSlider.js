@@ -4,6 +4,9 @@ import Event from './event';
 import Slider from 'react-slick';
 
 export default class EventSlider extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   getSlidesLarge() {
     // Only show 3 slides max on large desktops
     const events = this.props.events;
