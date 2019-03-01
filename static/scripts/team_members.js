@@ -20,7 +20,7 @@ const Whitney = new Member(
   'Director',
   'director@whalescout.org',
   'Whitney Neugebauer completed degrees in Geology and Anthropology from Eckerd College prior to receiving her master’s degree in Marine and Environmental Affairs from the University of Washington. She went on to found Whale Scout in 2013. Previously, Whitney served on the board of Sound Action and she currently serves on the board of One Bothell and Friends of North Creek Forest. She teaches kids jiu jitsu at Evergreen Karate and Jiu Jitsu in Bothell with her husband, Bryan Alvarez. Together they have one daughter and too many cats.',
-  './static/images/whitney.jpg',
+  'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/whitney.jpg',
   green
 );
 
