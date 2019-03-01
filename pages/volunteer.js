@@ -159,7 +159,7 @@ const Volunteer = props => (
 Volunteer.getInitialProps = async function() {
   // Get events
   const events = await fetch(
-    'http://localhost/whalescout/wp-json/wp/v2/posts?categories=2'
+    'http://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
   ).then(events => events.json());
 
   // Store events data into 'props'
