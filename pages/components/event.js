@@ -3,6 +3,9 @@ import styles from '../scss/app.scss';
 import Link from 'next/link';
 
 class Event extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
     const imageSrc = {
       backgroundImage: `url(${this.props.image})`

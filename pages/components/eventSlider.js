@@ -3,7 +3,7 @@ import styles from '../scss/app.scss';
 import Event from './event';
 import Slider from 'react-slick';
 
-export default class EventSlider extends React.Component {
+class EventSlider extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -53,7 +53,7 @@ export default class EventSlider extends React.Component {
         }
       ]
     };
-    if (this.props.events.length > 0) {
+    if (this.props.events !== undefined) {
       return (
         <div className={styles.event_slider_wrapper}>
           <Slider {...settings} className={styles.event_slider}>
@@ -90,3 +90,5 @@ export default class EventSlider extends React.Component {
     }
   }
 }
+
+export default EventSlider;
