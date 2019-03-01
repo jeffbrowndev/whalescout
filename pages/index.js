@@ -115,20 +115,21 @@ const Index = props => (
 
 // Fetch data from Wordpress REST API
 Index.getInitialProps = async function() {
+  const database = 'https://lederconsulting.dreamhosters.com';
   // Get events
   const events = await fetch(
-    `${process.env.DATABASE}/wp-json/wp/v2/posts?categories=2`
+    `${database}/wp-json/wp/v2/posts?categories=2`
   ).then(events => events.json());
 
   // Get podcasts
   const podcasts = await fetch(
-    `${process.env.DATABASE}/wp-json/wp/v2/posts?categories=4`
+    `${database}/wp-json/wp/v2/posts?categories=4`
   ).then(podcasts => podcasts.json());
 
   // Get news/blog posts
-  const news = await fetch(
-    `${process.env.DATABASE}/wp-json/wp/v2/posts?categories=3`
-  ).then(news => news.json());
+  const news = await fetch(`${database}/wp-json/wp/v2/posts?categories=3`).then(
+    news => news.json()
+  );
 
   // Only grab first 2 podcasts and 3 news posts
   podcasts.length = 4;
