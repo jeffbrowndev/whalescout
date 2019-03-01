@@ -6,7 +6,6 @@ const moment = require('moment');
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const NewsCard = props => {
-  const addBreaks = props.content.replace(/\n\n\n\n/g, '<br>');
   return (
     <ScrollAnimation animateIn='fadeIn' animateOnce={true}>
       <Link href={`/article?slug=${props.slug}`}>

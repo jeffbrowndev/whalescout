@@ -46864,6 +46864,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Jeff Brown\\Desktop\\Web Dev\\Client Websites\\Whale Scout\\App\\pages\\components\\event.js";
+
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -46891,10 +46893,10 @@ var Event =
 function (_React$Component) {
   _inherits(Event, _React$Component);
 
-  function Event() {
+  function Event(props) {
     _classCallCheck(this, Event);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(Event).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(Event).call(this, props));
   }
 
   _createClass(Event, [{
@@ -46904,23 +46906,81 @@ function (_React$Component) {
         backgroundImage: "url(".concat(this.props.image, ")")
       };
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_header,
-        style: imageSrc
+        style: imageSrc,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date_banner
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date_banner,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
       }, this.props.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tail
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tail,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer_content
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, this.props.title || "Helpin' Out Event!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.description || 'No description provided.'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/event?slug=".concat(this.props.slug)
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "VIEW DETAILS")))));
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer_content,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, this.props.title || "Helpin' Out Event!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, this.props.description || 'No description provided.'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/event?slug=".concat(this.props.slug),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, "VIEW DETAILS")))));
     }
   }]);
 
@@ -46959,8 +47019,7 @@ function (_React$Component) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return EventSlider; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
@@ -46999,10 +47058,10 @@ var EventSlider =
 function (_React$Component) {
   _inherits(EventSlider, _React$Component);
 
-  function EventSlider() {
+  function EventSlider(props) {
     _classCallCheck(this, EventSlider);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(EventSlider).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(EventSlider).call(this, props));
   }
 
   _createClass(EventSlider, [{
@@ -47020,7 +47079,10 @@ function (_React$Component) {
     value: function getSlidesSmall() {
       // Only show 2 slides max on small desktops, 1 slide on anything smaller
       var events = this.props.events;
-      if (events.length >= 2) return 2;else return 1;
+
+      if (events !== undefined) {
+        if (events.length >= 2) return 2;else return 1;
+      }
     }
   }, {
     key: "render",
@@ -47050,19 +47112,19 @@ function (_React$Component) {
         }]
       };
 
-      if (this.props.events.length > 0) {
+      if (this.props.events !== undefined) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
           className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider_wrapper,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 53
+            lineNumber: 58
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_3___default.a, _extends({}, settings, {
           className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 54
+            lineNumber: 59
           },
           __self: this
         }), this.props.events.map(function (event) {
@@ -47076,7 +47138,7 @@ function (_React$Component) {
             image: event.acf.image || './static/images/ws_home_header.svg',
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 57
+              lineNumber: 62
             },
             __self: this
           });
@@ -47087,26 +47149,26 @@ function (_React$Component) {
           className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider_wrapper,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 76
+            lineNumber: 81
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_3___default.a, _extends({}, settings, {
           className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 77
+            lineNumber: 82
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78
+            lineNumber: 83
           },
           __self: this
         }, "No events are currently\xA0scheduled. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79
+            lineNumber: 84
           },
           __self: this
         }), "Please check back\xA0later!")));
@@ -47117,7 +47179,7 @@ function (_React$Component) {
   return EventSlider;
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
-
+/* harmony default export */ __webpack_exports__["default"] = (EventSlider);
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -48477,73 +48539,72 @@ var moment = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js"
 
 
 var NewsCard = function NewsCard(props) {
-  var addBreaks = props.content.replace(/\n\n\n\n/g, '<br>');
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_5___default.a, {
     animateIn: "fadeIn",
     animateOnce: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "/article?slug=".concat(props.slug),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.news_card,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.news_content_left,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: props.image,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.news_content_right,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, moment(props.date).format('LL')), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.read_more,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, "READ MORE \u2192"))))));
