@@ -16,9 +16,9 @@ class PodcastCard extends React.Component {
             <div className={styles.podcast_date}>{this.props.date}</div>
             <div className={styles.tail} />
           </div>
-          <h4>{ellipsis(this.props.title, 140)}</h4>
+          <h4>{ellipsis(this.props.title, 140) || 'Podcast'}</h4>
           <div href='#' className={styles.listen}>
-            <Link href={`/podcast?slug=${this.props.slug}`}>
+            <Link href={`/podcast?slug=${this.props.slug}` || '/podcasts'}>
               <img src={'./static/images/play.svg'} />
             </Link>
             <span>LISTEN NOW</span>
