@@ -1,5 +1,5 @@
 // Database URL
-const database = process.env.DATABASE;
+const database = 'https://lederconsulting.dreamhosters.com';
 
 // Create team member
 function Member(name, role, email, about, image, color) {

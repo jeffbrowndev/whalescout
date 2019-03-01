@@ -9,7 +9,7 @@ const getColor = color => {
 const Member = props => (
   <div className={css.member}>
     <div className={css.team_image}>
-      <img src={require(props.image)} />
+      <img src={props.image} />
       <div className={css.square} style={getColor(props.color)} />
     </div>
     <div className={css.team_about}>
