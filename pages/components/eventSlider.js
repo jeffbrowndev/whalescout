@@ -15,9 +15,11 @@ export default class EventSlider extends React.Component {
   }
   getSlidesSmall() {
     // Only show 2 slides max on small desktops, 1 slide on anything smaller
-    const events = this.props.events;
-    if (events.length >= 2) return 2;
-    else return 1;
+    if (events !== undefined) {
+      const events = this.props.events;
+      if (events.length >= 2) return 2;
+      else return 1;
+    }
   }
   render() {
     // Slick slider config
