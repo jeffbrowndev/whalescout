@@ -21,16 +21,16 @@ class Footer extends React.Component {
             <div className={styles.site_map}>
               <div className={styles.site_map_column}>
                 <ul>
-                  <Link href='./'>
+                  <Link href='/'>
                     <li className={styles.bold}>HOME</li>
                   </Link>
-                  <Link href='./news'>
+                  <Link href='/news'>
                     <li className={styles.bold}>NEWS</li>
                   </Link>
-                  <Link href='./watch'>
+                  <Link href='/watch'>
                     <li className={styles.bold}>WATCH</li>
                   </Link>
-                  <Link href='./volunteer'>
+                  <Link href='/volunteer'>
                     <li className={styles.bold}>VOLUNTEER</li>
                   </Link>
                   <Link href='#'>
@@ -43,19 +43,19 @@ class Footer extends React.Component {
               </div>
               <div className={styles.site_map_column}>
                 <ul>
-                  <Link href='./act'>
+                  <Link href='/act'>
                     <li className={styles.bold}>ACT</li>
                   </Link>
-                  <Link href='./learn'>
+                  <Link href='/learn'>
                     <li className={styles.bold}>LEARN</li>
                   </Link>
-                  <Link href='./team'>
+                  <Link href='/team'>
                     <li className={styles.bold}>TEAM</li>
                   </Link>
-                  <Link href='./contact'>
+                  <Link href='/contact'>
                     <li className={styles.bold}>CONTACT</li>
                   </Link>
-                  <Link href='./podcasts'>
+                  <Link href='/podcasts'>
                     <li className={styles.bold}>PODCAST</li>
                   </Link>
                 </ul>
