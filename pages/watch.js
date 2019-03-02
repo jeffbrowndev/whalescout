@@ -10,7 +10,11 @@ export default () => (
       <div className={styles.watch_header_container}>
         <div className={styles.watch_header}>
           <div className={styles.watch_header_image}>
-            <img src={'./static/images/watching.jpg'} />
+            <img
+              src={
+                'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/watching.jpg'
+              }
+            />
             <div className={styles.square} />
           </div>
           <div className={styles.watch_header_text}>
@@ -126,7 +130,11 @@ export default () => (
           </div>
         </div>
         <div className={styles.watch_more_image}>
-          <img src={'./static/images/watching_2.jpg'} />
+          <img
+            src={
+              'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/watching_2.jpg'
+            }
+          />
           <div className={styles.square} />
         </div>
       </div>
