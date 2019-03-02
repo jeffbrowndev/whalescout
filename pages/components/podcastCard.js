@@ -31,7 +31,11 @@ class PodcastCard extends React.Component {
                 this.props.slug !== undefined ? this.props.slug : '/podcasts'
               }`}
             >
-              <img src={'./static/images/play.svg'} />
+              <img
+                src={
+                  'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/play.svg'
+                }
+              />
             </Link>
             <span>LISTEN NOW</span>
           </div>
