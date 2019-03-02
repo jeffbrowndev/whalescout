@@ -93,7 +93,7 @@ const Index = props => (
             return (
               <PodcastCard
                 key={podcast.slug}
-                title={podcast.acf.podcast_title}
+                title={podcast.title.rendered}
                 date={podcast.acf.podcast_date}
                 slug={podcast.slug}
               />
@@ -132,7 +132,7 @@ Index.getInitialProps = async function() {
   );
 
   // Only grab first 2 podcasts and 3 news posts
-  podcasts.length = 4;
+  podcasts.length = 2;
   news.length = 3;
 
   // Load events, podcasts, and news into 'props'

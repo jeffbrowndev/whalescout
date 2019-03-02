@@ -20,7 +20,7 @@ const Threats = props => (
           reproductive issues.
         </p>
       </div>
-      <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/toxins.svg' />
+      <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/toxins-1.svg' />
     </div>
     <div className={styles.threats_bottom}>
       <div className={styles.threats_header}>

@@ -55,7 +55,7 @@ class Podcasts extends React.Component {
               return (
                 <PodcastCard
                   key={podcast.slug}
-                  title={podcast.acf.podcast_title}
+                  title={podcast.title.rendered}
                   date={podcast.acf.podcast_date}
                   slug={podcast.slug}
                 />

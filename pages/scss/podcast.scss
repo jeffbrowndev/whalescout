@@ -71,49 +71,69 @@ audio {
 // Single podcast page styles
 .podcast_content {
   max-width: 960px;
-  margin: auto;
-  padding-top: 50px;
+  font-family: $raleway-regular;
+  margin: 50px auto;
   .podcast_player {
-    margin: 50px 0 25px;
+    margin-bottom: 50px;
   }
   .podcast_back {
-    margin-bottom: 25px;
     cursor: pointer;
   }
-  h1 {
-    font-family: $voltage;
-    font-size: 48px;
-    color: $blue;
-    line-height: 1;
-  }
   .image_container {
-    max-width: 960px;
-    padding: 25px 0;
     text-align: center;
     img {
       max-width: 100%;
+      padding: 25px 0;
     }
-    p {
+  }
+  h1 {
+    font-size: 48px;
+    font-family: $voltage !important;
+    line-height: 1;
+    color: $blue;
+    margin-bottom: 50px;
+    text-align: left !important;
+  }
+  u {
+    text-align: left !important;
+    color: $blue;
+    cursor: pointer;
+  }
+  h2 {
+    color: $mediumgreen;
+    padding-top: 50px;
+    text-align: left !important;
+  }
+  p {
+    font-size: 16px;
+    line-height: 2;
+    color: $blue;
+    text-align: left !important;
+  }
+  figure {
+    text-align: center;
+    padding: 25px 0;
+    em,
+    figcaption {
       color: $grey;
       font-size: 14px;
     }
-  }
-  h2 {
-    font-family: $raleway-regular;
-    color: $mediumgreen;
-    padding-top: 10px;
-  }
-  p,
-  a,
-  li,
-  u {
-    font-family: $raleway-regular;
-    font-size: 16px;
-    color: $blue;
-    line-height: 2;
+    img {
+      max-width: 100%;
+      padding-bottom: 0 !important;
+    }
   }
   @include mQ(1100px) {
     padding: 50px 3%;
+    h1 {
+      font-size: 31px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+  @include mQ(1100px) {
+    padding: 0 3%;
     h1 {
       font-size: 31px;
     }
