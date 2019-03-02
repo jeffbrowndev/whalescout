@@ -10,7 +10,7 @@ const Threats = props => (
           populations for 80% of their diet
         </p>
       </div>
-      <img src='./static/images/learn_images/chasing.svg' />
+      <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/chasing.svg' />
     </div>
     <div className={styles.threats_middle}>
       <div className={styles.threats_header}>
@@ -20,7 +20,7 @@ const Threats = props => (
           reproductive issues.
         </p>
       </div>
-      <img src='./static/images/learn_images/toxins.svg' />
+      <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/toxins.svg' />
     </div>
     <div className={styles.threats_bottom}>
       <div className={styles.threats_header}>
@@ -30,7 +30,7 @@ const Threats = props => (
           already diminished prey.
         </p>
       </div>
-      <img src='./static/images/learn_images/vessels.svg' />
+      <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/vessels.svg' />
     </div>
   </div>
 );
