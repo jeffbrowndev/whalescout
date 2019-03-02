@@ -116,36 +116,36 @@ const Volunteer = props => (
       <div className={styles.perks}>
         <div className={styles.perks_top}>
           <Perk
-            src='./static/images/volunteer_icons/book.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/book.svg'
             title='Whale Scout Book Club'
             description='Join our group to read and discuss books about a variety of topics related to whales, Puget Sound, science, etc. We meet about every three months on Saturdays at McMenamins in Bothell. Books are selected based on volunteer selections and a group vote.'
           />
           <Perk
-            src='./static/images/volunteer_icons/map.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/map.svg'
             title='Field Trips'
             description='Past trips have included Cedar River salmon viewing, Elwha River restoration and salmon viewing, Chum salmon viewing on Kitsap. Typically these are day trips but there have been some overnight trips.'
           />
           <Perk
-            src='./static/images/volunteer_icons/training.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/training.svg'
             title='Training Sessions'
             description='Three volunteer training sessions are offered throughout the year. Volunteers are required to attend at least one per year to stay current on the latest scientific findings, messages, and programs offered. Join our newsletter to be informed about our next training opportunity.'
           />
         </div>
         <div className={styles.perks_bottom}>
           <Perk
-            src='./static/images/volunteer_icons/baloons.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/baloons.svg'
             title='Appreciation Parties'
             description='An annual party held in the spring or summer celebrates all our volunteers for the year of service. We enjoy food, drinks, and a lovely atmosphere at a property in Bellevue - all graciously donated!'
           />
           <Perk
-            src='./static/images/volunteer_icons/hat.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/hat.svg'
             title='Earn Swag!'
             description='20 hours of land-based whale watching service - extra loaner pair of binoculars
             2 years of service - Whale Scout beanie
             Plus, every year new interpretive materials are given to each volunteer including ID guides.'
           />
           <Perk
-            src='./static/images/volunteer_icons/friends.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/friends.svg'
             title='Make Friends'
             description='Hopefully we can find another perk to add here to make it an even three. This way this section will match the section above and create a sense of order and symmetry. Let try to think of one!'
           />

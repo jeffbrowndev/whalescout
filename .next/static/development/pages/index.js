@@ -16652,7 +16652,7 @@ Tokenizer.prototype._emitPartial = function(value){
 module.exports = Stream;
 
 var Parser = __webpack_require__(/*! ./Parser.js */ "./node_modules/htmlparser2/lib/Parser.js");
-var WritableStream = __webpack_require__(/*! readable-stream */ 7).Writable;
+var WritableStream = __webpack_require__(/*! readable-stream */ 10).Writable;
 var StringDecoder = __webpack_require__(/*! string_decoder */ "./node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
 var Buffer = __webpack_require__(/*! buffer */ "./node_modules/buffer/index.js").Buffer;
 
@@ -49208,7 +49208,18 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 3:
+/***/ 10:
+/*!*********************************!*\
+  !*** readable-stream (ignored) ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 8:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -49219,17 +49230,6 @@ __NEXT_REGISTER_PAGE('/', function() {
 module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
 
 return { page: module.exports.default }});
-
-/***/ }),
-
-/***/ 7:
-/*!*********************************!*\
-  !*** readable-stream (ignored) ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
 
 /***/ }),
 
@@ -49244,5 +49244,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[8,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

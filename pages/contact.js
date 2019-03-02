@@ -36,7 +36,7 @@ const Contact = props => (
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src='./static/images/contact_icons/marker.svg'
+              src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/marker.svg'
             />
             <p>
               PO Box 426
@@ -49,14 +49,14 @@ const Contact = props => (
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src='./static/images/contact_icons/phone.svg'
+              src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/phone.svg'
             />
             <p>425-770-0787</p>
           </div>
           <div className={styles.content_icon_section}>
             <img
               className={styles.contact_icon}
-              src='./static/images/contact_icons/email.svg'
+              src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/email.svg'
             />
             <p>info@whalescout.org</p>
           </div>

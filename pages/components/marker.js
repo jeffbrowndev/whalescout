@@ -2,7 +2,12 @@ import styles from '../scss/app.scss';
 
 const Marker = () => (
   <div className={styles.marker_container}>
-    <img className={styles.marker} src={'./static/images/marker.png'} />
+    <img
+      className={styles.marker}
+      src={
+        'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/marker.png'
+      }
+    />
   </div>
 );
 

@@ -52,62 +52,62 @@ const Act = props => (
         </div>
         <div className={styles.months}>
           <Month
-            src='./static/images/act_icons/policies.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/fish.svg'
             title='January'
             description='Support natural area protection policies'
           />
           <Month
-            src='./static/images/act_icons/recycle.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/recycle.svg'
             title='February'
             description='Reduce, reuse, recycle'
           />
           <Month
-            src='./static/images/act_icons/toxins.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/toxins.svg'
             title='March'
             description='Switch to non-toxic cleaner and yard care'
           />
           <Month
-            src='./static/images/act_icons/car.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/car.svg'
             title='April'
             description='Drive less to reduce footprint'
           />
           <Month
-            src='./static/images/act_icons/groceries.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/groceries.svg'
             title='May'
             description='Shop local, organic grocers'
           />
           <Month
-            src='./static/images/act_icons/water.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/water.svg'
             title='June'
             description='Conserve water'
           />
           <Month
-            src='./static/images/act_icons/boat.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/boat.svg'
             title='July'
             description='Keep habitats quiet by operating vessels slowly.'
           />
           <Month
-            src='./static/images/act_icons/fish.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/fish.svg'
             title='August'
             description='Choose wild, sustainable seafood'
           />
           <Month
-            src='./static/images/act_icons/waves.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/waves.svg'
             title='September'
             description='Support efforts for free-flowing rivers'
           />
           <Month
-            src='./static/images/act_icons/hand.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/hand.svg'
             title='October'
             description='Volunteer for habitat restoration events'
           />
           <Month
-            src='./static/images/act_icons/bulb.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/bulb.svg'
             title='November'
             description='Conserve electricity'
           />
           <Month
-            src='./static/images/act_icons/donate.svg'
+            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/donate.svg'
             title='December'
             description='Donate'
           />

@@ -34,7 +34,7 @@ export default () => (
             species&nbsp;—&nbsp;Chinook.
           </p>
         </div>
-        <img src='./static/images/learn_images/chinook.jpg' />
+        <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/chinook.jpg' />
         <p className={styles.image_caption}>Georgia Strait Alliance</p>
         <div className={styles.article_section}>
           <p>
@@ -53,7 +53,7 @@ export default () => (
             for fish.
           </p>
         </div>
-        <img src='./static/images/learn_images/sockeye.jpg' />
+        <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/sockeye.jpg' />
         <p className={styles.image_caption}>
           Sockeye Salmon in the Adams River, Department of Fisheries and Oceans
           Canada
@@ -116,7 +116,7 @@ export default () => (
             at the Miami Seaquarium.
           </p>
         </div>
-        <img src='./static/images/learn_images/captured.jpg' />
+        <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/captured.jpg' />
         <p className={styles.image_caption}>
           Members of L pod captured in Penn Cove, Wallie Funk, Associated Press
         </p>
@@ -145,7 +145,7 @@ export default () => (
             decline is a lack of&nbsp;salmon.
           </p>
         </div>
-        <img src='./static/images/learn_images/graph.jpg' />
+        <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/graph.jpg' />
         <p className={styles.image_caption}>
           Annual indices of mortality of (a) northern and (b) southern resident
           killer whales and (c) abundance of Chinook salmon, 1979-2003.
@@ -213,7 +213,7 @@ export default () => (
             these populations of salmon are also threatened or endangered.
           </p>
         </div>
-        <img src='./static/images/learn_images/salmon_map.svg' />
+        <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/salmon_map.svg' />
         <p className={styles.image_caption} />
         <div className={styles.article_section}>
           <h1>
@@ -272,7 +272,7 @@ export default () => (
             is harmful for salmon, orcas, and all of us.
           </p>
         </div>
-        <img src='./static/images/learn_images/how_were_helping.jpg' />
+        <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/how_were_helping.jpg' />
         <p className={styles.image_caption}>The Nature Conservancy</p>
         <div className={styles.article_section}>
           <h1>Additional Links & Resources</h1>
