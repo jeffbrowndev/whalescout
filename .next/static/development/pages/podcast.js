@@ -25779,18 +25779,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 7:
-/*!*********************************!*\
-  !*** readable-stream (ignored) ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 8:
+/***/ 15:
 /*!********************************!*\
   !*** multi ./pages/podcast.js ***!
   \********************************/
@@ -25801,6 +25790,17 @@ __NEXT_REGISTER_PAGE('/podcast', function() {
 module.exports = __webpack_require__(/*! ./pages/podcast.js */"./pages/podcast.js");
 
 return { page: module.exports.default }});
+
+/***/ }),
+
+/***/ 7:
+/*!*********************************!*\
+  !*** readable-stream (ignored) ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -25815,5 +25815,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]));;
+},[[15,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=podcast.js.map

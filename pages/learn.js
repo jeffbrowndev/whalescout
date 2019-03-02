@@ -46,11 +46,11 @@ export default () => (
             species of plants, birds, and mammals (terrestrial and marine alike)
             depend on salmon for survival. Once salmon have reached their
             spawning grounds, bears and eagles pluck adult salmon from the river
-            to eat often leaving the nitrogen, carbon, and phosphorous rich
+            to eat, often leaving the nitrogen, carbon, and phosphorous rich
             carcasses behind on the forest floor where they provide nourishment
             to the giant Douglas Firs and Western Hemlock trees. In return,
-            these towering trees shade and protect the river making it habitable
-            for fish.
+            these towering trees shade and protect the river, making it
+            habitable for fish.
           </p>
         </div>
         <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/sockeye.jpg' />
@@ -66,15 +66,15 @@ export default () => (
             eat a wide variety of fish aside from salmon including rockfish,
             herring, smelt, and squid. Today, as large numbers of pinnipeds
             inhabit the coastal waters of the north Pacific, one major ecotype
-            of orca—known as the transient killer whale—are also flourishing.
+            of orca—known as the transient killer whale — is also flourishing.
             Transient killer whales travel in family pods made up of five or six
             individuals, usually a mother and her offspring. They occasionally
             group together with other pods of orcas, related or not, in order to
             reproduce, socialize, and hunt. The diets of these killer whales
             also include other large whales and porpoises.
             <br />
-            <br />A separate ecotype killer whales thrive off the salmon rich,
-            nutrient dense, forest fed waters of what today is known as the
+            <br />A separate killer whale ecotype thrives off the salmon-rich,
+            nutrient-dense, forest-fed waters of what today is known as the
             Salish Sea of Washington and British Columbia. Two distinct
             communities with somewhat overlapping territories exist, Northern
             Residents and Southern Residents. Both rely on salmon—mostly
@@ -82,7 +82,7 @@ export default () => (
             programs and are made up of 3 matriarchal family pods (J, K, and L
             pods). Yet a third ecotype of killer whale exists in the Salish Sea:
             offshore killer whales. Rarely seen, these whales are thought to eat
-            mostly sharks and as a result have worn-down teeth from the rough
+            mostly sharks, and as a result have worn-down teeth from the rough
             skin.
           </p>
         </div>
@@ -104,16 +104,16 @@ export default () => (
             <br />
             Beginning in the early 1960s, the marine park and aquarium industry
             was booming and began to target killer whales in Puget Sound.
-            Capture teams patrolled Puget Sound by air and boat searching for
+            Capture teams patrolled Puget Sound by air and boat, searching for
             orcas. When a pod was located, the teams chased the whales into
             coves, often detonating underwater seal bombs to disorient and
-            frighten them making it easier to corral the group into a net pen
+            frighten them, making it easier to corral the group into a net pen
             and separate and remove the calves to be sold for captivity. It is
             unknown exactly how many whales were taken, but federal estimates
             put the number at around 50 individuals—mainly Southern Resident J
             and L pod individuals. Only one of the captured Southern Residents,
-            named “Lolita” from L pod is alive today and is currently on display
-            at the Miami Seaquarium.
+            named "Lolita" from L pod, is alive today; she is currently on
+            display at the Miami Seaquarium.
           </p>
         </div>
         <img src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/captured.jpg' />
@@ -124,13 +124,13 @@ export default () => (
           <p>
             In 1976, the horrific capture of a transient orca pod (including the
             still wild-living matriarch T46) at Budd Inlet was witnessed by
-            Ralph Munro who, at the time, was an aid to Washington Governor
+            Ralph Munro, who, at the time, was an aid to Washington Governor
             Evans. Motivated by the horror of what he saw, the capture process
             was later outlawed in the state of Washington. As a result, the
             federal government hired biologists to study, count, and track local
             orca populations. Scientists, such as Ken Balcomb with the Center
             for Whale Research on San Juan Island, began to unravel vibrant
-            lives and cultures of the Salish Sea orcas and our fear of these
+            lives and cultures of the Salish Sea orcas, and our fear of these
             northwest icons was replaced with awe. <br />
             <br />
             As the Center for Whale Research continued monitoring the orca
@@ -166,13 +166,13 @@ export default () => (
             Salish Sea have an abundant supply of pinnipeds and other marine
             mammals to feed upon and therefore are able to keep toxins stored
             away in their blubber. The Southern Residents, despite eating lower
-            on the food chain (marine mammals vs. salmon) are more at risk to
+            on the food chain (marine mammals vs. salmon), are more at risk to
             toxin exposure since they are metabolizing their blubber stores
             burning fat during times of low salmon abundance. These toxins are
             proven to disrupt immune and reproductive systems. Compounding these
-            issues are vessel impacts. Underwater noise disrupts the whale’s
-            echolocation and communication and the presence of boats has been
-            linked with behavior changes.
+            issues are vessel impacts. Underwater noise disrupts the whale's
+            echolocation and communication, and the presence of boats has been
+            linked to behavioral changes.
           </p>
         </div>
       </div>
@@ -186,7 +186,7 @@ export default () => (
             ways to watch whales from shore without leaving any trace on our
             waters.(hyperlink to watch section) Second, we help limit toxins
             from entering our waterways. We offer suggestions each month to
-            become better stewards of the environment which add up to help the
+            become better stewards of the environment, which add up to help the
             whales. (hyperlink? To the monthly list of actions on the back of
             the “save orcas” brochure? Direct elsewhere to that info on the
             site?) Our “Helpin’ Out” events (link to Helpin’ Out event listing)
@@ -196,7 +196,7 @@ export default () => (
             and nearshore habitats. This provides salmon more places to live,
             spawn, and thrive. The more salmon there are, the more food killer
             whales have to eat. No matter where you live, you can make a
-            difference with PodMatch (link) through your donations or
+            difference with Podmatch, through your donations, or via
             participation with groups throughout the west coast. <br />
             <br />
             We must keep in mind that we’re striving for intact ecosystems from
@@ -221,8 +221,8 @@ export default () => (
           </h1>
           <div className={styles.line} />
           <p>
-            A significant amount of time spent a volunteer work parties or our
-            “Helpin’ Out” events are spent restoring the “riparian zone” or
+            A significant amount of time spent at volunteer work parties or our
+            "Helpin' Out" events involves restoring the "riparian zone," or
             vegetation immediately along salmon rivers and streams. You may ask,
             “Why is this important, and how does it help?” Well, with the help
             of our friends at the Skagit Fisheries Enhancement Group, we came up
@@ -230,7 +230,7 @@ export default () => (
           </p>
           <br />
           <p>
-            <strong>Cool </strong>- Trees shade the water keeping it cool in
+            <strong>Cool </strong>- Trees shade the water, keeping it cool in
             warm months
           </p>
           <br />
@@ -241,7 +241,7 @@ export default () => (
           <br />
           <p>
             <strong>Clear </strong>- Complex root systems hold the banks of
-            rivers and streams preventing erosion which can smother salmon eggs
+            rivers and streams, preventing erosion which can smother salmon eggs
           </p>
           <br />
           <p>
