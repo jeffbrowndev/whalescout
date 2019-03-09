@@ -1,7 +1,7 @@
-import React from 'react';
-import styles from '../scss/app.scss';
-import Event from './event';
-import Slider from 'react-slick';
+import React from "react";
+import styles from "../scss/app.scss";
+import Event from "./event";
+import Slider from "react-slick";
 
 class EventSlider extends React.Component {
   constructor(props) {
@@ -67,7 +67,7 @@ class EventSlider extends React.Component {
                   description={event.acf.description}
                   // Use default image if no image is provided
                   image={
-                    event.acf.image || './static/images/ws_home_header.svg'
+                    event.acf.image || "./static/images/ws_home_header.svg"
                   }
                 />
               );

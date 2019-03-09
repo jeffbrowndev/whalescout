@@ -2362,14 +2362,16 @@ a {
             border-style: none;
             border: none;
             height: 56px; }
-          ._4lkSwLZRVGCVsPJFOBMMz ._3_XrnnEnEaAOuIZsZKX4Ez .II81dVGYJYsk0xwfxxbUL ._3pYMDdIQuwbTdJTjTW46XV ._3do0oKwmm5DduScsx6moRQ ._1UcgeGMvQcrooDGlMJyFdK button {
+          ._4lkSwLZRVGCVsPJFOBMMz ._3_XrnnEnEaAOuIZsZKX4Ez .II81dVGYJYsk0xwfxxbUL ._3pYMDdIQuwbTdJTjTW46XV ._3do0oKwmm5DduScsx6moRQ ._1UcgeGMvQcrooDGlMJyFdK ._3ZzIg-cmrsdcb2xIiHchyJ {
             font-family: "raleway-extrabold";
             font-size: 16px;
             width: 100px;
             height: 56px;
             border-style: none;
             background: #96cec4;
-            color: white; }
+            color: white;
+            padding-right: 15px;
+            cursor: pointer !important; }
           ._4lkSwLZRVGCVsPJFOBMMz ._3_XrnnEnEaAOuIZsZKX4Ez .II81dVGYJYsk0xwfxxbUL ._3pYMDdIQuwbTdJTjTW46XV ._3do0oKwmm5DduScsx6moRQ ._1UcgeGMvQcrooDGlMJyFdK span {
             border-top: 28px solid #96cec4;
             border-bottom: 28px solid #96cec4;

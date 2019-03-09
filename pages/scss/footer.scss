@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .footer {
   width: 100%;
@@ -66,7 +66,7 @@
               border: none;
               height: 56px;
             }
-            button {
+            .submit_button {
               font-family: $raleway-extrabold;
               font-size: 16px;
               width: 100px;
@@ -74,6 +74,8 @@
               border-style: none;
               background: $mediumgreen;
               color: $white;
+              padding-right: 15px;
+              cursor: pointer !important;
             }
             span {
               border-top: 28px solid $mediumgreen;
