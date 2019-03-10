@@ -3,7 +3,6 @@ import fetch from "isomorphic-unfetch";
 import React from "react";
 import styles from "./scss/app.scss";
 import Link from "next/link";
-import { withRouter } from "next/router";
 const moment = require("moment");
 import ReactHtmlParser from "react-html-parser";
 
@@ -50,4 +49,4 @@ class Article extends React.Component {
   }
 }
 
-export default withRouter(Article);
+export default Article;
