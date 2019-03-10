@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
-import Marker from './marker';
+import React, { Component } from "react";
+import GoogleMapReact from "google-map-react";
+import Marker from "./marker";
 
 class Map extends Component {
   render() {
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '75vh', width: '100%' }}>
+      <div style={{ height: "75vh", width: "100%" }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: process.env.MAP_API_KEY }}
+          bootstrapURLKeys={{ key: "AIzaSyDsXO57NZVMNtNJMNWVOGmwW9y0M-GMK7c" }}
           defaultCenter={{
             // Center map on the Puget Sound
             lat: 47.608013,

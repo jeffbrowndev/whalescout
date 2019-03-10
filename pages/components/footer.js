@@ -64,11 +64,7 @@ class Footer extends React.Component {
             <div className={styles.footer_connect}>
               <div className={styles.news_letter}>
                 <h3>Join Our Newsletter</h3>
-                {/* <div className={styles.signup_form}>
-                  <input type="text" placeholder="Your e-mail" />
-                  <button>SIGN UP</button>
-                  <span />
-                </div> */}
+                {/* Mailchimp newsletter form */}
                 <div id="mc_embed_signup">
                   <form
                     action="https://whalescout.us12.list-manage.com/subscribe/post?u=0ab3aff647e8e72d79cf68062&amp;id=504cc907de"
