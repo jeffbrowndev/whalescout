@@ -88,50 +88,39 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/article.js":
-/*!**************************!*\
-  !*** ./pages/article.js ***!
-  \**************************/
+/***/ "./pages/act.js":
+/*!**********************!*\
+  !*** ./pages/act.js ***!
+  \**********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_html_parser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-html-parser */ "react-html-parser");
-/* harmony import */ var react_html_parser__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_html_parser__WEBPACK_IMPORTED_MODULE_6__);
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
+/* harmony import */ var _components_eventSlider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/eventSlider */ "./pages/components/eventSlider.js");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_month__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/month */ "./pages/components/month.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7__);
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 
 
@@ -140,62 +129,112 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var moment = __webpack_require__(/*! moment */ "moment");
+var Act = function Act(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    color: "#96cec4"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.act
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.act_header
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    animateIn: "fadeIn"
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "ACT"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.article_container
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.article_section
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Get Your Hands Dirty!"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.line
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "If you care about whales and want to help, you are probably closer to the solutions than you might think! Since endangered Southern Resident killer whales need more salmon to survive, and these salmon grow throughout the rivers and streams along the West Coast, what happens in your backyard matters. Join us at \u201CHelpin\u2019 Out\u201D events where you can get your hands dirty helping salmon survive to become orca food.", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "What Scout offers 13 \u201CHelpin\u2019 Out\u201D events a year in the Puget Sound region. The majority of these are open to the public so anyone can join in planting native trees, removing invasive plants, and restoring salmon habitat. Some of this work is done on private property, and others with our partners on public lands. All of it helps make more Chinook salmon for the whales to eat. Learn more about how these events help salmon in the Learn Section. See below to see all our upcoming helpin' out events. We provide all the tools and equipment! We just need your help to make a difference.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.triangle_down
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_eventSlider__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    events: props.events
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.monthly_checklist
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.monthly_checklist_header
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", null, "Do Things Everyday"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "A year of keeping killer whales, their food, and their habitats protected. You can make a difference by following this monthly checklist.")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_4___default.a.months
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/fish.svg",
+    title: "January",
+    description: "Support natural area protection policies"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/recycle.svg",
+    title: "February",
+    description: "Reduce, reuse, recycle"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/toxins.svg",
+    title: "March",
+    description: "Switch to non-toxic cleaner and yard care"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/car.svg",
+    title: "April",
+    description: "Drive less to reduce footprint"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/groceries.svg",
+    title: "May",
+    description: "Shop local, organic grocers"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/water.svg",
+    title: "June",
+    description: "Conserve water"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/boat.svg",
+    title: "July",
+    description: "Keep habitats quiet by operating vessels slowly."
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/fish.svg",
+    title: "August",
+    description: "Choose wild, sustainable seafood"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/waves.svg",
+    title: "September",
+    description: "Support efforts for free-flowing rivers"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/hand.svg",
+    title: "October",
+    description: "Volunteer for habitat restoration events"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/bulb.svg",
+    title: "November",
+    description: "Conserve electricity"
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_month__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    src: "https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/donate.svg",
+    title: "December",
+    description: "Donate"
+  })))));
+};
 
+/* harmony default export */ __webpack_exports__["default"] = (Act); // Fetch data from Wordpress REST API
 
-
-var Article =
+Act.getInitialProps =
 /*#__PURE__*/
-function (_React$Component) {
-  _inherits(Article, _React$Component);
+_asyncToGenerator(
+/*#__PURE__*/
+_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+  var events;
+  return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          _context.next = 2;
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_6___default()('https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2').then(function (events) {
+            return events.json();
+          });
 
-  function Article(props) {
-    var _this;
+        case 2:
+          events = _context.sent;
+          return _context.abrupt("return", {
+            events: events
+          });
 
-    _classCallCheck(this, Article);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Article).call(this, props));
-    _this.state = {
-      main: {},
-      acf: {}
-    };
-    return _this;
-  }
-
-  _createClass(Article, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_1___default()("https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=".concat(this.props.url.query.slug)).then(function (res) {
-        return res.json();
-      }).then(function (article) {
-        return _this2.setState({
-          title: article[0].title.rendered,
-          date: article[0].date,
-          description: article[0].content.rendered.replace(/\n\n\n\n/g, "<br>"),
-          image: article[0].acf.featured_image.sizes.large
-        });
-      });
+        case 4:
+        case "end":
+          return _context.stop();
+      }
     }
-  }, {
-    key: "render",
-    value: function render() {
-      var article = this.state;
-      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_0__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_content
-      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "/news"
-      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("u", null, "Back to all news")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, moment(article.date).format("LL")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, article.title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_body
-      }, react_html_parser__WEBPACK_IMPORTED_MODULE_6___default()(article.description))));
-    }
-  }]);
-
-  return Article;
-}(react__WEBPACK_IMPORTED_MODULE_2___default.a.Component);
-
-/* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_5__["withRouter"])(Article));
+  }, _callee, this);
+}));
 
 /***/ }),
 
@@ -288,6 +327,321 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (DesktopNavigation);
+
+/***/ }),
+
+/***/ "./pages/components/event.js":
+/*!***********************************!*\
+  !*** ./pages/components/event.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\components\\event.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+var Event =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Event, _React$Component);
+
+  function Event(props) {
+    _classCallCheck(this, Event);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Event).call(this, props));
+  }
+
+  _createClass(Event, [{
+    key: "render",
+    value: function render() {
+      var imageSrc = {
+        backgroundImage: "url(".concat(this.props.image, ")")
+      };
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_header,
+        style: imageSrc,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date_banner,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_date,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      }, this.props.date), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.tail,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_footer_content,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, this.props.title || "Helpin' Out Event!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        },
+        __self: this
+      }, this.props.description || 'No description provided.'), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/event?slug=".concat(this.props.slug),
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, "VIEW DETAILS")))));
+    }
+  }]);
+
+  return Event;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Event);
+
+/***/ }),
+
+/***/ "./pages/components/eventSlider.js":
+/*!*****************************************!*\
+  !*** ./pages/components/eventSlider.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./event */ "./pages/components/event.js");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-slick */ "react-slick");
+/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\components\\eventSlider.js";
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+var EventSlider =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(EventSlider, _React$Component);
+
+  function EventSlider(props) {
+    _classCallCheck(this, EventSlider);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(EventSlider).call(this, props));
+  }
+
+  _createClass(EventSlider, [{
+    key: "getSlidesLarge",
+    value: function getSlidesLarge() {
+      // Only show 3 slides max on large desktops
+      var events = this.props.events;
+
+      if (events !== undefined) {
+        if (events.length <= 3 && events.length > 0) return events.length;else if (events.length === 0) return 1;else return 3;
+      }
+    }
+  }, {
+    key: "getSlidesSmall",
+    value: function getSlidesSmall() {
+      // Only show 2 slides max on small desktops, 1 slide on anything smaller
+      var events = this.props.events;
+
+      if (events !== undefined) {
+        if (events.length >= 2) return 2;else return 1;
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      // Slick slider config
+      var settings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: this.getSlidesLarge(),
+        slidesToScroll: 1,
+        responsive: [{
+          breakpoint: 1420,
+          settings: {
+            slidesToShow: this.getSlidesSmall()
+          }
+        }, {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 1
+          }
+        }, {
+          breakpoint: 575,
+          settings: {
+            arrows: false,
+            slidesToShow: 1
+          }
+        }]
+      };
+
+      if (this.props.events !== undefined) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider_wrapper,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 58
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_3___default.a, _extends({}, settings, {
+          className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 59
+          },
+          __self: this
+        }), this.props.events.map(function (event) {
+          return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_event__WEBPACK_IMPORTED_MODULE_2__["default"], {
+            key: event.id,
+            slug: event.slug,
+            title: event.acf.title,
+            date: event.acf.date,
+            description: event.acf.description // Use default image if no image is provided
+            ,
+            image: event.acf.image || "./static/images/ws_home_header.svg",
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 62
+            },
+            __self: this
+          });
+        })));
+      } else {
+        // If no events scheduled, return this message
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+          className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider_wrapper,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 81
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_slick__WEBPACK_IMPORTED_MODULE_3___default.a, _extends({}, settings, {
+          className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.event_slider,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 82
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 83
+          },
+          __self: this
+        }, "No events are currently\xA0scheduled. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 84
+          },
+          __self: this
+        }), "Please check back\xA0later!")));
+      }
+    }
+  }]);
+
+  return EventSlider;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (EventSlider);
 
 /***/ }),
 
@@ -1545,6 +1899,74 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./pages/components/month.js":
+/*!***********************************!*\
+  !*** ./pages/components/month.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+var Month =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Month, _React$Component);
+
+  function Month() {
+    _classCallCheck(this, Month);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Month).apply(this, arguments));
+  }
+
+  _createClass(Month, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.month
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        animateIn: "fadeIn"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: this.props.src
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, this.props.title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, this.props.description));
+    }
+  }]);
+
+  return Month;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Month);
+
+/***/ }),
+
 /***/ "./pages/scss/app.scss":
 /*!*****************************!*\
   !*** ./pages/scss/app.scss ***!
@@ -1733,15 +2155,26 @@ module.exports = {
 
 /***/ }),
 
-/***/ 5:
-/*!********************************!*\
-  !*** multi ./pages/article.js ***!
-  \********************************/
+/***/ 6:
+/*!****************************!*\
+  !*** multi ./pages/act.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/article.js */"./pages/article.js");
+module.exports = __webpack_require__(/*! ./pages/act.js */"./pages/act.js");
 
+
+/***/ }),
+
+/***/ "@babel/runtime/regenerator":
+/*!*********************************************!*\
+  !*** external "@babel/runtime/regenerator" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@babel/runtime/regenerator");
 
 /***/ }),
 
@@ -1800,17 +2233,6 @@ module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 
-/***/ "moment":
-/*!*************************!*\
-  !*** external "moment" ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("moment");
-
-/***/ }),
-
 /***/ "next/head":
 /*!****************************!*\
   !*** external "next/head" ***!
@@ -1833,17 +2255,6 @@ module.exports = require("next/link");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
-
-/***/ }),
-
 /***/ "react":
 /*!************************!*\
   !*** external "react" ***!
@@ -1855,14 +2266,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-html-parser":
-/*!************************************!*\
-  !*** external "react-html-parser" ***!
-  \************************************/
+/***/ "react-animate-on-scroll":
+/*!******************************************!*\
+  !*** external "react-animate-on-scroll" ***!
+  \******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-html-parser");
+module.exports = require("react-animate-on-scroll");
 
 /***/ }),
 
@@ -1875,7 +2286,18 @@ module.exports = require("react-html-parser");
 
 module.exports = require("react-responsive");
 
+/***/ }),
+
+/***/ "react-slick":
+/*!******************************!*\
+  !*** external "react-slick" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-slick");
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=article.js.map
+//# sourceMappingURL=act.js.map
