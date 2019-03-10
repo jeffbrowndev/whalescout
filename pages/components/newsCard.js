@@ -7,7 +7,7 @@ const NewsCard = props => {
   return (
     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
       <Link
-        route="article"
+        route="articleRoute"
         params={{
           slug:
             "a-guide-for-bold-commenting-on-the-final-draft-orca-task-force-report"
