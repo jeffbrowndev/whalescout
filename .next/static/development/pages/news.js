@@ -44254,7 +44254,7 @@ _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function 
 
 /***/ }),
 
-/***/ 9:
+/***/ 8:
 /*!*****************************!*\
   !*** multi ./pages/news.js ***!
   \*****************************/
@@ -44279,5 +44279,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]));;
+},[[8,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=news.js.map

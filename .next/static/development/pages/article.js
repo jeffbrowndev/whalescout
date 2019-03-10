@@ -43303,7 +43303,18 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 7:
+/*!*********************************!*\
+  !*** readable-stream (ignored) ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 9:
 /*!********************************!*\
   !*** multi ./pages/article.js ***!
   \********************************/
@@ -43314,17 +43325,6 @@ __NEXT_REGISTER_PAGE('/article', function() {
 module.exports = __webpack_require__(/*! ./pages/article.js */"./pages/article.js");
 
 return { page: module.exports.default }});
-
-/***/ }),
-
-/***/ 7:
-/*!*********************************!*\
-  !*** readable-stream (ignored) ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
 
 /***/ }),
 
@@ -43339,5 +43339,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
+},[[9,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=article.js.map
