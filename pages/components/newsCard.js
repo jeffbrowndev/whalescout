@@ -1,6 +1,6 @@
 import styles from "../scss/app.scss";
 import ellipsis from "text-ellipsis";
-import Link from "next/link";
+import { Link } from "../../routes";
 import ReactHtmlParser from "react-html-parser";
 const moment = require("moment");
 import ScrollAnimation from "react-animate-on-scroll";
@@ -8,7 +8,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const NewsCard = props => {
   return (
     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-      <Link as={`/article/${props.slug}`} href={`/article?slug=${props.slug}`}>
+      <Link route="article" params={{ slug: props.slug }}>
         <div className={styles.news_card}>
           <div className={styles.news_content_left}>
             <img src={props.image} />
