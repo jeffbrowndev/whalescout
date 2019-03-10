@@ -33,7 +33,7 @@ class Article extends React.Component {
     return (
       <Layout>
         <div className={styles.article_content}>
-          <Link href="./news">
+          <Link href="/news">
             <u>Back to all news</u>
           </Link>
           <h2>{moment(article.date).format("LL")}</h2>

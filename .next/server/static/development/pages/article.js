@@ -115,8 +115,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react_html_parser__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-html-parser */ "react-html-parser");
 /* harmony import */ var react_html_parser__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_html_parser__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\article.js";
-
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -184,51 +182,12 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       var article = this.state;
-      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_0__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_content,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
+      return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_0__["default"], null, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_content
       }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-        href: "./news",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("u", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, "Back to all news")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, moment(article.date).format("LL")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, article.title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_body,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
+        href: "/news"
+      }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("u", null, "Back to all news")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h2", null, moment(article.date).format("LL")), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", null, article.title), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+        className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.article_body
       }, react_html_parser__WEBPACK_IMPORTED_MODULE_6___default()(article.description))));
     }
   }]);
