@@ -1786,13 +1786,14 @@ var moment = __webpack_require__(/*! moment */ "moment");
 
 
 var NewsCard = function NewsCard(props) {
+  var path = props.slug;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_5___default.a, {
     animateIn: "fadeIn",
     animateOnce: true
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_3__["Link"], {
     route: "article",
     params: {
-      slug: props.slug
+      slug: path
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.news_card

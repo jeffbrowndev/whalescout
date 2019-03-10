@@ -6,9 +6,10 @@ const moment = require("moment");
 import ScrollAnimation from "react-animate-on-scroll";
 
 const NewsCard = props => {
+  const path = props.slug;
   return (
     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-      <Link route="article" params={{ slug: props.slug }}>
+      <Link route="article" params={{ slug: path }}>
         <div className={styles.news_card}>
           <div className={styles.news_content_left}>
             <img src={props.image} />
