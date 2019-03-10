@@ -41966,8 +41966,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
 /* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
 /* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
-var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\components\\footer.js";
-
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -42012,248 +42010,70 @@ function (_React$Component) {
         className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer,
         style: {
           background: this.props.color
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
+        }
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
         src: "/static/images/ws_footer_background.png",
-        alt: "Rock",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        alt: "Rock"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_background,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_background
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_container,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_container
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "HOME")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/news",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
+        href: "/news"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "NEWS")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/watch",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
+        href: "/watch"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "WATCH")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/volunteer",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
+        href: "/volunteer"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "VOLUNTEER")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
+        href: "#"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "STORE")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
+        href: "#"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "DONATE")))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/act",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.site_map_column
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "/act"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "ACT")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/learn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
+        href: "/learn"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "LEARN")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/team",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
+        href: "/team"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "TEAM")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/contact",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
+        href: "/contact"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "CONTACT")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "/podcasts",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
+        href: "/podcasts"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.bold
       }, "PODCAST"))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_connect,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.footer_connect
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.news_letter,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      }, "Join Our Newsletter"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        id: "mc_embed_signup",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.news_letter
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Join Our Newsletter"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        id: "mc_embed_signup"
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("form", {
         action: "https://whalescout.us12.list-manage.com/subscribe/post?u=0ab3aff647e8e72d79cf68062&id=504cc907de",
         method: "post",
@@ -42261,167 +42081,47 @@ function (_React$Component) {
         name: "mc-embedded-subscribe-form",
         className: "validate",
         target: "_blank",
-        novalidate: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
+        noValidate: true
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         id: "mc_embed_signup_scroll",
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.signup_form,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.signup_form
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
         type: "email",
         name: "EMAIL",
         className: "email",
         id: "mce-EMAIL",
         placeholder: "email address",
-        required: true,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 82
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
+        required: true
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", {
         type: "submit",
         value: "SIGN UP",
         name: "subscribe",
         id: "mc-embedded-subscribe",
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.submit_button,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.connect,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.submit_button
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", null))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.connect
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.address,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106
-        },
-        __self: this
-      }, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107
-        },
-        __self: this
-      }, "P.O. Box 426", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 109
-        },
-        __self: this
-      }), "Woodinville, WA 98072", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 111
-        },
-        __self: this
-      }), "425-770-0787", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 113
-        },
-        __self: this
-      }), "info@whalescout.org")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 117
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 118
-        },
-        __self: this
-      }, "Follow"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.address
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Contact"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "P.O. Box 426", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "Woodinville, WA 98072", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "425-770-0787", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", null), "info@whalescout.org")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, "Follow"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         size: "2x",
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faInstagram"],
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 119
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         size: "2x",
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faFacebook"],
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 124
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_4__["FontAwesomeIcon"], {
         size: "2x",
         icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_5__["faTwitter"],
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 129
-        },
-        __self: this
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.social_icon
       }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.credits,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 138
-        },
-        __self: this
-      }, "\xA9 Copyright 2018 Whale Scout\xA0| All Rights Reserved\xA0| Website\xA0by\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 141
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        className: _scss_footer_scss__WEBPACK_IMPORTED_MODULE_0___default.a.credits
+      }, "\xA9 Copyright 2018 Whale Scout\xA0| All Rights Reserved\xA0| Website\xA0by\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         href: "http://www.jeffbrowndev.com",
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 142
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143
-        },
-        __self: this
-      }, "Jeff\xA0Brown"))))));
+        target: "_blank"
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("u", null, "Jeff\xA0Brown"))))));
     }
   }]);
 
@@ -43288,18 +42988,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 7:
-/*!*********************************!*\
-  !*** readable-stream (ignored) ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 9:
+/***/ 3:
 /*!********************************!*\
   !*** multi ./pages/article.js ***!
   \********************************/
@@ -43310,6 +42999,17 @@ __NEXT_REGISTER_PAGE('/article', function() {
 module.exports = __webpack_require__(/*! ./pages/article.js */"./pages/article.js");
 
 return { page: module.exports.default }});
+
+/***/ }),
+
+/***/ 7:
+/*!*********************************!*\
+  !*** readable-stream (ignored) ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 
@@ -43324,5 +43024,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=article.js.map

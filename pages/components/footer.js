@@ -73,7 +73,7 @@ class Footer extends React.Component {
                     name="mc-embedded-subscribe-form"
                     className="validate"
                     target="_blank"
-                    novalidate
+                    noValidate
                   >
                     <div
                       id="mc_embed_signup_scroll"
