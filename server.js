@@ -12,8 +12,8 @@ app
     const server = express();
 
     // Article
-    server.get("article/:slug", (req, res) => {
-      const actualPage = "article";
+    server.get("/article/:slug", (req, res) => {
+      const actualPage = "/article";
       const queryParams = { slug: req.params.slug };
       app.render(req, res, actualPage, queryParams);
     });
