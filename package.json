@@ -5,9 +5,9 @@
   "main": "index",
   "scripts": {
     "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "export": "next build && next export"
+    "build": "npm run build && npm run export",
+    "export": "next export",
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "",
   "license": "ISC",
