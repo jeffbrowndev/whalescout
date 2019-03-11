@@ -6,13 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const NewsCard = props => {
   return (
     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-      <Link
-        route="articleRoute"
-        params={{
-          slug:
-            "a-guide-for-bold-commenting-on-the-final-draft-orca-task-force-report"
-        }}
-      >
+      <Link prefetch route={`article/${props.slug}`}>
         <div className={styles.news_card}>
           <div className={styles.news_content_left}>
             <img src={props.image} />
