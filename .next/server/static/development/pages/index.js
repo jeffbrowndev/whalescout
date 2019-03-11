@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2235,18 +2235,19 @@ module.exports = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var routes = __webpack_require__(/*! next-routes */ "next-routes"); // Dynamic routing for posts
+var nextRoutes = __webpack_require__(/*! @yolkai/next-routes */ "@yolkai/next-routes").default; // Dynamic routing for posts
 
 
-module.exports = routes().add({
+var routes = nextRoutes().add({
   name: "articleRoute",
   page: "article",
   pattern: "/article/:slug"
 });
+module.exports = routes;
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -2313,6 +2314,17 @@ module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 
+/***/ "@yolkai/next-routes":
+/*!**************************************!*\
+  !*** external "@yolkai/next-routes" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@yolkai/next-routes");
+
+/***/ }),
+
 /***/ "isomorphic-unfetch":
 /*!*************************************!*\
   !*** external "isomorphic-unfetch" ***!
@@ -2332,17 +2344,6 @@ module.exports = require("isomorphic-unfetch");
 /***/ (function(module, exports) {
 
 module.exports = require("moment");
-
-/***/ }),
-
-/***/ "next-routes":
-/*!******************************!*\
-  !*** external "next-routes" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next-routes");
 
 /***/ }),
 

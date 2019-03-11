@@ -1,8 +1,10 @@
-const routes = require("next-routes");
+const nextRoutes = require("@yolkai/next-routes").default;
 
 // Dynamic routing for posts
-module.exports = routes().add({
+const routes = nextRoutes().add({
   name: "articleRoute",
   page: "article",
   pattern: "/article/:slug"
 });
+
+module.exports = routes;
