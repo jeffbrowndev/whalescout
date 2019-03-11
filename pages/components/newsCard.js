@@ -1,7 +1,9 @@
 import styles from "../scss/app.scss";
-import { Link } from "../../routes";
+import routes from "../../routes";
 const moment = require("moment");
 import ScrollAnimation from "react-animate-on-scroll";
+
+const { Link } = routes;
 
 const NewsCard = props => {
   return (

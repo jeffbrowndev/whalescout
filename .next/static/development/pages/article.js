@@ -16225,7 +16225,7 @@ Tokenizer.prototype._emitPartial = function(value){
 module.exports = Stream;
 
 var Parser = __webpack_require__(/*! ./Parser.js */ "./node_modules/htmlparser2/lib/Parser.js");
-var WritableStream = __webpack_require__(/*! readable-stream */ 9).Writable;
+var WritableStream = __webpack_require__(/*! readable-stream */ 7).Writable;
 var StringDecoder = __webpack_require__(/*! string_decoder */ "./node_modules/string_decoder/lib/string_decoder.js").StringDecoder;
 var Buffer = __webpack_require__(/*! buffer */ "./node_modules/buffer/index.js").Buffer;
 
@@ -42988,7 +42988,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 8:
+/***/ 3:
 /*!********************************!*\
   !*** multi ./pages/article.js ***!
   \********************************/
@@ -43002,7 +43002,7 @@ return { page: module.exports.default }});
 
 /***/ }),
 
-/***/ 9:
+/***/ 7:
 /*!*********************************!*\
   !*** readable-stream (ignored) ***!
   \*********************************/
@@ -43024,5 +43024,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[8,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=article.js.map

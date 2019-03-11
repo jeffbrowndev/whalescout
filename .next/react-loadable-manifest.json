@@ -1,5 +1,13 @@
 {
-  "../pages/scss/app.scss": [
+  "./noop": [
+    {
+      "id": "./node_modules/next/dist/client/noop.js",
+      "name": "./node_modules/next/dist/client/noop.js",
+      "file": "static/chunks/0.js",
+      "publicPath": "static/chunks/0.js"
+    }
+  ],
+  "./scss/app.scss": [
     {
       "id": "./pages/scss/app.scss",
       "name": "./pages/scss/app.scss",
@@ -41,14 +49,6 @@
       "name": "./pages/scss/footer.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
-    }
-  ],
-  "./noop": [
-    {
-      "id": "./node_modules/next/dist/client/noop.js",
-      "name": "./node_modules/next/dist/client/noop.js",
-      "file": "static/chunks/0.js",
-      "publicPath": "static/chunks/0.js"
     }
   ]
 }
