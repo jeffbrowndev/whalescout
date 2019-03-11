@@ -1170,7 +1170,7 @@ var NewsCard = function NewsCard(props) {
     animateOnce: true
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_2__["Link"], {
     prefetch: true,
-    route: "article/".concat(props.slug)
+    route: "/article/".concat(props.slug)
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.news_card
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
