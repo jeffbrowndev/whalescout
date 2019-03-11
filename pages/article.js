@@ -6,17 +6,15 @@ import Link from "next/link";
 const moment = require("moment");
 import ReactHtmlParser from "react-html-parser";
 
+const db = process.env.DATABASE_URL;
+
 class Article extends React.Component {
   constructor(props) {
     super(props);
     this.state = { main: {}, acf: {} };
   }
   componentDidMount() {
-    fetch(
-      `https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
-        this.props.url.query.slug
-      }`
-    )
+    fetch(`${db}/wp-json/wp/v2/posts?slug=${this.props.url.query.slug}`)
       .then(res => res.json())
       .then(article =>
         this.setState({

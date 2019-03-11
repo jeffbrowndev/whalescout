@@ -1,9 +1,9 @@
-import React from 'react';
-import Layout from './components/layout';
-import styles from './scss/app.scss';
-import fetch from 'isomorphic-unfetch';
-import PodcastCard from './components/podcastCard';
-import ScrollAnimation from 'react-animate-on-scroll';
+import React from "react";
+import Layout from "./components/layout";
+import styles from "./scss/app.scss";
+import fetch from "isomorphic-unfetch";
+import PodcastCard from "./components/podcastCard";
+import ScrollAnimation from "react-animate-on-scroll";
 
 class Podcasts extends React.Component {
   constructor(props) {
@@ -15,11 +15,11 @@ class Podcasts extends React.Component {
   search = e => {
     // What is currently typed in the search bar
     const podcasts = [...this.state.podcasts];
-    const input = e.target.value.replace(/ /g, '').toLowerCase();
+    const input = e.target.value.replace(/ /g, "").toLowerCase();
     // Check all podcasts to and try to find a match
     podcasts.forEach(podcast => {
       // Podcast content to search for (podcast title)
-      const content = podcast.acf.podcast_title.replace(/ /g, '').toLowerCase();
+      const content = podcast.acf.podcast_title.replace(/ /g, "").toLowerCase();
       // If podcast doesn't contain user input, remove from view
       podcast.visible = content.includes(input) ? true : false;
     });
@@ -31,14 +31,14 @@ class Podcasts extends React.Component {
     return (
       <Layout>
         <div className={styles.podcast_header}>
-          <ScrollAnimation animateIn='fadeIn'>
+          <ScrollAnimation animateIn="fadeIn">
             <h1>PODCAST</h1>
           </ScrollAnimation>
         </div>
         <div className={styles.search_bar}>
           <input
             ref={this.searchBar}
-            placeholder='Search podcasts'
+            placeholder="Search podcasts"
             onChange={this.search}
             autoFocus
           />
@@ -71,7 +71,7 @@ class Podcasts extends React.Component {
 Podcasts.getInitialProps = async function() {
   // Get ALL podcasts
   const podcasts = await fetch(
-    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=4'
+    `${process.env.DATABASE_URL}/wp-json/wp/v2/posts?categories=4`
   ).then(podcasts => podcasts.json());
 
   // Add a 'visible' property to each podcast for search bar functionality

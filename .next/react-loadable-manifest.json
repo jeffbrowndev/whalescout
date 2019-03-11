@@ -7,7 +7,7 @@
       "publicPath": "static/chunks/0.js"
     }
   ],
-  "../pages/scss/app.scss": [
+  "./scss/app.scss": [
     {
       "id": "./pages/scss/app.scss",
       "name": "./pages/scss/app.scss",

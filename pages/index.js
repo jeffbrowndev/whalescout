@@ -1,20 +1,20 @@
-import React from 'react';
-import Layout from './components/layout';
-import fetch from 'isomorphic-unfetch';
-import styles from '../pages/scss/app.scss';
-import EventSlider from './components/eventSlider';
-import Link from 'next/link';
-import PodcastCard from './components/podcastCard';
-import NewsCard from './components/newsCard';
-import ScrollAnimation from 'react-animate-on-scroll';
+import React from "react";
+import Layout from "./components/layout";
+import fetch from "isomorphic-unfetch";
+import styles from "../pages/scss/app.scss";
+import EventSlider from "./components/eventSlider";
+import Link from "next/link";
+import PodcastCard from "./components/podcastCard";
+import NewsCard from "./components/newsCard";
+import ScrollAnimation from "react-animate-on-scroll";
 
 // Home page
 const Index = props => (
-  <Layout color='#a6d5cd'>
+  <Layout color="#a6d5cd">
     <div className={styles.home}>
       {/* Main header */}
       <section className={styles.home_header}>
-        <ScrollAnimation animateIn='fadeIn'>
+        <ScrollAnimation animateIn="fadeIn">
           <h1>
             Protecting <span>Pacific Northwest Whales</span> through land based
             conservation experiences.
@@ -24,14 +24,14 @@ const Index = props => (
       {/* Sub-header */}
       <section className={styles.sub_header}>
         <div className={styles.what_we_do}>
-          <img src='/static/images/ws_home_subheader_fish.svg' alt='Fish' />
+          <img src="/static/images/ws_home_subheader_fish.svg" alt="Fish" />
           <div className={styles.description}>
             <h2>What We Do...</h2>
             <p>
               Whale Scout leads the public in land-based whale watching
               experiences. We channel people’s interest and passion about whales
               to on the ground salmon habitat restoration events protecting the
-              primary food source of struggling orcas in Puget Sound.{' '}
+              primary food source of struggling orcas in Puget Sound.{" "}
             </p>
           </div>
         </div>
@@ -43,16 +43,16 @@ const Index = props => (
               Out Events.
             </p>
             <a
-              href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url'
-              target='_blank'
+              href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
+              target="_blank"
             >
               <button className={styles.main_button}>DONATE</button>
             </a>
-            <Link href='/volunteer'>
+            <Link href="/volunteer">
               <button className={styles.main_button}>VOLUNTEER</button>
             </Link>
           </div>
-          <img src='/static/images/ws_home_subheader_volunteers.svg' alt='' />
+          <img src="/static/images/ws_home_subheader_volunteers.svg" alt="" />
         </div>
       </section>
       {/* Events slider */}
@@ -63,7 +63,7 @@ const Index = props => (
         <div className={styles.recent_news}>
           <div className={styles.recent_header}>
             <h3>Recent News</h3>
-            <Link href='./news'>
+            <Link href="./news">
               <u className={styles.see_all}>See all news posts</u>
             </Link>
           </div>
@@ -79,12 +79,12 @@ const Index = props => (
             />
           ))}
         </div>
-        <Link href='./news'>
+        <Link href="./news">
           <u className={styles.see_all_mobile}>See all news posts</u>
         </Link>
         <div className={styles.recent_header}>
           <h3>Recent Podcasts</h3>
-          <Link href='./podcasts'>
+          <Link href="./podcasts">
             <u className={styles.see_all}>See all podcasts</u>
           </Link>
         </div>
@@ -100,34 +100,34 @@ const Index = props => (
             );
           })}
         </div>
-        <Link href='./podcasts'>
+        <Link href="./podcasts">
           <u className={styles.see_all_mobile}>See all podcasts</u>
         </Link>
       </section>
     </div>
     <img
       className={styles.home_footer_image}
-      src='/static/images/ws_home_whale.svg'
-      alt='Whale'
+      src="/static/images/ws_home_whale.svg"
+      alt="Whale"
     />
   </Layout>
 );
 
 // Fetch data from Wordpress REST API
 Index.getInitialProps = async function() {
-  const database = 'https://lederconsulting.dreamhosters.com';
+  const db = process.env.DATABASE_URL;
   // Get events
-  const events = await fetch(
-    `${database}/wp-json/wp/v2/posts?categories=2`
-  ).then(events => events.json());
+  const events = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
+    events => events.json()
+  );
 
   // Get podcasts
-  const podcasts = await fetch(
-    `${database}/wp-json/wp/v2/posts?categories=4`
-  ).then(podcasts => podcasts.json());
+  const podcasts = await fetch(`${db}/wp-json/wp/v2/posts?categories=4`).then(
+    podcasts => podcasts.json()
+  );
 
   // Get news/blog posts
-  const news = await fetch(`${database}/wp-json/wp/v2/posts?categories=3`).then(
+  const news = await fetch(`${db}/wp-json/wp/v2/posts?categories=3`).then(
     news => news.json()
   );
 

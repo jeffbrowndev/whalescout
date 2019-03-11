@@ -1,8 +1,9 @@
-import Layout from './components/layout';
-import styles from './scss/app.scss';
-import Map from './components/map';
-import Marker from 'google-map-react';
-import Calendar from './components/calendar';
+import Layout from "./components/layout";
+import styles from "./scss/app.scss";
+import Map from "./components/map";
+import Calendar from "./components/calendar";
+
+const db = process.env.DATABASE_URL;
 
 export default () => (
   <Layout>
@@ -10,11 +11,7 @@ export default () => (
       <div className={styles.watch_header_container}>
         <div className={styles.watch_header}>
           <div className={styles.watch_header_image}>
-            <img
-              src={
-                'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/watching.jpg'
-              }
-            />
+            <img src={`${db}/wp-content/uploads/2019/03/watching.jpg`} />
             <div className={styles.square} />
           </div>
           <div className={styles.watch_header_text}>
@@ -130,11 +127,7 @@ export default () => (
           </div>
         </div>
         <div className={styles.watch_more_image}>
-          <img
-            src={
-              'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/watching_2.jpg'
-            }
-          />
+          <img src={`${db}/wp-content/uploads/2019/03/watching_2.jpg`} />
           <div className={styles.square} />
         </div>
       </div>

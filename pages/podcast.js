@@ -1,10 +1,10 @@
-import Layout from './components/layout';
-import fetch from 'isomorphic-unfetch';
-import React from 'react';
-import styles from './scss/app.scss';
-import ReactAudioPlayer from 'react-audio-player';
-import ReactHtmlParser from 'react-html-parser';
-import Link from 'next/link';
+import Layout from "./components/layout";
+import fetch from "isomorphic-unfetch";
+import React from "react";
+import styles from "./scss/app.scss";
+import ReactAudioPlayer from "react-audio-player";
+import ReactHtmlParser from "react-html-parser";
+import Link from "next/link";
 
 class Podcast extends React.Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class Podcast extends React.Component {
   }
   componentDidMount() {
     fetch(
-      `https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
+      `${process.env.DATABASE_URL}/wp-json/wp/v2/posts?slug=${
         this.props.url.query.slug
       }`
     )
@@ -32,7 +32,7 @@ class Podcast extends React.Component {
     return (
       <Layout>
         <div className={styles.podcast_content}>
-          <Link href='/podcasts'>
+          <Link href="/podcasts">
             <p className={styles.podcast_back}>
               <u>Back to all podcasts</u>
             </p>
@@ -50,21 +50,21 @@ class Podcast extends React.Component {
             <p>{podcast.podcast_image_caption}</p>
           </div>
           <p className={styles.podcast_subscribe}>
-            Subscribe:{' '}
+            Subscribe:{" "}
             <span>
-              <a href='https://itunes.apple.com/us/podcast/whale-scout/id883873149?mt=2&ls=1#episodeGuid=https%3A%2F%2Fwww.whalescout.org%2F%3Fp%3D3592'>
+              <a href="https://itunes.apple.com/us/podcast/whale-scout/id883873149?mt=2&ls=1#episodeGuid=https%3A%2F%2Fwww.whalescout.org%2F%3Fp%3D3592">
                 Apple Podcasts
               </a>
-            </span>{' '}
-            |{' '}
+            </span>{" "}
+            |{" "}
             <span>
-              <a href='https://subscribeonandroid.com/www.whalescout.org/feed/podcast/'>
+              <a href="https://subscribeonandroid.com/www.whalescout.org/feed/podcast/">
                 Android
               </a>
-            </span>{' '}
-            |{' '}
+            </span>{" "}
+            |{" "}
             <span>
-              <a href='#'>RSS</a>
+              <a href="#">RSS</a>
             </span>
           </p>
         </div>

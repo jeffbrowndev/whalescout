@@ -1,15 +1,17 @@
-import Layout from './components/layout';
-import styles from './scss/app.scss';
-import EventSlider from './components/eventSlider';
-import fetch from 'isomorphic-unfetch';
-import Perk from './components/perk';
-import ScrollAnimation from 'react-animate-on-scroll';
+import Layout from "./components/layout";
+import styles from "./scss/app.scss";
+import EventSlider from "./components/eventSlider";
+import fetch from "isomorphic-unfetch";
+import Perk from "./components/perk";
+import ScrollAnimation from "react-animate-on-scroll";
+
+const db = process.env.DATABASE_URL;
 
 const Volunteer = props => (
   <Layout>
     <div className={styles.volunteer}>
       <div className={styles.volunteer_header}>
-        <ScrollAnimation animateIn='fadeIn'>
+        <ScrollAnimation animateIn="fadeIn">
           <div className={styles.volunteer_header_text}>
             <h1>VOLUNTEER</h1>
             <h2>Everyone can help improve habitat</h2>
@@ -44,7 +46,7 @@ const Volunteer = props => (
             <u>Puget Sound</u> - Volunteers station themselves at public beaches
             on the shorelines of Puget Sound both opportunistically when whales
             are reported in the area and at scheduled times, the second Sunday
-            of the month, and at special events.{' '}
+            of the month, and at special events.{" "}
           </p>
           <p>
             <u>San Juan Island</u> - Whale Scout is a partner in the San Juan
@@ -116,38 +118,39 @@ const Volunteer = props => (
       <div className={styles.perks}>
         <div className={styles.perks_top}>
           <Perk
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/book.svg'
-            title='Whale Scout Book Club'
-            description='Join our group to read and discuss books about a variety of topics related to whales, Puget Sound, science, etc. We meet about every three months on Saturdays at McMenamins in Bothell. Books are selected based on volunteer selections and a group vote.'
+            src={`${db}/wp-content/uploads/2019/03/book.svg`}
+            title="Whale Scout Book Club"
+            src={`${db}/wp-content/uploads/2019/03/book.svg`}
+            description="Join our group to read and discuss books about a variety of topics related to whales, Puget Sound, science, etc. We meet about every three months on Saturdays at McMenamins in Bothell. Books are selected based on volunteer selections and a group vote."
           />
           <Perk
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/map.svg'
-            title='Field Trips'
-            description='Past trips have included Cedar River salmon viewing, Elwha River restoration and salmon viewing, Chum salmon viewing on Kitsap. Typically these are day trips but there have been some overnight trips.'
+            src={`${db}/wp-content/uploads/2019/03/map.svg`}
+            title="Field Trips"
+            description="Past trips have included Cedar River salmon viewing, Elwha River restoration and salmon viewing, Chum salmon viewing on Kitsap. Typically these are day trips but there have been some overnight trips."
           />
           <Perk
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/training.svg'
-            title='Training Sessions'
-            description='Three volunteer training sessions are offered throughout the year. Volunteers are required to attend at least one per year to stay current on the latest scientific findings, messages, and programs offered. Join our newsletter to be informed about our next training opportunity.'
+            src={`${db}/wp-content/uploads/2019/03/training.svg`}
+            title="Training Sessions"
+            description="Three volunteer training sessions are offered throughout the year. Volunteers are required to attend at least one per year to stay current on the latest scientific findings, messages, and programs offered. Join our newsletter to be informed about our next training opportunity."
           />
         </div>
         <div className={styles.perks_bottom}>
           <Perk
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/baloons.svg'
-            title='Appreciation Parties'
-            description='An annual party held in the spring or summer celebrates all our volunteers for the year of service. We enjoy food, drinks, and a lovely atmosphere at a property in Bellevue - all graciously donated!'
+            src={`${db}/wp-content/uploads/2019/03/baloons.svg`}
+            title="Appreciation Parties"
+            description="An annual party held in the spring or summer celebrates all our volunteers for the year of service. We enjoy food, drinks, and a lovely atmosphere at a property in Bellevue - all graciously donated!"
           />
           <Perk
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/hat.svg'
-            title='Earn Swag!'
-            description='20 hours of land-based whale watching service - extra loaner pair of binoculars
+            src={`${db}/wp-content/uploads/2019/03/hat.svg`}
+            title="Earn Swag!"
+            description="20 hours of land-based whale watching service - extra loaner pair of binoculars
             2 years of service - Whale Scout beanie
-            Plus, every year new interpretive materials are given to each volunteer including ID guides.'
+            Plus, every year new interpretive materials are given to each volunteer including ID guides."
           />
           <Perk
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/friends.svg'
-            title='Make Friends'
-            description='Hopefully we can find another perk to add here to make it an even three. This way this section will match the section above and create a sense of order and symmetry. Let try to think of one!'
+            src={`${db}/wp-content/uploads/2019/03/friends.svg`}
+            title="Make Friends"
+            description="Hopefully we can find another perk to add here to make it an even three. This way this section will match the section above and create a sense of order and symmetry. Let try to think of one!"
           />
         </div>
       </div>
@@ -158,9 +161,9 @@ const Volunteer = props => (
 // Fetch data from Wordpress REST API
 Volunteer.getInitialProps = async function() {
   // Get events
-  const events = await fetch(
-    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
-  ).then(events => events.json());
+  const events = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
+    events => events.json()
+  );
 
   // Store events data into 'props'
   return { events };

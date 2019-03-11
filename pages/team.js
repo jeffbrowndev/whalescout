@@ -4,7 +4,7 @@ import styles from "./scss/app.scss";
 import ScrollAnimation from "react-animate-on-scroll";
 
 // Database URL
-const database = "https://lederconsulting.dreamhosters.com";
+const database = process.env.DATABASE_URL;
 
 // Create team member
 function TeamMember(name, role, email, about, image, color) {

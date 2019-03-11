@@ -1,15 +1,17 @@
-import Layout from './components/layout';
-import EventSlider from './components/eventSlider';
-import styles from './scss/app.scss';
-import Month from './components/month';
-import fetch from 'isomorphic-unfetch';
-import ScrollAnimation from 'react-animate-on-scroll';
+import Layout from "./components/layout";
+import EventSlider from "./components/eventSlider";
+import styles from "./scss/app.scss";
+import Month from "./components/month";
+import fetch from "isomorphic-unfetch";
+import ScrollAnimation from "react-animate-on-scroll";
+
+const db = process.env.DATABASE_URL;
 
 const Act = props => (
-  <Layout color='#96cec4'>
+  <Layout color="#96cec4">
     <div className={styles.act}>
       <div className={styles.act_header}>
-        <ScrollAnimation animateIn='fadeIn'>
+        <ScrollAnimation animateIn="fadeIn">
           <h1>ACT</h1>
         </ScrollAnimation>
       </div>
@@ -52,64 +54,64 @@ const Act = props => (
         </div>
         <div className={styles.months}>
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/fish.svg'
-            title='January'
-            description='Support natural area protection policies'
+            src={`${db}/wp-content/uploads/2019/03/fish.svg`}
+            title="January"
+            description="Support natural area protection policies"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/recycle.svg'
-            title='February'
-            description='Reduce, reuse, recycle'
+            src={`${db}/wp-content/uploads/2019/03/recycle.svg`}
+            title="February"
+            description="Reduce, reuse, recycle"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/toxins.svg'
-            title='March'
-            description='Switch to non-toxic cleaner and yard care'
+            src={`${db}/wp-content/uploads/2019/03/toxins.svg`}
+            title="March"
+            description="Switch to non-toxic cleaner and yard care"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/car.svg'
-            title='April'
-            description='Drive less to reduce footprint'
+            src={`${db}/wp-content/uploads/2019/03/car.svg`}
+            title="April"
+            description="Drive less to reduce footprint"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/groceries.svg'
-            title='May'
-            description='Shop local, organic grocers'
+            src={`${db}/wp-content/uploads/2019/03/groceries.svg`}
+            title="May"
+            description="Shop local, organic grocers"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/water.svg'
-            title='June'
-            description='Conserve water'
+            src={`${db}/wp-content/uploads/2019/03/water.svg`}
+            title="June"
+            description="Conserve water"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/boat.svg'
-            title='July'
-            description='Keep habitats quiet by operating vessels slowly.'
+            src={`${db}/wp-content/uploads/2019/03/boat.svg`}
+            title="July"
+            description="Keep habitats quiet by operating vessels slowly."
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/fish.svg'
-            title='August'
-            description='Choose wild, sustainable seafood'
+            src={`${db}/wp-content/uploads/2019/03/fish.svg`}
+            title="August"
+            description="Choose wild, sustainable seafood"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/waves.svg'
-            title='September'
-            description='Support efforts for free-flowing rivers'
+            src={`${db}/wp-content/uploads/2019/03/waves.svg`}
+            title="September"
+            description="Support efforts for free-flowing rivers"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/hand.svg'
-            title='October'
-            description='Volunteer for habitat restoration events'
+            title="October"
+            src={`${db}/wp-content/uploads/2019/03/hand.svg`}
+            description="Volunteer for habitat restoration events"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/bulb.svg'
-            title='November'
-            description='Conserve electricity'
+            src={`${db}/wp-content/uploads/2019/03/bulb.svg`}
+            title="November"
+            description="Conserve electricity"
           />
           <Month
-            src='https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/donate.svg'
-            title='December'
-            description='Donate'
+            src={`${db}/wp-content/uploads/2019/03/donate.svg`}
+            title="December"
+            description="Donate"
           />
         </div>
       </div>
@@ -122,9 +124,9 @@ export default Act;
 // Fetch data from Wordpress REST API
 Act.getInitialProps = async function() {
   // Get events
-  const events = await fetch(
-    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=2'
-  ).then(events => events.json());
+  const events = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
+    events => events.json()
+  );
 
   // Store events data into 'props'
   return { events };

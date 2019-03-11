@@ -1,14 +1,14 @@
-import Layout from './components/layout';
-import NewsCard from './components/newsCard';
-import styles from './scss/app.scss';
-import fetch from 'isomorphic-unfetch';
-import ScrollAnimation from 'react-animate-on-scroll';
+import Layout from "./components/layout";
+import NewsCard from "./components/newsCard";
+import styles from "./scss/app.scss";
+import fetch from "isomorphic-unfetch";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const News = props => {
   return (
-    <Layout color='#a6d5cd'>
+    <Layout color="#a6d5cd">
       <div className={styles.news_header}>
-        <ScrollAnimation animateIn='fadeIn'>
+        <ScrollAnimation animateIn="fadeIn">
           <h1>NEWS</h1>
         </ScrollAnimation>
       </div>
@@ -34,7 +34,7 @@ const News = props => {
 News.getInitialProps = async function() {
   // Get news/blog posts
   const news = await fetch(
-    'https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?categories=3'
+    `${process.env.DATABASE_URL}/wp-json/wp/v2/posts?categories=3`
   ).then(news => news.json());
 
   return { news };

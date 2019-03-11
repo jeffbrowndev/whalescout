@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1282,6 +1282,82 @@ module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules
 
 /***/ }),
 
+/***/ "./pages/components/composition.js":
+/*!*****************************************!*\
+  !*** ./pages/components/composition.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\components\\composition.js";
+
+
+var db = "https://lederconsulting.dreamhosters.com";
+
+var Composition = function Composition(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.composition,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.composition_content,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "The Southern Resident Orcas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.composition_desktop,
+    src: "".concat(db, "/wp-content/uploads/2019/03/composition_desktop.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.composition_tablet,
+    src: "".concat(db, "/wp-content/uploads/2019/03/composition_tablet.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.composition_mobile,
+    src: "".concat(db, "/wp-content/uploads/2019/03/composition_mobile.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "As Southern Residents struggle to survive, imbalances in the age and sex ratios are appearing. Note the skewed ratio juvenile males and females, twice as many male calves were born compared to females.")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Composition);
+
+/***/ }),
+
 /***/ "./pages/components/desktopNavigation.js":
 /*!***********************************************!*\
   !*** ./pages/components/desktopNavigation.js ***!
@@ -2231,107 +2307,6 @@ var Links = function Links() {
 
 /***/ }),
 
-/***/ "./pages/components/member.js":
-/*!************************************!*\
-  !*** ./pages/components/member.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
-/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\components\\member.js";
-
-
-
-
-var getColor = function getColor(color) {
-  return {
-    background: "".concat(color)
-  };
-};
-
-var Member = function Member(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.member,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.team_image,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    animateIn: "fadeIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: props.image,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.square,
-    style: getColor(props.color),
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.team_about,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, props.role), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, props.email), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, props.about)));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Member);
-
-/***/ }),
-
 /***/ "./pages/components/mobileNavigation.js":
 /*!**********************************************!*\
   !*** ./pages/components/mobileNavigation.js ***!
@@ -2702,6 +2677,720 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./pages/components/threats.js":
+/*!*************************************!*\
+  !*** ./pages/components/threats.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\components\\threats.js";
+
+
+var db = "https://lederconsulting.dreamhosters.com";
+
+var Threats = function Threats(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats_top,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats_header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Lack Of Salmon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Local endangered killer whales (orcas) rely on dwindling salmon populations for 80% of their diet")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/chasing.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats_middle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats_header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Toxins"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Lubricants, coolants, and flame retardants are linked to disease and reproductive issues.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/toxins-1.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats_bottom,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.threats_header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Vessel Effects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Vessel noise impairs killer whales' ability to echolocate their already diminished prey.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/vessels.svg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Threats);
+
+/***/ }),
+
+/***/ "./pages/learn.js":
+/*!************************!*\
+  !*** ./pages/learn.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
+/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_composition__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/composition */ "./pages/components/composition.js");
+/* harmony import */ var _components_threats__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/threats */ "./pages/components/threats.js");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
+/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_5__);
+var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\learn.js";
+
+
+
+
+
+
+var db = "https://lederconsulting.dreamhosters.com";
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.learn,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.learn_header,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_5___default.a, {
+    animateIn: "fadeIn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "LEARN"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_container,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Orcas, salmon, and the Pacific Northwest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.line,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "To better understand the relationship the Southern Resident orcas have with salmon, we need to travel back in time. About 13,000 years ago, the last glaciers that carved out our majestic mountains had finally receded. They left in their wake furrowed land that was rich with moisture, glacial sediment, smooth broken stones, and fresh cold water that would form our rivers. The abundance of moisture in the soil gave birth to the towering trees and native plants that shade, filter, stabilize, and oxygenate the riverbeds to this day. This protected cold water created the perfect spawning habitat for evolving salmonids. For the last 13,000 years, the clean, covered, nutritive cold water with large smooth rocks to shelter fertilized eggs allowed the first few salmon to evolve into six major subspecies numbering into the millions each: Pink, Steelhead, Coho, Chum, Sockeye, and the largest of all salmon species\xA0\u2014\xA0Chinook.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/chinook.jpg\""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image_caption,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "Georgia Strait Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "The temperate forest ecosystem of the Pacific Northwest developed into one giant living biological organism with rivers serving as the arteries and veins transporting the red blood cells\u2014salmon\u2014upriver where they spawn the next generation of salmon. This giant inland organism evolved around the presence of Pacific salmon. Over 200 species of plants, birds, and mammals (terrestrial and marine alike) depend on salmon for survival. Once salmon have reached their spawning grounds, bears and eagles pluck adult salmon from the river to eat, often leaving the nitrogen, carbon, and phosphorous rich carcasses behind on the forest floor where they provide nourishment to the giant Douglas Firs and Western Hemlock trees. In return, these towering trees shade and protect the river, making it habitable for fish.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/sockeye.jpg\""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image_caption,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Sockeye Salmon in the Adams River, Department of Fisheries and Oceans Canada"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "As salmon migrated across the northeast Pacific for thousands of years, some of the ocean\u2019s top predators, orcas and pinnipeds, evolved with them. Pinnipeds, such as harbor seals and sea lions, eat a wide variety of fish aside from salmon including rockfish, herring, smelt, and squid. Today, as large numbers of pinnipeds inhabit the coastal waters of the north Pacific, one major ecotype of orca\u2014known as the transient killer whale \u2014 is also flourishing. Transient killer whales travel in family pods made up of five or six individuals, usually a mother and her offspring. They occasionally group together with other pods of orcas, related or not, in order to reproduce, socialize, and hunt. The diets of these killer whales also include other large whales and porpoises.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }), "A separate killer whale ecotype thrives off the salmon-rich, nutrient-dense, forest-fed waters of what today is known as the Salish Sea of Washington and British Columbia. Two distinct communities with somewhat overlapping territories exist, Northern Residents and Southern Residents. Both rely on salmon\u2014mostly Chinook. Southern Residents are the main focus of Whale Scout\u2019s programs and are made up of 3 matriarchal family pods (J, K, and L pods). Yet a third ecotype of killer whale exists in the Salish Sea: offshore killer whales. Rarely seen, these whales are thought to eat mostly sharks, and as a result have worn-down teeth from the rough skin."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_composition__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 92
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_container,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, "Over the last 150 years, Europeans developed the Salish Sea watershed for large-scale human habitation. We didn\u2019t understand how our actions would alter the life of the majestic forest and sea surrounding us. Forests were cleared, beaches were walled up, and rivers were dammed to allow western civilization to flourish. Commercial fisheries were established to bolster the economy and the orcas were seen as vicious, voracious fishing competition. Our western scientific understanding of killer whales was non-existent. Out of fear and misunderstanding, humans shot to kill orcas as recently as the 1960s. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }), "Beginning in the early 1960s, the marine park and aquarium industry was booming and began to target killer whales in Puget Sound. Capture teams patrolled Puget Sound by air and boat, searching for orcas. When a pod was located, the teams chased the whales into coves, often detonating underwater seal bombs to disorient and frighten them, making it easier to corral the group into a net pen and separate and remove the calves to be sold for captivity. It is unknown exactly how many whales were taken, but federal estimates put the number at around 50 individuals\u2014mainly Southern Resident J and L pod individuals. Only one of the captured Southern Residents, named \"Lolita\" from L pod, is alive today; she is currently on display at the Miami Seaquarium.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/captured.jpg\""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image_caption,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, "Members of L pod captured in Penn Cove, Wallie Funk, Associated Press"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126
+    },
+    __self: this
+  }, "In 1976, the horrific capture of a transient orca pod (including the still wild-living matriarch T46) at Budd Inlet was witnessed by Ralph Munro, who, at the time, was an aid to Washington Governor Evans. Motivated by the horror of what he saw, the capture process was later outlawed in the state of Washington. As a result, the federal government hired biologists to study, count, and track local orca populations. Scientists, such as Ken Balcomb with the Center for Whale Research on San Juan Island, began to unravel vibrant lives and cultures of the Salish Sea orcas, and our fear of these northwest icons was replaced with awe. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137
+    },
+    __self: this
+  }), "As the Center for Whale Research continued monitoring the orca population, they discovered that resident population numbers mirrored that of the salmon returns. In years when the salmon runs were strong, the resident orca population boomed. When the salmon runs were weak, more resident whales died. In 2005, the Southern Resident killer whale population were listed as endangered under the Endangered Species Act following a precipitous in numbers. Today, Southern Resident killer whales number fewer than when they were listed as endangered, a disappointing trend. The main cause of this decline is a lack of\xA0salmon.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/graph.jpg\""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image_caption,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: this
+  }, "Annual indices of mortality of (a) northern and (b) southern resident killer whales and (c) abundance of Chinook salmon, 1979-2003. Deviations from an annual index value of 1 (a,b) indicate higher or lower than expected mortality rates. Annual abundance indices for Chinook salmon (c) reflect departures from the average abundance over the entire time series. Ford et al., 2009"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 159
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 160
+    },
+    __self: this
+  }, "A well-fed orca has a thick layer of fat, also known as blubber. Aside from providing buoyancy and body heat control, the blubber layer is where an orca stores ingested pollutants. As top predators with long lives, any pollutants in the water (PCBs, DDT, flame retardants, etc.) bioaccumulate at the upper levels of the food chain. Well fed orcas store the pollutants in their blubber layer where their side effects are minimal. The transient orcas of the Salish Sea have an abundant supply of pinnipeds and other marine mammals to feed upon and therefore are able to keep toxins stored away in their blubber. The Southern Residents, despite eating lower on the food chain (marine mammals vs. salmon), are more at risk to toxin exposure since they are metabolizing their blubber stores burning fat during times of low salmon abundance. These toxins are proven to disrupt immune and reproductive systems. Compounding these issues are vessel impacts. Underwater noise disrupts the whale's echolocation and communication, and the presence of boats has been linked to behavioral changes."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_threats__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 181
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_container,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 182
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 183
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 184
+    },
+    __self: this
+  }, "To recover these endangered Southern Resident killer whales we must address these three main threats. Whale Scout\u2019s programs address each one and provide ways for you to get involved. First, we offer ways to watch whales from shore without leaving any trace on our waters.(hyperlink to watch section) Second, we help limit toxins from entering our waterways. We offer suggestions each month to become better stewards of the environment, which add up to help the whales. (hyperlink? To the monthly list of actions on the back of the \u201Csave orcas\u201D brochure? Direct elsewhere to that info on the site?) Our \u201CHelpin\u2019 Out\u201D events (link to Helpin\u2019 Out event listing) also limit toxins from entering our waterways through the natural treatment of stormwater runoff. At these events we plant trees and work to restore ecological function along salmon rivers, streams, and nearshore habitats. This provides salmon more places to live, spawn, and thrive. The more salmon there are, the more food killer whales have to eat. No matter where you live, you can make a difference with Podmatch, through your donations, or via participation with groups throughout the west coast. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203
+    },
+    __self: this
+  }), "We must keep in mind that we\u2019re striving for intact ecosystems from the treetops to the outer coast. Not only will the whales benefit from resilient forests, rivers and streams, everyone else will too, including us. The work we do restoring salmon habitat results in cleaner water, air, and more salmon for everyone.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 209
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 210
+    },
+    __self: this
+  }), "Southern Resident killer whales have a broad range from Southeast Alaska to to Monterey, California. Some of these west coast rivers extend hundreds of miles inland crossing the backyards and neighborhoods in major population centers. Unfortunately, many of these populations of salmon are also threatened or endangered.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/salmon_map.svg\""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image_caption,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 219
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 220
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 221
+    },
+    __self: this
+  }, "What\u2019s the Connection Between Planting Trees and Saving Whales?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.line,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 224
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 225
+    },
+    __self: this
+  }, "A significant amount of time spent at volunteer work parties or our \"Helpin' Out\" events involves restoring the \"riparian zone,\" or vegetation immediately along salmon rivers and streams. You may ask, \u201CWhy is this important, and how does it help?\u201D Well, with the help of our friends at the Skagit Fisheries Enhancement Group, we came up with a fun way to remember: 6 C's Thanks to Trees!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 233
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 234
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 235
+    },
+    __self: this
+  }, "Cool "), "- Trees shade the water, keeping it cool in warm months"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 238
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 239
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 240
+    },
+    __self: this
+  }, "Clean "), "- Vegetation and root systems filter toxins in rain runoff before entering into waterways"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 243
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 244
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 245
+    },
+    __self: this
+  }, "Clear "), "- Complex root systems hold the banks of rivers and streams, preventing erosion which can smother salmon eggs"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 248
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 249
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250
+    },
+    __self: this
+  }, "Constant "), "- Consistently flowing waters are critical for salmon. Rushes and low drops in water levels don\u2019t allow fish to move where they need to go or can scour out eggs embedded in streambeds. Rain is slowed down by tree branches and is stored in the ground beneath trees to slowly be released into the main channel."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 257
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 258
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 259
+    },
+    __self: this
+  }, "Critters "), "- The tiny bugs that baby salmon need to eat live on native vegetation. This gives the orca\u2019s food\u2019s food a place to thrive!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 263
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 264
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 265
+    },
+    __self: this
+  }, "Cover "), "- Towering trees and fallen logs offer adult migrating salmon some protection and refuge from predators such as birds who may be lurking above."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 269
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 270
+    },
+    __self: this
+  }, "Many of our Helpin' Out events are supported by The Nature Conservancy. Planting trees in our cities helps our orcas because of the reasons above and to specifically reduce toxic stormwater which is harmful for salmon, orcas, and all of us.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/how_were_helping.jpg\""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 277
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.image_caption,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 278
+    },
+    __self: this
+  }, "The Nature Conservancy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 279
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 280
+    },
+    __self: this
+  }, "Additional Links & Resources"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.line,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.adfg.alaska.gov/index.cfm?adfg=wildlifenews.view_article&articles_id=407&fbclid=IwAR00bl7q7-1MasG0vXosVLD6EYicift8xXHo1X6bw__Ia4NLeDNF2Cs2HhM",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 282
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 286
+    },
+    __self: this
+  }, "Alaska Department of Fish and Game - Salmon and Trees")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.nationalgeographic.org/encyclopedia/blubber/?fbclid=IwAR01p4oC2woY4Ibf_dRx7oHHiXM5ZYeXe4zopiKukhbrSEiEeBNf8uhU-eI",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 288
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 292
+    },
+    __self: this
+  }, "National Geographic - Blubber")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "http://www.orcanetwork.org/nathist/OIOM2006edited.pdf",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 294
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 298
+    },
+    __self: this
+  }, "Orcas in Our Midst")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.theolympian.com/news/local/article25320205.html?fbclid=IwAR1WgF5PqPH9R8USQUWc-mIDjXud3g0nqOW1cpaTBtxZZlBqajYemZyKvNc",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 300
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 304
+    },
+    __self: this
+  }, "The Olympian - Orca Captures")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.fisheries.noaa.gov/video/spotlight-southern-resident-killer-whale-interview-noaa-fisheries-biologist-lynne?fbclid=IwAR2bSuEPDR-GPtTM4NcuwunCZ59ppEJO8ok-KtWA3sdf5ZVJiB4OmzfylWM",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 306
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 310
+    },
+    __self: this
+  }, "NOAA Spotlight on SRKW"))))));
+});
+
+/***/ }),
+
 /***/ "./pages/scss/app.scss":
 /*!*****************************!*\
   !*** ./pages/scss/app.scss ***!
@@ -2890,337 +3579,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./pages/team.js":
-/*!***********************!*\
-  !*** ./pages/team.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/layout */ "./pages/components/layout.js");
-/* harmony import */ var _components_member__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/member */ "./pages/components/member.js");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
-/* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-animate-on-scroll */ "react-animate-on-scroll");
-/* harmony import */ var react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\team.js";
-
-
-
-
- // Database URL
-
-var database = "https://lederconsulting.dreamhosters.com"; // Create team member
-
-function TeamMember(name, role, email, about, image, color) {
-  this.name = name;
-  this.role = role;
-  this.email = email;
-  this.about = about;
-  this.image = image;
-  this.color = color;
-} // Angled square color palette
-
-
-var green = "#a6d5cd";
-var blue = "#032c4a";
-var red = "#b91e1e";
-var yellow = "#e9df81"; // Add new team members below this line
-
-var Whitney = new TeamMember("Whitney Neugebauer", "Director", "director@whalescout.org", "Whitney Neugebauer completed degrees in Geology and Anthropology from Eckerd College prior to receiving her master’s degree in Marine and Environmental Affairs from the University of Washington. She went on to found Whale Scout in 2013. Previously, Whitney served on the board of Sound Action and she currently serves on the board of One Bothell and Friends of North Creek Forest. She teaches kids jiu jitsu at Evergreen Karate and Jiu Jitsu in Bothell with her husband, Bryan Alvarez. Together they have one daughter and too many cats.", "".concat(database, "/wp-content/uploads/2019/03/whitney.jpg"), green);
-var Juliana = new TeamMember("Juliana Houghton", "Board Member", "houghtonjuliana@gmail.com", "Juliana is a graduate of the University of Washington’s School of Aquatic and Fishery Sciences. She completed her Master’s thesis in 2014 on the relationship between vessel traffic and the noise levels received by killer whales. She and her collaborators aimed to figure out what whale’s actually experience at depth by attaching digital acoustic recording tags (Dtags) to them with suction cups. She found that vessel speed was the most important contributor to noise levels received by whales (Houghton et al. 2015). Juliana hopes her findings will allow more boat-based whale-watchers to be as respectful of the whales as possible. Check out a talk that Juliana gave at Seattle’s Town Hall for more information and her current LinkedIn profile to see what she’s up to now. When Juliana is not working, she is spending time with her family. They enjoy boating, beach-combing, hiking, and camping.", "".concat(database, "/wp-content/uploads/2019/03/juliana.jpg"), red);
-var Bryan = new TeamMember("Bryan Alvarez", "Board Member", "Bryan@wrestlingobserver.com", "Bryan Alvarez has been the editor and publisher of Figure Four Weekly since 1995. Besides the newsletter, which covers pro-wrestling and mixed martial arts, he has also written wrestling columns for Penthouse Magazine (Mat Max!) in 1999 and 2000; The Fight Network in Canada and Fighting Spirit Magazine in the UK; co-authored Death of WCW with RD Reynolds in 2004; wrestled professionally throughout the US and Canada since 1993; and trains extensively in Gracie Jiu-Jitsu where he holds a brown belt under Master Pedro Sauer. He currently works as host of Wrestling Observer Live on the Sports Byline Radio Network and Sirius Satellite Radio channel 92/94/794 every Sunday night from 3-5 PM PST; and hosts Figure Four Daily, Wrestling Observer Radio, and the Bryan & Vinny Show at www.wrestlingobserver.com. He has also appeared on a number of broadcast and cable television programs talking pro-wrestling, including Nancy Grace and ABC Nightline.  He lives in Bothell with his wife and three cats.", "".concat(database, "/wp-content/uploads/2019/03/bryan.jpg"), blue);
-var Kailey = new TeamMember("Kailey Genther", "Board Member, San Juan Island Naturalist Program Coordinator", "SJINaturalist@gmail.com", "Kailey holds a B.S. from the University of Washington School of Aquatic and Fishery Science and a M.M.A. from the University of Washington’s School of Marine and Environmental Affairs. Her undergraduate work focused on the effects of the aquarium trade on the Southern Resident Killer Whale population, whereas her masters work investigated the similarities and differences in the rare cooperative fisheries that have existed and exist throughout the world between humans and 5 cetacean species. Kailey currently works at NOAA in the Protected Resources Division with the Northwest Marine Mammal Stranding Network. Kailey currently lives in Friday Harbor, WA with her husband, son, two cats, and a dog. When she is not involved in marine mammal work she can be found in ballet class (she’s danced many forms of dance since a little girl), enjoying the outdoors and spending time with friends and family.", "".concat(database, "/wp-content/uploads/2019/03/kailey.jpg"), yellow);
-var David = new TeamMember("David Bain", "Program Advisor", "dbaing17@gmail.com", "David Bain is a marine mammal biologist and environmental educator who has worked with killer whales for 40 years. “It has become clear to me that improving habitat at the base of the food web is the key to recovering endangered killer whales. To accomplish this, I’ve chosen to complement my research by working with government officials who make decisions that influence the environment on a large scale and educating individuals whose day-to-day decisions add up to determine environmental health. He has a Ph.D. in Biology from the University of California at Santa Cruz, with post-doctoral work at the UC-Davis and the National Marine Mammal Lab in Seattle. He helped develop killer whale recovery strategies in the US and Canada, and the marine-life portion of the Northwest’s oil spill response plan. Dave is president of Cascadia Environmental Science Center and Vice President of Friends of North Creek Forest. He serves on the boards of Sound Action, SnoKing Watershed Council, NaWhare and Orca Conservancy and has been active in the King and Snohomish/Camano ECO Nets. He received a Puget Sound Hero Award  from People for Puget Sound for his work protecting the nearshore habitat of Maury Island from development. He has lived in Bothell since 1998.", "".concat(database, "/wp-content/uploads/2019/03/david.jpg"), green);
-var Lindsey = new TeamMember("Lindsey Mann", "Volunteer Book Club Coordinator", "thundershire@live.com", "Originally born in South Dakota, Lindsey currently resides in Seattle, WA. She was trained as a certified Marine Naturalist through The Whale Museum on San Juan Island. She’s a Clinical Trials Assistant with Seattle Children’s Hospital focusing on Cystic Fibrosis research. When she’s not busy organizing our book club or nose deep in a whale book, she is usually spending time with her family or her corgi Dougan. In the meantime, she likes to horseback ride and read Tolkien books while cuddling her 2 cats. She also enjoys playing video games, going on walks with her husband Sam, or playing her Irish fiddle. You can also find her taking pictures of beautiful PNW scenery; she loves macro photography in particular. She has been interested in whales ever since she was little. Her mom would take her to San Juan Island every summer as a sort of holy pilgrimage. It was the magical chance each year to see orcas.  She’s been fortunate a few times to see our Southern Resident killer whales up close. The spectacular encounters left her inspired and enraptured with them. She can’t remember a time when she wasn’t a passionate advocate for all whales, but especially for our local Southern Resident killer whales.", "".concat(database, "/wp-content/uploads/2019/03/lindsey.jpg"), red);
-var Ariel = new TeamMember("Ariel Yseth", "Newsletter Editor and Podcast Producer", "Ariel@whalescout.org", "Ariel is originally from eastern South Dakota but has always had the Pacific Northwest in her heart.  She first fell in love with our Southern Resident Killer Whales at the age of two when J1 Ruffles and J2 Granny appeared in the opening sequence of the movie Free Willy. Between her junior and senior year of college, Ariel got her first taste of the PNW when she worked at a summer camp on Orcas Island, WA, in 2012. She moved to Lynnwood, WA, in fall 2013 and began working as a registered nurse on the organ transplant unit at Swedish Hospital in downtown Seattle. She completed the Marine Naturalist Training Program in the fall of 2015 and has since spent hundreds of hours on the shores of the Salish Sea educating the public about our killer whales. In the summertime, Ariel can most often be found wandering the trails of American Camp, San Juan Island. Her favorite activity involves dragging her friends and family on camping trips to the San Juan’s to see the whales. Ariel also loves kayaking (if you meet her be sure to ask about her folding kayak), photography, and considers herself to be a movie buff. You can bet that so long as the activity has something to do with whales or the sea, Ariel loves it. After all, what do you expect from a mermaid?", "".concat(database, "/wp-content/uploads/2019/03/ariel.jpg"), blue); // All team members
-
-var team = [Whitney, Juliana, Bryan, Kailey, David, Lindsey, Ariel];
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.team_header,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 94
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    animateIn: "fadeIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 95
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 96
-    },
-    __self: this
-  }, "OUR TEAM"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.team,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99
-    },
-    __self: this
-  }, team.map(function (member) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_member__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      key: member.name,
-      image: member.image,
-      color: member.color,
-      name: member.name,
-      role: member.role,
-      email: member.email,
-      about: member.about,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 101
-      },
-      __self: this
-    });
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.team_footer,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 112
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113
-    },
-    __self: this
-  }, "Meet Our Partners"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.line,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_3___default.a.supporters,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 116
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117
-    },
-    __self: this
-  }, "Center for Whale Research"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 118
-    },
-    __self: this
-  }, "City of Bothell"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 119
-    },
-    __self: this
-  }, "Creag Foundation"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 120
-    },
-    __self: this
-  }, "Defenders of Wildlife NW"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121
-    },
-    __self: this
-  }, "EarthCorps"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 122
-    },
-    __self: this
-  }, "Edson Family"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123
-    },
-    __self: this
-  }, "Evergreen Karate and Jiu Jitsu")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 126
-    },
-    __self: this
-  }, "Figure Four Online"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127
-    },
-    __self: this
-  }, "F.O.L.K.S. (Friends of Lime Kiln Society)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 128
-    },
-    __self: this
-  }, "Forterra"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 129
-    },
-    __self: this
-  }, "Friends of Lake Sammamish State Park"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 130
-    },
-    __self: this
-  }, "Friends of North Creek Forest"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 131
-    },
-    __self: this
-  }, "King County Parks"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 132
-    },
-    __self: this
-  }, "MidSound Fisheries Enhancement Group")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  }, "The Nature Conservancy"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136
-    },
-    __self: this
-  }, "OneBothell"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137
-    },
-    __self: this
-  }, "Orca Behavior Institute"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 138
-    },
-    __self: this
-  }, "Orca Network"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139
-    },
-    __self: this
-  }, "Orca Salmon Alliance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 140
-    },
-    __self: this
-  }, "Orca Watcher Photography"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 141
-    },
-    __self: this
-  }, "The Rose Foundation")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 143
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 144
-    },
-    __self: this
-  }, "Ross Family"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145
-    },
-    __self: this
-  }, "Salish SEA"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 146
-    },
-    __self: this
-  }, "San Juan County Land Bank"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 147
-    },
-    __self: this
-  }, "Seattle Aquarium"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148
-    },
-    __self: this
-  }, "Skagit Fisheries Enhancement Group"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149
-    },
-    __self: this
-  }, "Washington Department of Fish and Wildlife"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 150
-    },
-    __self: this
-  }, "The Whale Museum")))));
-});
-
-/***/ }),
-
-/***/ 5:
-/*!*****************************!*\
-  !*** multi ./pages/team.js ***!
-  \*****************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/learn.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Jeff\Desktop\Dev\whalescout\pages\team.js */"./pages/team.js");
+module.exports = __webpack_require__(/*! C:\Users\Jeff\Desktop\Dev\whalescout\pages\learn.js */"./pages/learn.js");
 
 
 /***/ }),
@@ -3479,4 +3845,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=team.js.map
+//# sourceMappingURL=learn.js.map

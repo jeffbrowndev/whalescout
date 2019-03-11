@@ -1,7 +1,7 @@
-import Layout from './components/layout';
-import fetch from 'isomorphic-unfetch';
-import React from 'react';
-import styles from './scss/app.scss';
+import Layout from "./components/layout";
+import fetch from "isomorphic-unfetch";
+import React from "react";
+import styles from "./scss/app.scss";
 
 class Event extends React.Component {
   constructor(props) {
@@ -10,7 +10,7 @@ class Event extends React.Component {
   }
   componentDidMount() {
     fetch(
-      `https://lederconsulting.dreamhosters.com/wp-json/wp/v2/posts?slug=${
+      `${process.env.DATABASE_URL}/wp-json/wp/v2/posts?slug=${
         this.props.url.query.slug
       }`
     )
@@ -26,7 +26,7 @@ class Event extends React.Component {
           {/* Title */}
           {event.title ? <h1>{event.title}</h1> : <h1>Helpin' Out Event!</h1>}
           {/* Location */}
-          {event.location_name ? <h2>{`@ ${event.location_name}`}</h2> : ''}
+          {event.location_name ? <h2>{`@ ${event.location_name}`}</h2> : ""}
           {/* Description */}
           {event.description ? (
             <p className={styles.event_description}>{event.description}</p>
@@ -39,26 +39,26 @@ class Event extends React.Component {
           {event.image ? (
             <img src={event.image} />
           ) : (
-            <img src='./static/images/ws_home_header.svg' />
+            <img src="./static/images/ws_home_header.svg" />
           )}
           {/* Image caption */}
           {event.image_caption ? (
             <p className={styles.event_caption}>{event.image_caption}</p>
           ) : (
-            ''
+            ""
           )}
           <h3>Event Details:</h3>
           <ul>
             {/* Date */}
-            {event.date ? <li>{`Date: ${event.date}`}</li> : ''}
+            {event.date ? <li>{`Date: ${event.date}`}</li> : ""}
             {/* Time */}
             {event.start_time ? (
               <li>
                 {`Time: ${event.start_time}`}
-                {event.end_time ? <span>{` - ${event.end_time}`}</span> : ''}
+                {event.end_time ? <span>{` - ${event.end_time}`}</span> : ""}
               </li>
             ) : (
-              'Check back for details!'
+              "Check back for details!"
             )}
 
             {/* Address */}
@@ -68,20 +68,20 @@ class Event extends React.Component {
                 {event.location_address ? (
                   <span>{`, ${event.location_address}`}</span>
                 ) : (
-                  ''
+                  ""
                 )}
               </li>
             ) : (
-              'Check back for details!'
+              "Check back for details!"
             )}
             {/* What to bring */}
             {event.what_to_bring ? (
               <li>{`What to bring: ${event.what_to_bring}`}</li>
             ) : (
-              ''
+              ""
             )}
             {/* Provided */}
-            {event.provided ? <li>{`Provided: ${event.provided}`}</li> : ''}
+            {event.provided ? <li>{`Provided: ${event.provided}`}</li> : ""}
             {/* Age rescrictions */}
             {event.age_restrictions > 0 ? (
               <li>{`Youth under the age of ${
@@ -94,11 +94,11 @@ class Event extends React.Component {
             {event.youth_waiver_form ? <li /> : <li />}
             {/* Facebook link */}
             {event.facebook_link ? (
-              <a href={event.facebook_link} target='_blank'>
+              <a href={event.facebook_link} target="_blank">
                 <li>View this event on Facebook</li>
               </a>
             ) : (
-              ''
+              ""
             )}
             {/* Supporters */}
             {event.partners_supporters ? (
@@ -106,18 +106,18 @@ class Event extends React.Component {
                 event.partners_supporters
               }`}</li>
             ) : (
-              ''
+              ""
             )}
             {/* Sign up */}
             {event.sign_up ? (
               <li>
-                Space will be limited!{' '}
-                <a href={event.sign_up} target='_blank'>
+                Space will be limited!{" "}
+                <a href={event.sign_up} target="_blank">
                   Sign up required
                 </a>
               </li>
             ) : (
-              ''
+              ""
             )}
           </ul>
         </div>

@@ -57527,7 +57527,7 @@ var Marker = function Marker() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_1___default.a.marker,
-    src: 'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/marker.png',
+    src: "".concat("https://lederconsulting.dreamhosters.com", "/wp-content/uploads/2019/03/marker.png"),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -57922,336 +57922,334 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scss/app.scss */ "./pages/scss/app.scss");
 /* harmony import */ var _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scss_app_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_map__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/map */ "./pages/components/map.js");
-/* harmony import */ var google_map_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! google-map-react */ "./node_modules/google-map-react/lib/index.js");
-/* harmony import */ var google_map_react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(google_map_react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _components_calendar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/calendar */ "./pages/components/calendar.js");
+/* harmony import */ var _components_calendar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/calendar */ "./pages/components/calendar.js");
 var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\watch.js";
 
 
 
 
 
-
+var db = "https://lederconsulting.dreamhosters.com";
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header_container,
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header,
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header_container,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header_image,
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: 'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/watching.jpg',
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header_image,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "".concat(db, "/wp-content/uploads/2019/03/watching.jpg"),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.square,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 15
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_header_text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 20
     },
     __self: this
   }, "Land-Based Whale\xA0Watching"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 21
     },
     __self: this
   }, "Meet up with an expert Whale Scout volunteer naturalist at a local beach to watch whales. Our team of over 50 volunteers are stationed throughout the Puget Sound region so there\u2019s a good chance you can meet up with one close to where you live. Let us show you the whales, and share more about them. We have binoculars to share and educational materials if the whales aren\u2019t easily visible. Learn where and when we\u2019re watching whales by following us on Facebook or Twitter and get notifications.")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.find_us,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.find_us_container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 41
     },
     __self: this
   }, "Find Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.line,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 43
     },
     __self: this
   }, "Opportunistically"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 44
     },
     __self: this
   }, "Naturalists respond to whale sightings year-round offering land-based whale watching experiences on an opportunistic basis. Following us on social media and sending notifications to your phone is the best way to know when and where we\u2019re watching whales.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 53
     },
     __self: this
   }, "Second Sunday Sightings"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 54
     },
     __self: this
   }, "Join naturalists every month on the second Sunday to look for whales, other wildlife, and learn more about our ecosystems. This program runs from March through November. Check the map for locations.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 61
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 62
     },
     __self: this
   }, "Summer"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 63
     },
     __self: this
   }, "Whale Scout is part of the San Juan Island Naturalist Program, a collaborative effort to station naturalists at the Westside Preserve on San Juan Island from Memorial Day through Labor Day. Typically during summer months, resident orcas frequent the area and often travel very close to shore. Use the calendar to learn when our naturalists are stationed. Even if whales are not present, our naturalists can share information about the unique coastal prairie ecosystem found at the Westside Preserve and answer your questions about wildlife in the Salish Sea.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 75
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 76
     },
     __self: this
   }, "Special Events"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 77
     },
     __self: this
   }, "Annual events where you can meet naturalist on the beach include Black Friday, or #OptOutside Day, and weekends in June celebrating Orca Month! Check the calendar for details. Our team of naturalists both sends and receives whale sightings through Orca Network.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.calendar,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.calendar_content,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.calendar_text,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93
+      lineNumber: 90
     },
     __self: this
   }, "When & Where"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 91
     },
     __self: this
   }, "Check the calendar for opportunities to meet with volunteers. Sometimes we schedule specific days and times when we look for whales, even if none are reported.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98
+      lineNumber: 95
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99
+      lineNumber: 96
     },
     __self: this
-  }), "See the map below for more information on frequent whale watching outposts and volunteer locations.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_calendar__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), "See the map below for more information on frequent whale watching outposts and volunteer locations.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_calendar__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 101
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_map__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 112
+      lineNumber: 109
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_more,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113
+      lineNumber: 110
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_container,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 111
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 113
     },
     __self: this
   }, "What To Look For"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 114
     },
     __self: this
   }, "Our volunteers can be recognized by their distinctive blue Whale Scout vests. Feel free to ask them for help or more information on Whale Scout.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.article_section,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123
+      lineNumber: 120
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 121
     },
     __self: this
   }, "What To Bring"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 122
     },
     __self: this
   }, "Also, make sure to dress appropriately for the weather. The Pacific Northwest can be unpredictable, so please prepare for any situation."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.watch_more_image,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 129
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: 'https://lederconsulting.dreamhosters.com/wp-content/uploads/2019/03/watching_2.jpg',
+    src: "".concat(db, "/wp-content/uploads/2019/03/watching_2.jpg"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 130
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _scss_app_scss__WEBPACK_IMPORTED_MODULE_2___default.a.square,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 131
     },
     __self: this
   })))));
@@ -58259,7 +58257,7 @@ var _jsxFileName = "C:\\Users\\Jeff\\Desktop\\Dev\\whalescout\\pages\\watch.js";
 
 /***/ }),
 
-/***/ 1:
+/***/ 6:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fwatch&absolutePagePath=C%3A%5CUsers%5CJeff%5CDesktop%5CDev%5Cwhalescout%5Cpages%5Cwatch.js ***!
   \*****************************************************************************************************************************************/
@@ -58282,5 +58280,5 @@ module.exports = dll_55dc4e2ecf7824085104;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]));;
+},[[6,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=watch.js.map
