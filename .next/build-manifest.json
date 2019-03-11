@@ -1,6 +1,6 @@
 {
   "devFiles": [
-    "static/development/dll/dll_67211bc3619cb7902ee2.js"
+    "static/development/dll/dll_1536b40011a7791f5d92.js"
   ],
   "pages": {
     "/_app": [
@@ -11,10 +11,20 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/article": [
+    "/team": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/watch": [
+      "static/runtime/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
+      "static/runtime/main.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
   }

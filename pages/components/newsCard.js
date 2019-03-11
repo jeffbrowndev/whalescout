@@ -1,14 +1,12 @@
 import styles from "../scss/app.scss";
-import routes from "../../routes";
 const moment = require("moment");
+import Link from "next/link";
 import ScrollAnimation from "react-animate-on-scroll";
-
-const { Link } = routes;
 
 const NewsCard = props => {
   return (
     <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-      <Link prefetch route={`/article/${props.slug}`}>
+      <Link href={`/article?slug=${props.slug}`}>
         <div className={styles.news_card}>
           <div className={styles.news_content_left}>
             <img src={props.image} />
