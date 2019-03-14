@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .team {
   background: white;
@@ -9,7 +9,7 @@
   }
 }
 .team_header {
-  background-image: url('/static/images/ws_team_header.svg');
+  background-image: url("/static/images/ws_team_header.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,7 @@
 }
 .team_footer {
   width: 100%;
-  background-image: url('/static/images/ws_team_footer.jpg');
+  background-image: url("/static/images/ws_team_footer.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,6 +41,7 @@
   }
   h1 {
     font-family: $voltage;
+    font-weight: lighter;
     text-align: center;
     font-size: 48px;
     padding-bottom: 10px;

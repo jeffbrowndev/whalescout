@@ -1,49 +1,49 @@
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._31aIprjyBDmsvNZgzxNNJn {
@@ -115,6 +115,7 @@
       text-align: center; }
     ._31aIprjyBDmsvNZgzxNNJn ._2RIpZQWfUl8DAJli_14zqY h1 {
       font-family: "volt", sans-serif;
+      font-weight: lighter;
       color: #032c4a;
       font-size: 48px; }
     ._31aIprjyBDmsvNZgzxNNJn ._2RIpZQWfUl8DAJli_14zqY h2,
@@ -135,27 +136,27 @@
       font-size: 15px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1yHrwMOUUlrfKx7gPr2VTw ._1L_BAhvHh2AaLvOPlv8X2w {
@@ -217,6 +218,7 @@
       margin-top: -20px;
       font-size: 48px;
       font-family: "volt", sans-serif;
+      font-weight: lighter;
       color: #032c4a; }
     ._1yHrwMOUUlrfKx7gPr2VTw .nCqTnuluilMyA-Yy7kQkV ._3vujCr3VzP5bUFACI-aWCI p {
       font-size: 21px;
@@ -253,27 +255,27 @@
         width: 100px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1w075ffhvFBlpjDEm7LJXe {
@@ -309,6 +311,7 @@
     padding: 150px 3%; }
     ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t h2 {
       color: #032c4a;
+      font-weight: lighter;
       font-family: "volt", sans-serif;
       font-size: 48px;
       margin-bottom: 25px; }
@@ -327,6 +330,9 @@
       margin: auto;
       display: flex;
       justify-content: space-around; }
+      ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._21B_clNkb2Yfq5R1VO4TcL img,
+      ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1vY_ltV4OE-Kme6UDda8wH img {
+        max-width: 490px; }
     ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1vY_ltV4OE-Kme6UDda8wH {
       padding-top: 150px; }
       ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1vY_ltV4OE-Kme6UDda8wH a {
@@ -349,6 +355,7 @@
             display: none; }
           ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._21B_clNkb2Yfq5R1VO4TcL img:last-child,
           ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1vY_ltV4OE-Kme6UDda8wH img:last-child {
+            max-width: 100%;
             padding-top: 75px; }
         ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1vY_ltV4OE-Kme6UDda8wH {
           padding-top: 75px; } }
@@ -385,6 +392,7 @@
       cursor: pointer; }
     .sdReeN9ru-ldZX0BUMOME ._3sUB93TIVgzoU3dYJqMd5b h3 {
       font-family: "volt", sans-serif;
+      font-weight: lighter;
       font-weight: 300;
       font-size: 36px;
       line-height: 1;
@@ -414,27 +422,27 @@
         display: block; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._34GCJZmVKrJNmFict_LS7L {
@@ -495,6 +503,7 @@
     margin: auto; }
   ._2pXrWOhsLGqZg26UVA3ga5 h1 {
     font-family: "volt", sans-serif;
+    font-weight: lighter;
     text-align: center;
     font-size: 48px;
     padding-bottom: 10px;
@@ -543,27 +552,27 @@
             order: 4; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._34nbnXxj9Myrfx_lwkS8bR {
@@ -649,27 +658,27 @@
           padding-bottom: 50px; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1T5Y5L41RPVBysTU1ZfovO {
@@ -716,6 +725,7 @@
         height: 0;
         width: 0; }
   ._1T5Y5L41RPVBysTU1ZfovO ._33TBabzZALkqFv8IQobAqJ {
+    height: 40%;
     width: 95%;
     margin: auto;
     text-align: center;
@@ -779,34 +789,40 @@
         padding: 10px 20px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3hPJztqjklF7frw6GXH0yb {
   background: #032c4a;
-  padding: 35px 0; }
+  padding: 35px 0;
+  min-height: 475px; }
+  @media screen and (max-width: 1640px) {
+    ._3hPJztqjklF7frw6GXH0yb {
+      min-height: 410px !important; } }
   @media screen and (max-width: 575px) {
     ._3hPJztqjklF7frw6GXH0yb {
+      border-bottom: 1px solid grey;
+      border-top: 1px solid grey;
       padding: 0; } }
   ._3hPJztqjklF7frw6GXH0yb ._3rJ9oAdvAj8SVwaQQ9lKar {
     width: 1525px;
@@ -835,27 +851,27 @@
         width: 100%; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1vnmqHTyIimiyAAVDDxqa2 ._3heVxRDwb5EeNDw3Looj7x {
@@ -950,6 +966,7 @@
       ._1vnmqHTyIimiyAAVDDxqa2 ._8QSuJgGDmCIIqA6CoaDGW ._2w8czOk43TmwNx5plErt9M ._3FPYoModNpklGuI6A-oDNq ._2ogdv4uPhzy05qnUT0xFCV h2 {
         color: #032c4a;
         font-family: "volt", sans-serif;
+        font-weight: lighter;
         font-size: 48px;
         line-height: 1;
         padding-bottom: 10px; }
@@ -1010,6 +1027,7 @@
   margin-top: 50px; }
   ._1vnmqHTyIimiyAAVDDxqa2 .xmx6UMFsjGy-2vwTcZdOk h1 {
     font-family: "volt", sans-serif;
+    font-weight: lighter;
     color: #032c4a;
     line-height: 1;
     font-size: 48px;
@@ -1028,27 +1046,27 @@
     width: 25px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 .Mtd7rzWpJQeWpZ66q97jX {
@@ -1090,27 +1108,27 @@
       display: block; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1Y9qxVc4Rw23hTFsXAtVzC {
@@ -1125,27 +1143,27 @@
     width: 250px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._26f6-5COiLsjzNefylztCo {
@@ -1213,27 +1231,27 @@
         background: #96cec4; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1XIpYzRhpnZ2SNTKJ9b762 {
@@ -1258,6 +1276,7 @@
     ._1XIpYzRhpnZ2SNTKJ9b762 ._18u0EGwr0JI-BMulpWmE79 h1 {
       text-align: center;
       font-family: "volt", sans-serif;
+      font-weight: lighter;
       font-size: 48px;
       color: #032c4a;
       line-height: 1; }
@@ -1290,27 +1309,27 @@
         font-size: 36px; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3pqaVZsOAVYclM01mT-eGl ._1EozEyJzZaZwxmDOFGAqlF {
@@ -1319,6 +1338,7 @@
   ._3pqaVZsOAVYclM01mT-eGl ._1EozEyJzZaZwxmDOFGAqlF h1 {
     color: #e1251c;
     font-family: "volt", sans-serif;
+    font-weight: lighter;
     font-size: 48px; }
   ._3pqaVZsOAVYclM01mT-eGl ._1EozEyJzZaZwxmDOFGAqlF p {
     color: #032c4a;
@@ -1369,27 +1389,27 @@
     padding-top: 50px; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._2g7wOHPH2dBKHHrUJhbM8E ._12xps7v40jCs0lt_1-82el {
@@ -1428,27 +1448,27 @@
         padding: 100px 0; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3Fq2y1n3yfkshXbkJtZLsi ._3IyHiBZqINu6YBUT4ae2ja {
@@ -1551,27 +1571,27 @@
     resize: none; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3wWN1FgMVLwSx65bucxWRb {
@@ -1582,6 +1602,7 @@
     width: 100%; }
   ._3wWN1FgMVLwSx65bucxWRb h1 {
     font-family: "volt", sans-serif;
+    font-weight: lighter;
     color: #032c4a;
     font-size: 48px;
     line-height: 1;
@@ -1617,27 +1638,27 @@
         font-size: 19px; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3sy_8qr-tTqarED5dUqIZ9 {
@@ -1737,6 +1758,7 @@ audio {
     font-size: 48px;
     font-family: "volt", sans-serif !important;
     line-height: 1;
+    font-weight: lighter;
     color: #032c4a;
     margin-bottom: 50px;
     text-align: left !important; }
@@ -1779,27 +1801,27 @@ audio {
         font-size: 18px; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3wFAUIjQ5E0PsxcKo5oXTH {
@@ -1855,27 +1877,27 @@ audio {
       margin-left: 10px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._1ip12XehP7i3yOtpyJki3z {
@@ -1948,27 +1970,27 @@ audio {
     display: none; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._3sfYo1EsHHghmXLHiWZD81 {
@@ -2017,27 +2039,27 @@ audio {
       width: 94%; } }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._2U5_7zykfOlNvc_oYSxyHq {
@@ -2052,6 +2074,7 @@ audio {
   ._2U5_7zykfOlNvc_oYSxyHq h1 {
     font-size: 48px;
     font-family: "volt", sans-serif !important;
+    font-weight: lighter;
     line-height: 1;
     color: #032c4a;
     margin-bottom: 50px;
@@ -2062,20 +2085,33 @@ audio {
     cursor: pointer; }
   ._2U5_7zykfOlNvc_oYSxyHq h2 {
     color: #96cec4;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     text-align: left !important; }
   ._2U5_7zykfOlNvc_oYSxyHq p {
     font-size: 16px;
     line-height: 2;
     color: #032c4a;
-    text-align: left !important; }
+    text-align: left !important;
+    max-width: 100%;
+    overflow-x: hidden; }
+    ._2U5_7zykfOlNvc_oYSxyHq p img {
+      max-width: 100%;
+      margin: 25px 0 25px 50%;
+      transform: translateX(-50%);
+      height: auto; }
+  ._2U5_7zykfOlNvc_oYSxyHq audio {
+    margin-bottom: 25px;
+    margin-top: -25px; }
   ._2U5_7zykfOlNvc_oYSxyHq figure {
-    text-align: center;
-    padding: 25px 0; }
+    text-align: center !important;
+    padding: 25px 0;
+    width: 100% !important; }
     ._2U5_7zykfOlNvc_oYSxyHq figure em {
       color: #adadad;
       font-size: 14px; }
     ._2U5_7zykfOlNvc_oYSxyHq figure img {
+      height: auto;
       max-width: 100%;
       padding-bottom: 0 !important; }
   @media screen and (max-width: 1100px) {
@@ -2163,6 +2199,7 @@ a {
   .L2id93Pj_0zKtPPQ7MutF h1 {
     line-height: 1;
     font-family: "volt", sans-serif;
+    font-weight: lighter;
     color: #032c4a;
     font-size: 48px;
     padding-bottom: 10px; }
@@ -2196,27 +2233,27 @@ a {
   margin-right: 25px; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._2V92VTr4YTW0IIYKc_Xq9G {
@@ -2284,27 +2321,27 @@ a {
         background: #96cec4; }
 
 @font-face {
-  font-family: 'volt';
+  font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
 
 @font-face {
-  font-family: 'raleway-extrabold';
+  font-family: "raleway-extrabold";
   src: url("/static/fonts/Raleway-ExtraBold.ttf"); }
 
 @font-face {
-  font-family: 'raleway-black';
+  font-family: "raleway-black";
   src: url("/static/fonts/Raleway-Black.ttf"); }
 
 @font-face {
-  font-family: 'raleway-light';
+  font-family: "raleway-light";
   src: url("/static/fonts/Raleway-Light.ttf"); }
 
 @font-face {
-  font-family: 'raleway-regular';
+  font-family: "raleway-regular";
   src: url("/static/fonts/Raleway-Regular.ttf"); }
 
 @font-face {
-  font-family: 'raleway-bold';
+  font-family: "raleway-bold";
   src: url("/static/fonts/Raleway-Bold.ttf"); }
 
 ._4lkSwLZRVGCVsPJFOBMMz {
@@ -2349,6 +2386,7 @@ a {
         padding-left: 100px; }
         ._4lkSwLZRVGCVsPJFOBMMz ._3_XrnnEnEaAOuIZsZKX4Ez .II81dVGYJYsk0xwfxxbUL ._3pYMDdIQuwbTdJTjTW46XV h3 {
           font-family: "volt", sans-serif;
+          font-weight: lighter;
           font-size: 32px;
           margin-bottom: 10px; }
         ._4lkSwLZRVGCVsPJFOBMMz ._3_XrnnEnEaAOuIZsZKX4Ez .II81dVGYJYsk0xwfxxbUL ._3pYMDdIQuwbTdJTjTW46XV ._3do0oKwmm5DduScsx6moRQ ._1UcgeGMvQcrooDGlMJyFdK {

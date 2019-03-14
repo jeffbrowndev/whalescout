@@ -1,11 +1,11 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .home {
   background: $mediumgreen;
   .home_header {
     width: 100%;
-    background: url('/static/images/ws_home_header.svg') no-repeat;
+    background: url("/static/images/ws_home_header.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     min-height: 750px;
@@ -41,6 +41,7 @@
     padding: $sectionpadding;
     h2 {
       color: $blue;
+      font-weight: lighter;
       font-family: $voltage;
       font-size: 48px;
       margin-bottom: $h2margin;
@@ -63,6 +64,9 @@
       margin: auto;
       display: flex;
       justify-content: space-around;
+      img {
+        max-width: 490px;
+      }
     }
     .you_can_help {
       padding-top: $spacer;
@@ -86,6 +90,7 @@
           display: none;
         }
         img:last-child {
+          max-width: 100%;
           padding-top: $spacermobile;
         }
       }
@@ -135,6 +140,7 @@
     }
     h3 {
       font-family: $voltage;
+      font-weight: lighter;
       font-weight: 300;
       font-size: 36px;
       line-height: 1;

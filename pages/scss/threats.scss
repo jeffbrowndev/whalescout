@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .threats {
   .threats_header {
@@ -8,6 +8,7 @@
     h1 {
       color: $red;
       font-family: $voltage;
+      font-weight: lighter;
       font-size: 48px;
     }
     p {

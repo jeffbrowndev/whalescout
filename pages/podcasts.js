@@ -19,7 +19,7 @@ class Podcasts extends React.Component {
     // Check all podcasts to and try to find a match
     podcasts.forEach(podcast => {
       // Podcast content to search for (podcast title)
-      const content = podcast.acf.podcast_title.replace(/ /g, "").toLowerCase();
+      const content = podcast.title.rendered.replace(/ /g, "").toLowerCase();
       // If podcast doesn't contain user input, remove from view
       podcast.visible = content.includes(input) ? true : false;
     });
@@ -56,7 +56,7 @@ class Podcasts extends React.Component {
                 <PodcastCard
                   key={podcast.slug}
                   title={podcast.title.rendered}
-                  date={podcast.acf.podcast_date}
+                  date={podcast.date}
                   slug={podcast.slug}
                 />
               );
@@ -71,7 +71,7 @@ class Podcasts extends React.Component {
 Podcasts.getInitialProps = async function() {
   // Get ALL podcasts
   const podcasts = await fetch(
-    `${process.env.DATABASE_URL}/wp-json/wp/v2/posts?categories=4`
+    `${process.env.DATABASE_URL}/wp-json/wp/v2/posts?categories=4&per_page=100`
   ).then(podcasts => podcasts.json());
 
   // Add a 'visible' property to each podcast for search bar functionality

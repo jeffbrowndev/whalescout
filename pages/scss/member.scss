@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .member {
   display: flex;
@@ -86,6 +86,7 @@
     }
     h1 {
       font-family: $voltage;
+      font-weight: lighter;
       color: $blue;
       font-size: 48px;
     }

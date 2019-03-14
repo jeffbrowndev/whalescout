@@ -3,6 +3,8 @@ import styles from "../scss/app.scss";
 import ellipsis from "text-ellipsis";
 import Link from "next/link";
 import ScrollAnimation from "react-animate-on-scroll";
+import ReactHtmlParser from "react-html-parser";
+const moment = require("moment");
 
 class PodcastCard extends React.Component {
   constructor(props) {
@@ -15,14 +17,14 @@ class PodcastCard extends React.Component {
           <div className={styles.podcast_date_banner}>
             <div className={styles.podcast_date}>
               {this.props.date !== undefined
-                ? this.props.date
+                ? moment(this.props.date).format("LL")
                 : "No Date Provided"}
             </div>
             <div className={styles.tail} />
           </div>
           <h4>
             {this.props.title !== undefined
-              ? ellipsis(this.props.title, 140)
+              ? ellipsis(ReactHtmlParser(this.props.title), 140)
               : "Podcast"}
           </h4>
           <div href="#" className={styles.listen}>

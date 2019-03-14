@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .event {
   border-radius: 5px;
@@ -50,6 +50,7 @@
     }
   }
   .event_footer {
+    height: 40%;
     width: 95%;
     margin: auto;
     text-align: center;

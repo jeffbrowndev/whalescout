@@ -1,9 +1,9 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 // All podcasts styles
 .podcast_header {
-  background-image: url('/static/images/ws_podcast_header.svg');
+  background-image: url("/static/images/ws_podcast_header.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,6 +90,7 @@ audio {
     font-size: 48px;
     font-family: $voltage !important;
     line-height: 1;
+    font-weight: lighter;
     color: $blue;
     margin-bottom: 50px;
     text-align: left !important;

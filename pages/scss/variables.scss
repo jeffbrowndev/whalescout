@@ -1,36 +1,36 @@
 // Import fonts
 @font-face {
-  font-family: 'volt';
-  src: url('/static/fonts/Voltage Bold.otf');
+  font-family: "volt";
+  src: url("/static/fonts/Voltage Bold.otf");
 }
 @font-face {
-  font-family: 'raleway-extrabold';
-  src: url('/static/fonts/Raleway-ExtraBold.ttf');
+  font-family: "raleway-extrabold";
+  src: url("/static/fonts/Raleway-ExtraBold.ttf");
 }
 @font-face {
-  font-family: 'raleway-black';
-  src: url('/static/fonts/Raleway-Black.ttf');
+  font-family: "raleway-black";
+  src: url("/static/fonts/Raleway-Black.ttf");
 }
 @font-face {
-  font-family: 'raleway-light';
-  src: url('/static/fonts/Raleway-Light.ttf');
+  font-family: "raleway-light";
+  src: url("/static/fonts/Raleway-Light.ttf");
 }
 @font-face {
-  font-family: 'raleway-regular';
-  src: url('/static/fonts/Raleway-Regular.ttf');
+  font-family: "raleway-regular";
+  src: url("/static/fonts/Raleway-Regular.ttf");
 }
 @font-face {
-  font-family: 'raleway-bold';
-  src: url('/static/fonts/Raleway-Bold.ttf');
+  font-family: "raleway-bold";
+  src: url("/static/fonts/Raleway-Bold.ttf");
 }
 
 // Fonts
-$voltage: 'volt', sans-serif;
-$raleway-extrabold: 'raleway-extrabold';
-$raleway-bold: 'raleway-bold';
-$raleway-light: 'raleway-light';
-$raleway-regular: 'raleway-regular';
-$raleway-black: 'raleway-black';
+$voltage: "volt", sans-serif;
+$raleway-extrabold: "raleway-extrabold";
+$raleway-bold: "raleway-bold";
+$raleway-light: "raleway-light";
+$raleway-regular: "raleway-regular";
+$raleway-black: "raleway-black";
 
 // Colors
 $blue: #032c4a;

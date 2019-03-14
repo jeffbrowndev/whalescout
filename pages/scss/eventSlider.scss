@@ -1,10 +1,17 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .event_slider_wrapper {
   background: $blue;
   padding: 35px 0;
+  min-height: 475px;
+  @include mQ(1640px) {
+    min-height: 410px !important;
+  }
   @include mQ(575px) {
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+
     padding: 0;
   }
   .event_slider {

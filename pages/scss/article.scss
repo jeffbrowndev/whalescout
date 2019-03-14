@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .article_content {
   max-width: 960px;
@@ -15,6 +15,7 @@
   h1 {
     font-size: 48px;
     font-family: $voltage !important;
+    font-weight: lighter;
     line-height: 1;
     color: $blue;
     margin-bottom: 50px;
@@ -27,7 +28,8 @@
   }
   h2 {
     color: $mediumgreen;
-    padding-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
     text-align: left !important;
   }
   p {
@@ -35,15 +37,29 @@
     line-height: 2;
     color: $blue;
     text-align: left !important;
+    max-width: 100%;
+    overflow-x: hidden;
+    img {
+      max-width: 100%;
+      margin: 25px 0 25px 50%;
+      transform: translateX(-50%);
+      height: auto;
+    }
+  }
+  audio {
+    margin-bottom: 25px;
+    margin-top: -25px;
   }
   figure {
-    text-align: center;
+    text-align: center !important;
     padding: 25px 0;
+    width: 100% !important;
     em {
       color: $grey;
       font-size: 14px;
     }
     img {
+      height: auto;
       max-width: 100%;
       padding-bottom: 0 !important;
     }

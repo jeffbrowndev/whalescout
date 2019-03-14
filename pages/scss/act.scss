@@ -1,12 +1,12 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .act {
   .article_container {
     background-color: $white;
   }
   .act_header {
-    background-image: url('/static/images/ws_act_header.svg');
+    background-image: url("/static/images/ws_act_header.svg");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +43,7 @@
         margin-top: -20px;
         font-size: 48px;
         font-family: $voltage;
+        font-weight: lighter;
         color: $blue;
       }
       p {
