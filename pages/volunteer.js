@@ -150,7 +150,9 @@ const Volunteer = props => (
           <Perk
             src={`${db}/wp-content/uploads/2019/03/friends.svg`}
             title="Make Friends"
-            description="Meet other like-minded members of your community  and enjoy spending time sharing experience a learning and learning about whales and also making a big difference for our ecosystem."
+            description="Meet other like-minded members of your community and enjoy
+            spending time sharing an experience, learning about whales, and
+            making a big difference for our ecosystem."
           />
         </div>
       </div>

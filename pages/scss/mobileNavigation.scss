@@ -1,5 +1,5 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .mobile_navigation {
   z-index: 9999;
@@ -13,12 +13,13 @@
     width: 40%;
   }
   .hamburger {
-    input[type='checkbox'] {
+    input[type="checkbox"] {
       display: none;
     }
     // Display menu
     input:checked ~ .menu {
-      display: block;
+      display: flex;
+      flex-wrap: wrap;
     }
     .hamburger_icon {
       position: absolute;
@@ -52,13 +53,14 @@
       display: none;
       width: 100%;
       text-align: center;
-      cursor: pointer;
       label {
         user-select: none;
       }
       li {
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        width: 100%;
+        user-select: none;
         padding: 15px 0;
+        border-top: 1px solid $mediumgreen;
         .about_label:checked ~ .about_dropdown {
           display: block;
           margin-bottom: -15px;
@@ -75,8 +77,8 @@
         .about_dropdown,
         .act_dropdown,
         .join_dropdown {
-          display: none;
           margin-top: 15px;
+          display: none;
           padding-bottom: 0;
           background: $mediumgreen;
         }
