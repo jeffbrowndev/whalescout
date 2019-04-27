@@ -1,12 +1,12 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .volunteer {
   overflow-x: hidden;
 
   .volunteer_header {
     background: $mediumgreen;
-    background-image: url('/static/images/ws_volunteer_header.svg');
+    background-image: url("/static/images/ws_volunteer_header.svg");
     background-repeat: no-repeat;
     background-size: cover;
     .volunteer_header_text {
@@ -40,6 +40,7 @@
       padding: 0 25px;
       width: 320px;
       text-align: center;
+      margin-bottom: 50px;
       h3 {
         font-family: $raleway-bold;
         color: $blue;
@@ -63,8 +64,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 50px 0;
-      margin-top: -25px;
+      padding-top: 50px;
       @include mQ(866px) {
         .perk {
           padding: 0 3%;

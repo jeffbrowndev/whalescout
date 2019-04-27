@@ -1,12 +1,12 @@
-import React from 'react';
-import styles from '../scss/mobileNavigation.scss';
-import global from '../scss/app.scss';
-import MediaQuery from 'react-responsive';
-import Link from 'next/link';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSortDown } from '@fortawesome/free-solid-svg-icons';
-import { faSortUp } from '@fortawesome/free-solid-svg-icons';
+import React from "react";
+import styles from "../scss/mobileNavigation.scss";
+import global from "../scss/app.scss";
+import MediaQuery from "react-responsive";
+import Link from "next/link";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSortDown } from "@fortawesome/free-solid-svg-icons";
+import { faSortUp } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faSortDown, faSortUp);
 
@@ -16,28 +16,28 @@ class MobileNavigation extends React.Component {
       <div>
         <MediaQuery maxWidth={960}>
           <div className={styles.mobile_navigation}>
-            <img src='/static/images/ws_logo.png' alt='Logo' />
+            <img src="/static/images/ws_logo.png" alt="Logo" />
             <div className={styles.hamburger}>
-              <label htmlFor='open' className={styles.hamburger_icon}>
+              <label htmlFor="open" className={styles.hamburger_icon}>
                 <div className={styles.line} />
                 <div className={styles.line} />
                 <div className={styles.line} />
               </label>
-              <input type='checkbox' id='open' />
+              <input type="checkbox" id="open" />
               <ul className={styles.menu}>
-                <Link href='/'>
+                <Link href="/">
                   <li>HOME</li>
                 </Link>
-                <Link href='/news'>
+                <Link href="/news">
                   <li>NEWS</li>
                 </Link>
                 <li className={styles.dropdown}>
                   <input
-                    type='checkbox'
-                    id='about_label'
+                    type="checkbox"
+                    id="about_label"
                     className={styles.about_label}
                   />
-                  <label htmlFor='about_label'>
+                  <label htmlFor="about_label">
                     ABOUT
                     <FontAwesomeIcon
                       icon={faSortDown}
@@ -45,22 +45,22 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.about_dropdown}>
-                    <Link href='/team'>
+                    <Link href="/team">
                       <li>TEAM/SUPPORTERS</li>
                     </Link>
-                    <Link href='/contact'>
+                    <Link href="/contact">
                       <li>CONTACT</li>
                     </Link>
                   </ul>
                 </li>
 
-                <Link href='/learn'>
+                <Link href="/learn">
                   <li>LEARN</li>
                 </Link>
-                <Link href='/watch'>
+                <Link href="/watch">
                   <li>WATCH</li>
                 </Link>
-                <Link href='/act'>
+                <Link href="/act">
                   <li>ACT</li>
                 </Link>
                 {/* <Link href='protect'>
@@ -68,11 +68,11 @@ class MobileNavigation extends React.Component {
                 </Link> */}
                 <li className={styles.dropdown}>
                   <input
-                    type='checkbox'
-                    id='join_label'
+                    type="checkbox"
+                    id="join_label"
                     className={styles.join_label}
                   />
-                  <label htmlFor='join_label'>
+                  <label htmlFor="join_label">
                     JOIN
                     <FontAwesomeIcon
                       icon={faSortDown}
@@ -80,18 +80,21 @@ class MobileNavigation extends React.Component {
                     />
                   </label>
                   <ul className={styles.join_dropdown}>
-                    <Link href='/volunteer'>
+                    <Link href="/volunteer">
                       <li>VOLUNTEER</li>
                     </Link>
-                    <Link href='/store'>
+                    <Link href="/store">
                       <li>STORE</li>
                     </Link>
-                    <Link href='/donate'>
+                    <a
+                      href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
+                      target="_blank"
+                    >
                       <li>DONATE</li>
-                    </Link>
+                    </a>
                   </ul>
                 </li>
-                <Link href='/podcasts'>
+                <Link href="/podcasts">
                   <li>PODCAST</li>
                 </Link>
               </ul>

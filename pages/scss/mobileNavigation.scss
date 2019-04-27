@@ -8,6 +8,11 @@
   background: $lightgreen;
   text-align: center;
   padding: 15px 0;
+  a {
+    text-decoration: none;
+    color: $white;
+    width: 100%;
+  }
   img {
     max-width: 200px;
     width: 40%;
@@ -54,6 +59,7 @@
       width: 100%;
       text-align: center;
       label {
+        width: 100%;
         user-select: none;
       }
       li {

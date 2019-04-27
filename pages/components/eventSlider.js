@@ -54,6 +54,10 @@ class EventSlider extends React.Component {
       ]
     };
     if (this.props.events !== undefined) {
+      // Sort events by date
+      this.props.events.sort((a, b) => {
+        return new Date(a.acf.date) - new Date(b.acf.date);
+      });
       return (
         <div className={styles.event_slider_wrapper}>
           <Slider {...settings} className={styles.event_slider}>

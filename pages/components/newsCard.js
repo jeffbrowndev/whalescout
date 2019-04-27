@@ -9,7 +9,7 @@ const NewsCard = props => {
       <Link href={`/article?slug=${props.slug}`}>
         <div className={styles.news_card}>
           <div className={styles.news_content_left}>
-            <img src={props.image} />
+            <img src={props.image || "./static/images/ws_home_header.svg"} />
           </div>
           <div className={styles.news_content_right}>
             <p>{moment(props.date).format("LL")}</p>

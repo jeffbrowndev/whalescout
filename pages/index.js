@@ -16,7 +16,7 @@ const Index = props => (
       <section className={styles.home_header}>
         <ScrollAnimation animateIn="fadeIn">
           <h1>
-            Protecting <span>Pacific Northwest Whales</span> through land based
+            Protecting <span>Pacific Northwest Whales</span> through land-based
             conservation experiences.
           </h1>
         </ScrollAnimation>
@@ -30,8 +30,8 @@ const Index = props => (
             <p>
               Whale Scout leads the public in land-based whale watching
               experiences. We channel people’s interest and passion about whales
-              to on the ground salmon habitat restoration events protecting the
-              primary food source of struggling orcas in Puget Sound.{" "}
+              into on the ground salmon habitat restoration projects protecting
+              the primary food source of struggling orcas in Puget Sound.{" "}
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Index = props => (
             >
               <button className={styles.main_button}>DONATE</button>
             </a>
-            <Link href="/volunteer">
+            <Link href="/act">
               <button className={styles.main_button}>VOLUNTEER</button>
             </Link>
           </div>

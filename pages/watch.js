@@ -23,11 +23,21 @@ export default () => (
                   local beach to watch whales. Our team of over 50 volunteers
                   are stationed throughout the Puget Sound region so there’s a
                   good chance you can meet up with one close to where you live.
-                  Let us show you the whales, and share more about them. We have
+                  Let us show you the whales and share more about them. We have
                   binoculars to share and educational materials if the whales
                   aren’t easily visible. Learn where and when we’re watching
-                  whales by following us on Facebook or Twitter and get
-                  notifications.
+                  whales by following us on{" "}
+                  <a
+                    href="https://www.facebook.com/whalescout/"
+                    target="_blank"
+                  >
+                    Facebook
+                  </a>{" "}
+                  or{" "}
+                  <a href="https://twitter.com/whalescout" target="_blank">
+                    Twitter
+                  </a>{" "}
+                  and get notifications.
                 </p>
               </div>
             </div>
@@ -43,10 +53,9 @@ export default () => (
               <h3>Opportunistically</h3>
               <p>
                 Naturalists respond to whale sightings year-round offering
-                land-based whale watching experiences on an opportunistic basis.
-                Following us on social media and sending notifications to your
-                phone is the best way to know when and where we’re watching
-                whales.
+                land-based whale watching experiences on an opportunistic basis
+                throughout Puget Sound. Following us on social media is the best
+                way to know when and where we’re watching whales.
               </p>
             </div>
             <div className={styles.article_section}>
@@ -54,8 +63,8 @@ export default () => (
               <p>
                 Join naturalists every month on the second Sunday to look for
                 whales, other wildlife, and learn more about our ecosystems.
-                This program runs from March through November. Check the map for
-                locations.
+                This program runs from March through November. Check the{" "}
+                <a href="#map">map</a> for locations.
               </p>
             </div>
             <div className={styles.article_section}>
@@ -75,15 +84,20 @@ export default () => (
             <div className={styles.article_section}>
               <h3>Special Events</h3>
               <p>
-                Annual events where you can meet naturalist on the beach include
-                Black Friday, or #OptOutside Day, and weekends in June
-                celebrating Orca Month! Check the calendar for details. Our team
-                of naturalists both sends and receives whale sightings through
-                Orca Network.
+                Annual events where you can meet naturalists on the beach
+                include Black Friday, or #OptOutside Day, and weekends in June
+                celebrating Orca Month! Check the{" "}
+                <a href="#calendar">calendar</a> for details. Our team of
+                naturalists both send and receive whale sightings through&nbsp;
+                <a href="https://www.facebook.com/orcanetwork" target="_blank">
+                  Orca Network
+                </a>
+                .
               </p>
             </div>
           </div>
         </div>
+        <a className={styles.anchor} id="calendar" />
         <div className={styles.calendar}>
           <div className={styles.calendar_content}>
             <div className={styles.calendar_text}>

@@ -36,9 +36,12 @@ class Footer extends React.Component {
                   <Link href="#">
                     <li className={styles.bold}>STORE</li>
                   </Link>
-                  <Link href="#">
+                  <a
+                    href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
+                    target="_blank"
+                  >
                     <li className={styles.bold}>DONATE</li>
-                  </Link>
+                  </a>
                 </ul>
               </div>
               <div className={styles.site_map_column}>
@@ -116,21 +119,33 @@ class Footer extends React.Component {
                 </div>
                 <div className={styles.social}>
                   <h3>Follow</h3>
-                  <FontAwesomeIcon
-                    size="2x"
-                    icon={faInstagram}
-                    className={styles.social_icon}
-                  />
-                  <FontAwesomeIcon
-                    size="2x"
-                    icon={faFacebook}
-                    className={styles.social_icon}
-                  />
-                  <FontAwesomeIcon
-                    size="2x"
-                    icon={faTwitter}
-                    className={styles.social_icon}
-                  />
+                  <a
+                    href="https://www.instagram.com/whalescout/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon
+                      size="2x"
+                      icon={faInstagram}
+                      className={styles.social_icon}
+                    />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/whalescout/"
+                    target="_blank"
+                  >
+                    <FontAwesomeIcon
+                      size="2x"
+                      icon={faFacebook}
+                      className={styles.social_icon}
+                    />
+                  </a>
+                  <a href="https://twitter.com/whalescout" target="_blank">
+                    <FontAwesomeIcon
+                      size="2x"
+                      icon={faTwitter}
+                      className={styles.social_icon}
+                    />
+                  </a>
                 </div>
               </div>
             </div>

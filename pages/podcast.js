@@ -28,7 +28,6 @@ class Podcast extends React.Component {
       );
   }
   render() {
-    const podcast = this.state;
     // Below are podcast details with defaults available when no information is provided
     return (
       <Layout>
@@ -38,10 +37,12 @@ class Podcast extends React.Component {
               <u>Back to all podcasts</u>
             </p>
           </Link>
-          <h2>{moment(this.state.date).format("LL")}</h2>
-          <h1>{ReactHtmlParser(this.state.title)}</h1>
+          <h2>{this.state.date ? moment(this.state.date).format("LL") : ""}</h2>
+          <h1>{this.state.title ? ReactHtmlParser(this.state.title) : ""}</h1>
           <div className={styles.article_body}>
-            {ReactHtmlParser(this.state.description)}
+            {this.state.description
+              ? ReactHtmlParser(this.state.description)
+              : ""}
           </div>
         </div>
       </Layout>
