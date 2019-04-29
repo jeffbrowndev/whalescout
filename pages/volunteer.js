@@ -9,12 +9,11 @@ const db = process.env.DATABASE_URL;
 
 const Volunteer = props => (
   <Layout>
-    <div className={styles.volunteer}>
-      <div className={styles.volunteer_header}>
+    <div className={styles.act}>
+      <div className={styles.act_header}>
         <ScrollAnimation animateIn="fadeIn">
-          <div className={styles.volunteer_header_text}>
-            <h1>VOLUNTEER</h1>
-            <h2>Everyone can help improve habitat</h2>
+          <div className={styles.act_header_text}>
+            <h1 className={styles.naturalist_header}>BE A NATURALIST</h1>
           </div>
         </ScrollAnimation>
       </div>
@@ -84,9 +83,6 @@ const Volunteer = props => (
             fundraising, communication, graphic design, organization, etc.
           </p>
         </div>
-      </div>
-      <EventSlider events={props.events} />
-      <div className={styles.article_container}>
         <div className={styles.article_section}>
           <h3>Volunteer Expectations</h3>
           <p>
@@ -115,6 +111,8 @@ const Volunteer = props => (
           </p>
         </div>
       </div>
+
+      <EventSlider events={props.events} />
       <div className={styles.perks}>
         <div className={styles.perks_top}>
           <Perk

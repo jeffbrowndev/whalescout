@@ -3,7 +3,6 @@
 
 .volunteer {
   overflow-x: hidden;
-
   .volunteer_header {
     background: $mediumgreen;
     background-image: url("/static/images/ws_volunteer_header.svg");
@@ -35,42 +34,43 @@
       }
     }
   }
-  .perks {
-    .perk {
-      padding: 0 25px;
-      width: 320px;
-      text-align: center;
-      margin-bottom: 50px;
-      h3 {
-        font-family: $raleway-bold;
-        color: $blue;
-        padding: 10px 0;
-      }
-      p {
-        font-family: $raleway-regular;
-        font-size: 15px;
-        color: $blue;
-        line-height: 2;
-      }
-      img {
-        width: 100px;
-      }
+}
+
+.perks {
+  .perk {
+    padding: 0 25px;
+    width: 320px;
+    text-align: center;
+    margin-bottom: 50px;
+    h3 {
+      font-family: $raleway-bold;
+      color: $blue;
+      padding: 10px 0;
     }
-    .perks_top {
-      background: $mediumgreen;
+    p {
+      font-family: $raleway-regular;
+      font-size: 15px;
+      color: $blue;
+      line-height: 2;
     }
-    .perks_top,
-    .perks_bottom {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding-top: 50px;
-      @include mQ(866px) {
-        .perk {
-          padding: 0 3%;
-          &:not(:last-child) {
-            padding-bottom: 50px;
-          }
+    img {
+      width: 100px;
+    }
+  }
+  .perks_top {
+    background: $mediumgreen;
+  }
+  .perks_top,
+  .perks_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    @include mQ(866px) {
+      .perk {
+        padding: 0 3%;
+        &:not(:last-child) {
+          padding-bottom: 50px;
         }
       }
     }

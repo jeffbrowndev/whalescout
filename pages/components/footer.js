@@ -31,7 +31,7 @@ class Footer extends React.Component {
                     <li className={styles.bold}>WATCH</li>
                   </Link>
                   <Link href="/volunteer">
-                    <li className={styles.bold}>VOLUNTEER</li>
+                    <li className={styles.bold}>BE A NATURALIST</li>
                   </Link>
                   <Link href="#">
                     <li className={styles.bold}>STORE</li>
@@ -47,7 +47,10 @@ class Footer extends React.Component {
               <div className={styles.site_map_column}>
                 <ul>
                   <Link href="/act">
-                    <li className={styles.bold}>ACT</li>
+                    <li className={styles.bold}>VOLUNTEER</li>
+                  </Link>
+                  <Link href="/act#months">
+                    <li className={styles.bold}>#ORCAHERO</li>
                   </Link>
                   <Link href="/learn">
                     <li className={styles.bold}>LEARN</li>

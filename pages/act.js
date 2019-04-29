@@ -9,10 +9,13 @@ const db = process.env.DATABASE_URL;
 
 const Act = props => (
   <Layout color="#96cec4">
-    <div className={styles.act}>
-      <div className={styles.act_header}>
+    <div className={styles.volunteer}>
+      <div className={styles.volunteer_header}>
         <ScrollAnimation animateIn="fadeIn">
-          <h1>ACT</h1>
+          <div className={styles.volunteer_header_text}>
+            <h1>VOLUNTEER</h1>
+            <h2>Everyone can help improve habitat</h2>
+          </div>
         </ScrollAnimation>
       </div>
       <div className={styles.article_container}>
@@ -43,6 +46,7 @@ const Act = props => (
         <div className={styles.triangle_down} />
       </div>
       <EventSlider events={props.events} />
+      <a className={styles.anchor} id="months" />
       <div className={styles.monthly_checklist}>
         <div className={styles.monthly_checklist_header}>
           <h1>Do Things Everyday</h1>

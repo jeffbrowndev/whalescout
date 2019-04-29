@@ -202,24 +202,33 @@
 // Google Map marker
 .marker_container {
   position: relative;
-  h4 {
-    position: absolute;
-    opacity: 0;
-    white-space: nowrap;
-    background: $blue;
-    color: $white;
-    padding: 5px;
-    border-radius: 5px;
-    margin-left: 5px;
-    font-size: 16px;
-    transition: $fast;
-    z-index: 9999;
-  }
+  height: 25px;
+  width: 32.56px;
   .marker {
     position: absolute;
+    bottom: 100%;
+    left: -50%;
+    width: 25px;
+    &:hover + h4 {
+      display: block;
+    }
   }
-  &:hover h4 {
-    opacity: 1;
+  h4 {
+    display: none;
+    position: absolute;
+    bottom: 110%;
+    left: 15px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: $white;
+    background: $blue;
+    font-weight: normal;
+    padding: 5px;
+    z-index: 9999;
+    border-radius: 5px;
+  }
+  .orange {
+    background: orange;
   }
 }
 

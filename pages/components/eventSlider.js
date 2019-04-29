@@ -60,6 +60,8 @@ class EventSlider extends React.Component {
       });
       return (
         <div className={styles.event_slider_wrapper}>
+          <h1>Join us at an upcoming Helpin'&nbsp;Out&nbsp;event</h1>
+          <h2>All events are open to the public</h2>
           <Slider {...settings} className={styles.event_slider}>
             {this.props.events.map(event => {
               return (

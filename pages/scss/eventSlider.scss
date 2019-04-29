@@ -5,6 +5,27 @@
   background: $blue;
   padding: 35px 0;
   min-height: 475px;
+  h1 {
+    font-family: $voltage;
+    color: $yellow;
+    text-align: center;
+    font-size: 48px;
+    padding: 0 10px;
+  }
+  h2 {
+    color: $white;
+    font-family: $raleway-regular;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  @include mQ(1000px) {
+    h1 {
+      font-size: 36px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
   @include mQ(1640px) {
     min-height: 410px !important;
   }
@@ -12,8 +33,9 @@
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
 
-    padding: 0;
+    padding-bottom: 0;
   }
+
   .event_slider {
     width: 1525px;
     margin: auto;

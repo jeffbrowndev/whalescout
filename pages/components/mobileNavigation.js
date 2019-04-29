@@ -60,12 +60,32 @@ class MobileNavigation extends React.Component {
                 <Link href="/watch">
                   <li>WATCH</li>
                 </Link>
-                <Link href="/act">
+                {/* <Link href="/act">
                   <li>ACT</li>
-                </Link>
-                {/* <Link href='protect'>
-                  <li>PROTECT</li>
                 </Link> */}
+                <li className={styles.dropdown}>
+                  <input
+                    type="checkbox"
+                    id="act_label"
+                    className={styles.about_label}
+                  />
+                  <label htmlFor="act_label">
+                    ACT
+                    <FontAwesomeIcon
+                      icon={faSortDown}
+                      className={global.icon}
+                    />
+                  </label>
+                  <ul className={styles.about_dropdown}>
+                    <Link href="/act">
+                      <li>VOLUNTEER</li>
+                    </Link>
+                    <Link href="#">
+                      <li>#ORCAHERO</li>
+                    </Link>
+                  </ul>
+                </li>
+
                 <li className={styles.dropdown}>
                   <input
                     type="checkbox"
@@ -81,7 +101,7 @@ class MobileNavigation extends React.Component {
                   </label>
                   <ul className={styles.join_dropdown}>
                     <Link href="/volunteer">
-                      <li>VOLUNTEER</li>
+                      <li>BE A NATURALIST</li>
                     </Link>
                     <Link href="/store">
                       <li>STORE</li>
