@@ -58,7 +58,7 @@ const Act = props => (
         </div>
         <div className={styles.months}>
           <Month
-            src={`${db}/wp-content/uploads/2019/03/fish.svg`}
+            src={`${db}/wp-content/uploads/2019/03/policies.svg`}
             title="January"
             description="Support natural area protection policies"
           />
