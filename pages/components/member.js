@@ -1,5 +1,5 @@
-import css from '../scss/app.scss';
-import ScrollAnimation from 'react-animate-on-scroll';
+import css from "../scss/app.scss";
+import ScrollAnimation from "react-animate-on-scroll";
 
 const getColor = color => {
   return {
@@ -10,7 +10,7 @@ const getColor = color => {
 const Member = props => (
   <div className={css.member}>
     <div className={css.team_image}>
-      <ScrollAnimation animateIn='fadeIn'>
+      <ScrollAnimation animateIn="fadeIn">
         <img src={props.image} />
         <div className={css.square} style={getColor(props.color)} />
       </ScrollAnimation>

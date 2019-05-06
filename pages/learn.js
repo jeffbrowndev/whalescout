@@ -3,6 +3,7 @@ import styles from "./scss/app.scss";
 import Composition from "./components/composition";
 import Threats from "./components/threats";
 import ScrollAnimation from "react-animate-on-scroll";
+import Link from "next/link";
 
 const db = process.env.DATABASE_URL;
 
@@ -19,21 +20,21 @@ export default () => (
           <h1>Orcas, salmon, and the Pacific Northwest</h1>
           <div className={styles.line} />
           <p>
-            To better understand the relationship the Southern Resident orcas
-            have with salmon, we need to travel back in time. About 13,000 years
-            ago, the last glaciers that carved out our majestic mountains had
-            finally receded. They left in their wake furrowed land that was rich
-            with moisture, glacial sediment, smooth broken stones, and fresh
-            cold water that would form our rivers. The abundance of moisture in
-            the soil gave birth to the towering trees and native plants that
-            shade, filter, stabilize, and oxygenate the riverbeds to this day.
-            This protected cold water created the perfect spawning habitat for
-            evolving salmonids. For the last 13,000 years, the clean, covered,
-            nutritive cold water with large smooth rocks to shelter fertilized
-            eggs allowed the first few salmon to evolve into six major
-            subspecies numbering into the millions each: Pink, Steelhead, Coho,
-            Chum, Sockeye, and the largest of all salmon
-            species&nbsp;—&nbsp;Chinook.
+            Salmon have lived in the Pacific Northwest for millions of years
+            diversifying into different species: Pink, Coho, Chum, Sockeye, and
+            the largest of all Pacific salmon — Chinook. To better understand
+            the relationship the Southern Resident orcas have with salmon, we
+            need to travel back in time. About 13,000 years ago, the last
+            glaciers that carved out our majestic mountains had finally receded.
+            They left in their wake furrowed land that was rich with moisture,
+            glacial sediment, smooth broken stones, and fresh cold water that
+            would form our rivers. The abundance of moisture in the soil gave
+            birth to the towering trees and native plants that shade, filter,
+            stabilize, and oxygenate the riverbeds to this day. Salmon that had
+            retreated further south during the last ice age re-expanded north to
+            newly created spawning habitat. For the last 13,000 years, the
+            clean, covered, nutritive cold water with smooth rocks to shelter
+            fertilized eggs allowed these fish to thrive.
           </p>
         </div>
         <img src={`${db}/wp-content/uploads/2019/03/chinook.jpg"`} />
@@ -68,24 +69,24 @@ export default () => (
             eat a wide variety of fish aside from salmon including rockfish,
             herring, smelt, and squid. Today, as large numbers of pinnipeds
             inhabit the coastal waters of the north Pacific, one major ecotype
-            of orca—known as the transient killer whale — is also flourishing.
+            of orca—known as the Transient killer whale — is also flourishing.
             Transient killer whales travel in family pods made up of five or six
             individuals, usually a mother and her offspring. They occasionally
             group together with other pods of orcas, related or not, in order to
             reproduce, socialize, and hunt. The diets of these killer whales
             also include other large whales and porpoises.
             <br />
-            <br />A separate killer whale ecotype thrives off the salmon-rich,
-            nutrient-dense, forest-fed waters of what today is known as the
-            Salish Sea of Washington and British Columbia. Two distinct
-            communities with somewhat overlapping territories exist, Northern
-            Residents and Southern Residents. Both rely on salmon—mostly
-            Chinook. Southern Residents are the main focus of Whale Scout’s
-            programs and are made up of 3 matriarchal family pods (J, K, and L
-            pods). Yet a third ecotype of killer whale exists in the Salish Sea:
-            offshore killer whales. Rarely seen, these whales are thought to eat
-            mostly sharks, and as a result have worn-down teeth from the rough
-            skin.
+            <br />
+            The Resident ecotype of killer whale thrives off the nutrient-dense,
+            forest-fed waters off the Pacific West Coast. Two distinct
+            communities with somewhat overlapping territories exist in Canada
+            and the U.S., Northern Residents and Southern Residents. Both rely
+            on salmon—mostly Chinook. Southern Residents are the main focus of
+            Whale Scout’s programs and are made up of 3 matrilineal family pods
+            (J, K, and L pods). Yet a third ecotype of killer whale exists in
+            the Salish Sea: Offshore killer whales. Rarely seen, these whales
+            are thought to eat mostly sharks, and as a result have worn-down
+            teeth from the rough skin.
           </p>
         </div>
       </div>
@@ -100,7 +101,7 @@ export default () => (
             rivers were dammed to allow western civilization to flourish.
             Commercial fisheries were established to bolster the economy and the
             orcas were seen as vicious, voracious fishing competition. Our
-            western scientific understanding of killer whales was non-existent.
+            Western scientific understanding of killer whales was non-existent.
             Out of fear and misunderstanding, humans shot to kill orcas as
             recently as the 1960s. <br />
             <br />
@@ -124,27 +125,26 @@ export default () => (
         </p>
         <div className={styles.article_section}>
           <p>
-            In 1976, the horrific capture of a transient orca pod (including the
+            In 1976, the horrific capture of a Transient orca pod (including the
             still wild-living matriarch T46) at Budd Inlet was witnessed by
             Ralph Munro, who, at the time, was an aid to Washington Governor
             Evans. Motivated by the horror of what he saw, the capture process
             was later outlawed in the state of Washington. As a result, the
             federal government hired biologists to study, count, and track local
-            orca populations. Scientists, such as Ken Balcomb with the Center
-            for Whale Research on San Juan Island, began to unravel vibrant
-            lives and cultures of the Salish Sea orcas, and our fear of these
-            northwest icons was replaced with awe. <br />
+            orca populations. Scientists, such as Michael Bigg and Ken Balcomb,
+            began to unravel vibrant lives and cultures of the Salish Sea orcas,
+            and our fear of these northwest icons was replaced with awe. <br />
             <br />
-            As the Center for Whale Research continued monitoring the orca
-            population, they discovered that resident population numbers
-            mirrored that of the salmon returns. In years when the salmon runs
-            were strong, the resident orca population boomed. When the salmon
-            runs were weak, more resident whales died. In 2005, the Southern
-            Resident killer whale population were listed as endangered under the
-            Endangered Species Act following a precipitous in numbers. Today,
-            Southern Resident killer whales number fewer than when they were
-            listed as endangered, a disappointing trend. The main cause of this
-            decline is a lack of&nbsp;salmon.
+            As Ken Balcomb continued monitoring the orca population, he
+            discovered that resident population numbers mirrored that of the
+            salmon returns. In years when the salmon runs were strong, the
+            resident orca population boomed. When the salmon runs were weak,
+            more resident whales died. In 2005, the Southern Resident killer
+            whale population were listed as endangered under the Endangered
+            Species Act following a precipitous in numbers. Today, Southern
+            Resident killer whales number fewer than when they were listed as
+            endangered, a disappointing trend. The main cause of this decline is
+            a lack of&nbsp;salmon.
           </p>
         </div>
         <img src={`${db}/wp-content/uploads/2019/03/graph.jpg"`} />
@@ -164,7 +164,7 @@ export default () => (
             with long lives, any pollutants in the water (PCBs, DDT, flame
             retardants, etc.) bioaccumulate at the upper levels of the food
             chain. Well fed orcas store the pollutants in their blubber layer
-            where their side effects are minimal. The transient orcas of the
+            where their side effects are minimal. The Transient orcas of the
             Salish Sea have an abundant supply of pinnipeds and other marine
             mammals to feed upon and therefore are able to keep toxins stored
             away in their blubber. The Southern Residents, despite eating lower
@@ -173,8 +173,7 @@ export default () => (
             burning fat during times of low salmon abundance. These toxins are
             proven to disrupt immune and reproductive systems. Compounding these
             issues are vessel impacts. Underwater noise disrupts the whale's
-            echolocation and communication, and the presence of boats has been
-            linked to behavioral changes.
+            echolocation and communication.
           </p>
         </div>
       </div>
@@ -185,21 +184,21 @@ export default () => (
             To recover these endangered Southern Resident killer whales we must
             address these three main threats. Whale Scout’s programs address
             each one and provide ways for you to get involved. First, we offer
-            ways to watch whales from shore without leaving any trace on our
-            waters.(hyperlink to watch section) Second, we help limit toxins
-            from entering our waterways. We offer suggestions each month to
-            become better stewards of the environment, which add up to help the
-            whales. (hyperlink? To the monthly list of actions on the back of
-            the “save orcas” brochure? Direct elsewhere to that info on the
-            site?) Our “Helpin’ Out” events (link to Helpin’ Out event listing)
-            also limit toxins from entering our waterways through the natural
-            treatment of stormwater runoff. At these events we plant trees and
-            work to restore ecological function along salmon rivers, streams,
-            and nearshore habitats. This provides salmon more places to live,
-            spawn, and thrive. The more salmon there are, the more food killer
-            whales have to eat. No matter where you live, you can make a
-            difference with Podmatch, through your donations, or via
-            participation with groups throughout the west coast. <br />
+            ways to <Link href="/watch">watch</Link> whales from shore without
+            leaving any trace on our waters. Second, we help limit toxins from
+            entering our waterways. We offer{" "}
+            <Link href="/act#months">suggestions</Link> each month to become
+            better stewards of the environment, which add up to help the whales.
+            Our “Helpin’ Out” events also limit toxins from entering our
+            waterways through the natural treatment of stormwater runoff. At
+            these events we plant trees and work to restore ecological function
+            along salmon rivers, streams, and nearshore habitats. This provides
+            salmon more places to live, spawn, and thrive. The more salmon there
+            are, the more food killer whales have to eat. No matter where you
+            live, you can make a difference with{" "}
+            <Link href="www.podmatch.org">PodMatch</Link>, through your
+            donations, or via participation with groups throughout the west
+            coast. <br />
             <br />
             We must keep in mind that we’re striving for intact ecosystems from
             the treetops to the outer coast. Not only will the whales benefit
@@ -209,9 +208,9 @@ export default () => (
             <br />
             <br />
             Southern Resident killer whales have a broad range from Southeast
-            Alaska to to Monterey, California. Some of these west coast rivers
+            Alaska to to Monterey, California. Some of these West Coast rivers
             extend hundreds of miles inland crossing the backyards and
-            neighborhoods in major population centers. Unfortunately, many of
+            neighborhoods of major population centers. Unfortunately, many of
             these populations of salmon are also threatened or endangered.
           </p>
         </div>
@@ -229,6 +228,11 @@ export default () => (
             “Why is this important, and how does it help?” Well, with the help
             of our friends at the Skagit Fisheries Enhancement Group, we came up
             with a fun way to remember: 6 C's Thanks to Trees!
+          </p>
+          <br />
+          <p>
+            Trees improve important water quality features that salmon need to
+            thrive.
           </p>
           <br />
           <p>

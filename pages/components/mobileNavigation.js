@@ -103,9 +103,9 @@ class MobileNavigation extends React.Component {
                     <Link href="/volunteer">
                       <li>BE A NATURALIST</li>
                     </Link>
-                    <Link href="/store">
+                    {/* <Link href="/store">
                       <li>STORE</li>
-                    </Link>
+                    </Link> */}
                     <a
                       href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
                       target="_blank"

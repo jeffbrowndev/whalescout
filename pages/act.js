@@ -4,6 +4,7 @@ import styles from "./scss/app.scss";
 import Month from "./components/month";
 import fetch from "isomorphic-unfetch";
 import ScrollAnimation from "react-animate-on-scroll";
+import Link from "next/link";
 
 const db = process.env.DATABASE_URL;
 
@@ -38,9 +39,10 @@ const Act = props => (
             restoring salmon habitat. Some of this work is done on private
             property, and others with our partners on public lands. All of it
             helps make more Chinook salmon for the whales to eat. Learn more
-            about how these events help salmon in the Learn Section. See below
-            to see all our upcoming helpin' out events. We provide all the tools
-            and equipment! We just need your help to make a difference.
+            about how these events help salmon in the{" "}
+            <Link href="/learn">Learn</Link> Section. Scroll down to see a list
+            of all our upcoming Helpin' Out Events. We provide all the tools and
+            equipment! We just need your help to make a difference.
           </p>
         </div>
         <div className={styles.triangle_down} />
@@ -53,7 +55,8 @@ const Act = props => (
           <p>
             A year of keeping killer whales, their food, and their habitats
             protected. You can make a difference by following this monthly
-            checklist.
+            checklist. Share your efforts with others on social media using the
+            tag #OrcaHero.
           </p>
         </div>
         <div className={styles.months}>
@@ -128,8 +131,12 @@ export default Act;
 // Fetch data from Wordpress REST API
 Act.getInitialProps = async function() {
   // Get events
-  const events = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
+  const event_data = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
     events => events.json()
+  );
+  // Filter out old events
+  const events = event_data.filter(
+    event => new Date(event.acf.date) >= Date.now()
   );
 
   // Store events data into 'props'

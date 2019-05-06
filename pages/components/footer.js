@@ -33,9 +33,12 @@ class Footer extends React.Component {
                   <Link href="/volunteer">
                     <li className={styles.bold}>BE A NATURALIST</li>
                   </Link>
-                  <Link href="#">
-                    <li className={styles.bold}>STORE</li>
+                  <Link href="/act">
+                    <li className={styles.bold}>VOLUNTEER</li>
                   </Link>
+                  {/* <Link href="#">
+                    <li className={styles.bold}>STORE</li>
+                  </Link> */}
                   <a
                     href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
                     target="_blank"
@@ -46,9 +49,6 @@ class Footer extends React.Component {
               </div>
               <div className={styles.site_map_column}>
                 <ul>
-                  <Link href="/act">
-                    <li className={styles.bold}>VOLUNTEER</li>
-                  </Link>
                   <Link href="/act#months">
                     <li className={styles.bold}>#ORCAHERO</li>
                   </Link>
@@ -154,7 +154,8 @@ class Footer extends React.Component {
             </div>
           </div>
           <p className={styles.credits}>
-            © Copyright 2018 Whale Scout&nbsp;| All Rights Reserved&nbsp;|
+            © Copyright 2019 Whale Scout&nbsp;| All Rights Reserved&nbsp;|{" "}
+            {this.props.credits}
             Website&nbsp;by&nbsp;
             <span>
               <a href="http://www.jeffbrowndev.com" target="_blank">

@@ -63,21 +63,27 @@ const Contact = props => (
             <p>info@whalescout.org</p>
           </div>
           <div className={styles.contact_social}>
-            <FontAwesomeIcon
-              className={styles.contact_social_icon}
-              size="2x"
-              icon={faInstagram}
-            />
-            <FontAwesomeIcon
-              className={styles.contact_social_icon}
-              size="2x"
-              icon={faFacebook}
-            />
-            <FontAwesomeIcon
-              className={styles.contact_social_icon}
-              size="2x"
-              icon={faTwitter}
-            />
+            <a href="https://www.instagram.com/whalescout/" target="_blank">
+              <FontAwesomeIcon
+                size="2x"
+                icon={faInstagram}
+                className={styles.social_icon}
+              />
+            </a>
+            <a href="https://www.facebook.com/whalescout/" target="_blank">
+              <FontAwesomeIcon
+                size="2x"
+                icon={faFacebook}
+                className={styles.social_icon}
+              />
+            </a>
+            <a href="https://twitter.com/whalescout" target="_blank">
+              <FontAwesomeIcon
+                size="2x"
+                icon={faTwitter}
+                className={styles.social_icon}
+              />
+            </a>
           </div>
         </div>
       </div>

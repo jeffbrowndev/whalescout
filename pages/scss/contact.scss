@@ -1,9 +1,9 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .contact {
   .contact_header {
-    background-image: url('/static/images/ws_contact_header.svg');
+    background-image: url("/static/images/ws_contact_header.svg");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -51,7 +51,7 @@
       }
       .contact_social {
         text-align: center;
-        .contact_social_icon {
+        a {
           color: $darkgreen;
           margin-right: 10px;
         }

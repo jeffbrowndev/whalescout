@@ -9,7 +9,7 @@ const Threats = props => (
         <h1>Lack Of Salmon</h1>
         <p>
           Local endangered killer whales (orcas) rely on dwindling salmon
-          populations for 80% of their diet
+          populations for 90% of their diet
         </p>
       </div>
       <img src={`${db}/wp-content/uploads/2019/03/chasing.svg`} />

@@ -10,7 +10,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 
 // Home page
 const Index = props => (
-  <Layout color="#a6d5cd">
+  <Layout credits={"Header photo: Jill Clogston | "} color="#a6d5cd">
     <div className={styles.home}>
       {/* Main header */}
       <section className={styles.home_header}>
@@ -117,8 +117,12 @@ const Index = props => (
 Index.getInitialProps = async function() {
   const db = process.env.DATABASE_URL;
   // Get events
-  const events = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
+  const event_data = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
     events => events.json()
+  );
+  // Filter out old events
+  const events = event_data.filter(
+    event => new Date(event.acf.date) >= Date.now()
   );
 
   // Get podcasts

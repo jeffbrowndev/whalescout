@@ -38,6 +38,7 @@
     "react-html-parser": "^2.0.2",
     "react-responsive": "^6.0.1",
     "react-slick": "^0.23.2",
+    "superagent": "^5.0.5",
     "text-ellipsis": "^1.0.3"
   }
 }

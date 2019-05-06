@@ -27,13 +27,12 @@ const Volunteer = props => (
             of endangered Southern Resident killer whales as outlined in the
             NOAA orca recovery plan. Volunteers facilitate land-based whale
             watching experiences offering the public opportunities to connect
-            and learn about whales for free in a manner that does not contribute
-            to underwater noise. Our educational programs, stewardship messages,
-            and salmon habitat restoration efforts address two other threats to
-            Southern Resident killer whales: lack of prey and toxins. Our team
-            of volunteers is distributed throughout Puget Sound from Olympia to
-            San Juan Island creating a regional network of on-the-ground orca
-            and salmon educators and advocates.
+            and learn about whales for free. Our educational programs,
+            stewardship messages, and salmon habitat restoration efforts address
+            two other threats to Southern Resident killer whales: lack of prey
+            and toxins. Our team of volunteers is distributed throughout Puget
+            Sound from Olympia to San Juan Island creating a regional network of
+            on-the-ground orca and salmon educators and advocates.
           </p>
         </div>
         <div className={styles.article_section}>
@@ -52,7 +51,7 @@ const Volunteer = props => (
             Island Naturalist Program where volunteers are stationed at the
             Westside Preserve to provide information about whales, the Salish
             Sea, and the unique coastal prairie ecosystem found at the site.
-            Summer months only.
+            <em> Summer months only.</em>
           </p>
           <h4>2. Education and outreach</h4>
           <p>
@@ -71,10 +70,10 @@ const Volunteer = props => (
             salmon and forage fish. Activities at these events usually includes
             removal of invasive plants, installing native trees and shrubs, and
             removing litter from beaches. We recommend that all volunteers try
-            to attend 1-2 events each year and play a role in these events.
-            People of all abilities are able to play a role in the success of
-            these events from signing people in, to providing snacks, taking
-            photos, or assisting with the planning process.
+            to attend 1-2 events each year. People of all abilities are able to
+            play a role in the success of these events from signing people in,
+            to providing snacks, taking photos, or assisting with the planning
+            process.
           </p>
           <h4>4. Administration</h4>
           <p>
@@ -98,15 +97,15 @@ const Volunteer = props => (
             Volunteers are given opportunities to make a difference for the
             whales, fish and wildlife, and communities whom share the Salish Sea
             ecosystem. Through our continuing education programs (training
-            sessions, field trips, book club) volunteers are also the chance to
-            learn more about marine mammals of the Salish Sea, the issues they
-            face, and creative solutions to aid in the recovery of endangered
-            species. Volunteers promote change in their community by helping
-            others watch whales from shore, and encouraging people to channel
-            their interest in whales into stewardship actions such as engaging
-            in habitat restoration. Working with the public, volunteers develop
-            skills in interpretation in communication. Many also learn to
-            identify whale pods and individuals, and interpret scientific
+            sessions, field trips, book club) volunteers are also given the
+            chance to learn more about marine mammals of the Salish Sea, the
+            issues they face, and creative solutions to aid in the recovery of
+            endangered species. Volunteers promote change in their community by
+            helping others watch whales from shore, and encouraging people to
+            channel their interest in whales into stewardship actions such as
+            engaging in habitat restoration. Working with the public, volunteers
+            develop skills in interpretation in communication. Many also learn
+            to identify whale pods and individuals, and interpret scientific
             findings.
           </p>
         </div>
@@ -141,9 +140,9 @@ const Volunteer = props => (
           <Perk
             src={`${db}/wp-content/uploads/2019/03/hat.svg`}
             title="Earn Swag!"
-            description="20 hours of land-based whale watching service - extra loaner pair of binoculars
-            2 years of service - Whale Scout beanie
-            Plus, every year new interpretive materials are given to each volunteer including ID guides."
+            description="20 hours of land-based whale watching service earns an extra loaner pair of
+            binoculars. 2 years of service earns a Whale Scout beanie. Plus, every year
+            new interpretive materials are given to volunteers."
           />
           <Perk
             src={`${db}/wp-content/uploads/2019/03/friends.svg`}
@@ -161,8 +160,12 @@ const Volunteer = props => (
 // Fetch data from Wordpress REST API
 Volunteer.getInitialProps = async function() {
   // Get events
-  const events = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
+  const event_data = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
     events => events.json()
+  );
+  // Filter out old events
+  const events = event_data.filter(
+    event => new Date(event.acf.date) >= Date.now()
   );
 
   // Store events data into 'props'

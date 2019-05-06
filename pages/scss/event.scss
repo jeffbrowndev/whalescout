@@ -54,9 +54,6 @@
     width: 95%;
     margin: auto;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     .event_footer_content {
       padding: 20px 0;
       h4 {
@@ -65,7 +62,6 @@
         font-family: $raleway-bold;
       }
       p {
-        width: 100%;
         font-size: 15px;
         color: $grey;
         font-family: $raleway-regular;

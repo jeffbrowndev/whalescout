@@ -55,8 +55,8 @@ button.rbc-input::-moz-focus-inner {
 .rbc-show-more {
   display: block;
   overflow: hidden;
+  width: 100%;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 .rbc-rtl {
   direction: rtl;
@@ -209,7 +209,7 @@ button.rbc-input::-moz-focus-inner {
   box-shadow: none;
   margin: 0;
   padding: 2px 5px;
-  background-color: #3174ad;
+  background-color: transparent;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
@@ -221,7 +221,7 @@ button.rbc-input::-moz-focus-inner {
   pointer-events: none;
 }
 .rbc-event.rbc-selected {
-  background-color: #265985;
+  background-color: transparent;
 }
 .rbc-event:focus {
   outline: 5px auto #3b99fc;
@@ -313,7 +313,7 @@ button.rbc-input::-moz-focus-inner {
   -webkit-flex-basis: 0px;
   -ms-flex-preferred-size: 0px;
   flex-basis: 0px;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
 }
 .rbc-month-row + .rbc-month-row {
@@ -426,10 +426,10 @@ button.rbc-input::-moz-focus-inner {
   text-transform: lowercase;
 }
 .rbc-agenda-time-cell .rbc-continues-after:after {
-  content: ' »';
+  content: " »";
 }
 .rbc-agenda-time-cell .rbc-continues-prior:before {
-  content: '« ';
+  content: "« ";
 }
 .rbc-agenda-date-cell,
 .rbc-agenda-time-cell {
