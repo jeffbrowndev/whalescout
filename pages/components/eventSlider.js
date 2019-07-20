@@ -1,7 +1,7 @@
-import React from "react";
-import styles from "../scss/app.scss";
-import Event from "./event";
-import Slider from "react-slick";
+import React from 'react';
+import styles from '../scss/app.scss';
+import Event from './event';
+import Slider from 'react-slick';
 
 class EventSlider extends React.Component {
   constructor(props) {
@@ -53,7 +53,7 @@ class EventSlider extends React.Component {
         }
       ]
     };
-    if (this.props.events !== undefined) {
+    if (this.props.events.length > 0) {
       // Sort events by date
       this.props.events.sort((a, b) => {
         return new Date(a.acf.date) - new Date(b.acf.date);
@@ -74,7 +74,7 @@ class EventSlider extends React.Component {
                   description={event.acf.description}
                   // Use default image if no image is provided
                   image={
-                    event.acf.image || "./static/images/ws_home_header.svg"
+                    event.acf.image || './static/images/ws_home_header.svg'
                   }
                 />
               );
@@ -86,6 +86,8 @@ class EventSlider extends React.Component {
       // If no events scheduled, return this message
       return (
         <div className={styles.event_slider_wrapper}>
+          <h1>Join us at an upcoming Helpin'&nbsp;Out&nbsp;event</h1>
+          <h2>All events are open to the public</h2>
           <Slider {...settings} className={styles.event_slider}>
             <h1>
               No events are currently&nbsp;scheduled. <br />

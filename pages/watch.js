@@ -1,9 +1,7 @@
-import Layout from "./components/layout";
-import styles from "./scss/app.scss";
-import Map from "./components/map";
-import Calendar from "./components/calendar";
-
-const db = process.env.DATABASE_URL;
+import Layout from './components/layout';
+import styles from './scss/app.scss';
+import Map from './components/map';
+import Calendar from './components/calendar';
 
 export default () => (
   <Layout>
@@ -11,7 +9,9 @@ export default () => (
       <div className={styles.watch_header_container}>
         <div className={styles.watch_header}>
           <div className={styles.watch_header_image}>
-            <img src={`${db}/wp-content/uploads/2019/03/watching.jpg`} />
+            <img
+              src={`https://admin.whalescout.org/wp-content/uploads/2019/03/watching.jpg`}
+            />
             <div className={styles.square} />
           </div>
           <div className={styles.watch_header_text}>
@@ -26,17 +26,17 @@ export default () => (
                   Let us show you the whales and share more about them. We have
                   binoculars to share and educational materials if the whales
                   aren’t easily visible. Learn where and when we’re watching
-                  whales by following us on{" "}
+                  whales by following us on{' '}
                   <a
-                    href="https://www.facebook.com/whalescout/"
-                    target="_blank"
+                    href='https://www.facebook.com/whalescout/'
+                    target='_blank'
                   >
                     Facebook
-                  </a>{" "}
-                  or{" "}
-                  <a href="https://twitter.com/whalescout" target="_blank">
+                  </a>{' '}
+                  or{' '}
+                  <a href='https://twitter.com/whalescout' target='_blank'>
                     Twitter
-                  </a>{" "}
+                  </a>{' '}
                   and get notifications.
                 </p>
               </div>
@@ -63,8 +63,8 @@ export default () => (
               <p>
                 Join naturalists every month on the second Sunday to look for
                 whales, other wildlife, and learn more about our ecosystems.
-                This program runs from March through November. Check the{" "}
-                <a href="#map">map</a> for locations.
+                This program runs from March through November. Check the{' '}
+                <a href='#map'>map</a> for locations.
               </p>
             </div>
             <div className={styles.article_section}>
@@ -86,10 +86,10 @@ export default () => (
               <p>
                 Annual events where you can meet naturalists on the beach
                 include Black Friday, or #OptOutside Day, and weekends in June
-                celebrating Orca Month! Check the{" "}
-                <a href="#calendar">calendar</a> for details. Our team of
+                celebrating Orca Month! Check the{' '}
+                <a href='#calendar'>calendar</a> for details. Our team of
                 naturalists both send and receive whale sightings through&nbsp;
-                <a href="https://www.facebook.com/orcanetwork" target="_blank">
+                <a href='https://www.facebook.com/orcanetwork' target='_blank'>
                   Orca Network
                 </a>
                 .
@@ -97,7 +97,7 @@ export default () => (
             </div>
           </div>
         </div>
-        <a className={styles.anchor} id="calendar" />
+        <a className={styles.anchor} id='calendar' />
         <div className={styles.calendar}>
           <div className={styles.calendar_content}>
             <div className={styles.calendar_text}>
@@ -141,7 +141,9 @@ export default () => (
           </div>
         </div>
         <div className={styles.watch_more_image}>
-          <img src={`${db}/wp-content/uploads/2019/03/watching_2.jpg`} />
+          <img
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/watching_2.jpg`}
+          />
           <div className={styles.square} />
         </div>
       </div>

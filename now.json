@@ -1,5 +1,24 @@
 {
   "version": 2,
   "name": "Whale Scout",
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+  "alias": "whalescout.org",
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
+  "routes": [
+    {
+      "src": "/feed/podcast/",
+      "dest": "https://admin.whalescout.org/feed/podcast/"
+    },
+    {
+      "src": "/feed/podcast",
+      "dest": "https://admin.whalescout.org/feed/podcast"
+    },
+    {
+      "src": "/media",
+      "dest": "https://audio.whalescout.org/media"
+    },
+    {
+      "src": "/media/",
+      "dest": "https://audio.whalescout.org/media/"
+    }
+  ]
 }

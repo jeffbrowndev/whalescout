@@ -1,9 +1,9 @@
-import Layout from "./components/layout";
-import styles from "./scss/app.scss";
-import Composition from "./components/composition";
-import Threats from "./components/threats";
-import ScrollAnimation from "react-animate-on-scroll";
-import Link from "next/link";
+import Layout from './components/layout';
+import styles from './scss/app.scss';
+import Composition from './components/composition';
+import Threats from './components/threats';
+import ScrollAnimation from 'react-animate-on-scroll';
+import Link from 'next/link';
 
 const db = process.env.DATABASE_URL;
 
@@ -11,7 +11,7 @@ export default () => (
   <Layout>
     <div className={styles.learn}>
       <div className={styles.learn_header}>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn='fadeIn'>
           <h1>LEARN</h1>
         </ScrollAnimation>
       </div>
@@ -37,7 +37,9 @@ export default () => (
             fertilized eggs allowed these fish to thrive.
           </p>
         </div>
-        <img src={`${db}/wp-content/uploads/2019/03/chinook.jpg"`} />
+        <img
+          src={`https://admin.whalescout.org/wp-content/uploads/2019/03/chinook.jpg"`}
+        />
         <p className={styles.image_caption}>Georgia Strait Alliance</p>
         <div className={styles.article_section}>
           <p>
@@ -56,7 +58,9 @@ export default () => (
             habitable for fish.
           </p>
         </div>
-        <img src={`${db}/wp-content/uploads/2019/03/sockeye.jpg"`} />
+        <img
+          src={`https://admin.whalescout.org/wp-content/uploads/2019/03/sockeye.jpg"`}
+        />
         <p className={styles.image_caption}>
           Sockeye Salmon in the Adams River, Department of Fisheries and Oceans
           Canada
@@ -91,6 +95,12 @@ export default () => (
         </div>
       </div>
       <Composition />
+      <p className={styles.composition_caption}>
+        Data from the Center for{' '}
+        <a target='_blank' href='https://www.whaleresearch.com/'>
+          Whale Research
+        </a>
+      </p>
       <div className={styles.article_container}>
         <div className={styles.article_section}>
           <p>
@@ -119,7 +129,9 @@ export default () => (
             display at the Miami Seaquarium.
           </p>
         </div>
-        <img src={`${db}/wp-content/uploads/2019/03/captured.jpg"`} />
+        <img
+          src={`https://admin.whalescout.org/wp-content/uploads/2019/03/captured.jpg"`}
+        />
         <p className={styles.image_caption}>
           Members of L pod captured in Penn Cove, Wallie Funk, Associated Press
         </p>
@@ -147,7 +159,9 @@ export default () => (
             a lack of&nbsp;salmon.
           </p>
         </div>
-        <img src={`${db}/wp-content/uploads/2019/03/graph.jpg"`} />
+        <img
+          src={`https://admin.whalescout.org/wp-content/uploads/2019/03/graph.jpg"`}
+        />
         <p className={styles.image_caption}>
           Annual indices of mortality of (a) northern and (b) southern resident
           killer whales and (c) abundance of Chinook salmon, 1979-2003.
@@ -184,10 +198,10 @@ export default () => (
             To recover these endangered Southern Resident killer whales we must
             address these three main threats. Whale Scout’s programs address
             each one and provide ways for you to get involved. First, we offer
-            ways to <Link href="/watch">watch</Link> whales from shore without
+            ways to <Link href='/watch'>watch</Link> whales from shore without
             leaving any trace on our waters. Second, we help limit toxins from
-            entering our waterways. We offer{" "}
-            <Link href="/act#months">suggestions</Link> each month to become
+            entering our waterways. We offer{' '}
+            <Link href='/act#months'>suggestions</Link> each month to become
             better stewards of the environment, which add up to help the whales.
             Our “Helpin’ Out” events also limit toxins from entering our
             waterways through the natural treatment of stormwater runoff. At
@@ -195,8 +209,8 @@ export default () => (
             along salmon rivers, streams, and nearshore habitats. This provides
             salmon more places to live, spawn, and thrive. The more salmon there
             are, the more food killer whales have to eat. No matter where you
-            live, you can make a difference with{" "}
-            <Link href="www.podmatch.org">PodMatch</Link>, through your
+            live, you can make a difference with{' '}
+            <Link href='www.podmatch.org'>PodMatch</Link>, through your
             donations, or via participation with groups throughout the west
             coast. <br />
             <br />
@@ -214,7 +228,9 @@ export default () => (
             these populations of salmon are also threatened or endangered.
           </p>
         </div>
-        <img src={`${db}/wp-content/uploads/2019/03/salmon_map.svg"`} />
+        <img
+          src={`https://admin.whalescout.org/wp-content/uploads/2019/03/salmon_map.svg"`}
+        />
         <p className={styles.image_caption} />
         <div className={styles.article_section}>
           <h1>
@@ -278,38 +294,40 @@ export default () => (
             is harmful for salmon, orcas, and all of us.
           </p>
         </div>
-        <img src={`${db}/wp-content/uploads/2019/03/how_were_helping.jpg"`} />
+        <img
+          src={`https://admin.whalescout.org/wp-content/uploads/2019/03/how_were_helping.jpg"`}
+        />
         <p className={styles.image_caption}>The Nature Conservancy</p>
         <div className={styles.article_section}>
           <h1>Additional Links & Resources</h1>
           <div className={styles.line} />
           <a
-            href="http://www.adfg.alaska.gov/index.cfm?adfg=wildlifenews.view_article&articles_id=407&fbclid=IwAR00bl7q7-1MasG0vXosVLD6EYicift8xXHo1X6bw__Ia4NLeDNF2Cs2HhM"
-            target="_blank"
+            href='http://www.adfg.alaska.gov/index.cfm?adfg=wildlifenews.view_article&articles_id=407&fbclid=IwAR00bl7q7-1MasG0vXosVLD6EYicift8xXHo1X6bw__Ia4NLeDNF2Cs2HhM'
+            target='_blank'
           >
             <p>Alaska Department of Fish and Game - Salmon and Trees</p>
           </a>
           <a
-            href="https://www.nationalgeographic.org/encyclopedia/blubber/?fbclid=IwAR01p4oC2woY4Ibf_dRx7oHHiXM5ZYeXe4zopiKukhbrSEiEeBNf8uhU-eI"
-            target="_blank"
+            href='https://www.nationalgeographic.org/encyclopedia/blubber/?fbclid=IwAR01p4oC2woY4Ibf_dRx7oHHiXM5ZYeXe4zopiKukhbrSEiEeBNf8uhU-eI'
+            target='_blank'
           >
             <p>National Geographic - Blubber</p>
           </a>
           <a
-            href="http://www.orcanetwork.org/nathist/OIOM2006edited.pdf"
-            target="_blank"
+            href='http://www.orcanetwork.org/nathist/OIOM2006edited.pdf'
+            target='_blank'
           >
             <p>Orcas in Our Midst</p>
           </a>
           <a
-            href="https://www.theolympian.com/news/local/article25320205.html?fbclid=IwAR1WgF5PqPH9R8USQUWc-mIDjXud3g0nqOW1cpaTBtxZZlBqajYemZyKvNc"
-            target="_blank"
+            href='https://www.theolympian.com/news/local/article25320205.html?fbclid=IwAR1WgF5PqPH9R8USQUWc-mIDjXud3g0nqOW1cpaTBtxZZlBqajYemZyKvNc'
+            target='_blank'
           >
             <p>The Olympian - Orca Captures</p>
           </a>
           <a
-            href="https://www.fisheries.noaa.gov/video/spotlight-southern-resident-killer-whale-interview-noaa-fisheries-biologist-lynne?fbclid=IwAR2bSuEPDR-GPtTM4NcuwunCZ59ppEJO8ok-KtWA3sdf5ZVJiB4OmzfylWM"
-            target="_blank"
+            href='https://www.fisheries.noaa.gov/video/spotlight-southern-resident-killer-whale-interview-noaa-fisheries-biologist-lynne?fbclid=IwAR2bSuEPDR-GPtTM4NcuwunCZ59ppEJO8ok-KtWA3sdf5ZVJiB4OmzfylWM'
+            target='_blank'
           >
             <p>NOAA Spotlight on SRKW</p>
           </a>

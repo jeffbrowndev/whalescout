@@ -1,27 +1,27 @@
-@import "./variables.scss";
-@import "./mixins.scss";
-@import "./member.scss";
-@import "./act.scss";
-@import "./home.scss";
-@import "./team.scss";
-@import "./volunteer.scss";
-@import "./event.scss";
-@import "./eventSlider.scss";
-@import "./watch.scss";
-@import "./links.scss";
-@import "./desktopNavigation.scss";
-@import "./mobileNavigation.scss";
-@import "./composition.scss";
-@import "./threats.scss";
-@import "./learn.scss";
-@import "./contact.scss";
-@import "./eventPage.scss";
-@import "./podcast.scss";
-@import "./podcastCard.scss";
-@import "./newsCard.scss";
-@import "./news.scss";
-@import "./article.scss";
-@import "./calendarEvent.scss";
+@import './variables.scss';
+@import './mixins.scss';
+@import './member.scss';
+@import './act.scss';
+@import './home.scss';
+@import './team.scss';
+@import './volunteer.scss';
+@import './event.scss';
+@import './eventSlider.scss';
+@import './watch.scss';
+@import './links.scss';
+@import './desktopNavigation.scss';
+@import './mobileNavigation.scss';
+@import './composition.scss';
+@import './threats.scss';
+@import './learn.scss';
+@import './contact.scss';
+@import './eventPage.scss';
+@import './podcast.scss';
+@import './podcastCard.scss';
+@import './newsCard.scss';
+@import './news.scss';
+@import './article.scss';
+@import './calendarEvent.scss';
 
 // CSS Resets
 * {
@@ -100,7 +100,7 @@ a {
 .article_section {
   text-align: left;
   width: 960px;
-  margin: 0 auto 25px;
+  margin: auto;
   @include mQ(1150px) {
     width: 94%;
     h1 {
@@ -136,7 +136,7 @@ a {
 
 .triangle_down {
   width: 150px;
-  margin: 50px auto 0;
+  margin: 25px auto;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
   border-top: 20px solid $mediumgreen;

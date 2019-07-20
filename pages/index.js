@@ -1,20 +1,20 @@
-import React from "react";
-import Layout from "./components/layout";
-import fetch from "isomorphic-unfetch";
-import styles from "../pages/scss/app.scss";
-import EventSlider from "./components/eventSlider";
-import Link from "next/link";
-import PodcastCard from "./components/podcastCard";
-import NewsCard from "./components/newsCard";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from 'react';
+import Layout from './components/layout';
+import fetch from 'isomorphic-unfetch';
+import styles from '../pages/scss/app.scss';
+import EventSlider from './components/eventSlider';
+import Link from 'next/link';
+import PodcastCard from './components/podcastCard';
+import NewsCard from './components/newsCard';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 // Home page
 const Index = props => (
-  <Layout credits={"Header photo: Jill Clogston | "} color="#a6d5cd">
+  <Layout credits={'Header photo: Jill Clogston | '} color='#a6d5cd'>
     <div className={styles.home}>
       {/* Main header */}
       <section className={styles.home_header}>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn='fadeIn'>
           <h1>
             Protecting <span>Pacific Northwest Whales</span> through land-based
             conservation experiences.
@@ -24,14 +24,14 @@ const Index = props => (
       {/* Sub-header */}
       <section className={styles.sub_header}>
         <div className={styles.what_we_do}>
-          <img src="/static/images/ws_home_subheader_fish.svg" alt="Fish" />
+          <img src='/static/images/ws_home_subheader_fish.svg' alt='Fish' />
           <div className={styles.description}>
             <h2>What We Do...</h2>
             <p>
               Whale Scout leads the public in land-based whale watching
               experiences. We channel people’s interest and passion about whales
               into on the ground salmon habitat restoration projects protecting
-              the primary food source of struggling orcas in Puget Sound.{" "}
+              the primary food source of struggling orcas in Puget Sound.{' '}
             </p>
           </div>
         </div>
@@ -43,16 +43,37 @@ const Index = props => (
               Out Events.
             </p>
             <a
-              href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url"
-              target="_blank"
+              href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7P57R2WS8MM8Q&source=url'
+              target='_blank'
             >
               <button className={styles.main_button}>DONATE</button>
             </a>
-            <Link href="/act">
+            <Link href='/act'>
               <button className={styles.main_button}>VOLUNTEER</button>
             </Link>
           </div>
-          <img src="/static/images/ws_home_subheader_volunteers.svg" alt="" />
+          <img src='/static/images/ws_home_subheader_volunteers.svg' alt='' />
+        </div>
+        <div className={styles.whalescout_video}>
+          <div className={styles.video_wrapper}>
+            <iframe
+              width='560'
+              height='315'
+              src='https://www.youtube.com/embed/pwMDH491Haw'
+              frameBorder='0'
+              allowFullScreen
+            />
+          </div>
+          <p>
+            <a
+              href='https://indd.adobe.com/view/4a972080-6de6-402a-9c38-1965492090d4'
+              target='_blank'
+            >
+              Learn more
+            </a>{' '}
+            about the salmon habitat restoration sites and projects we worked on
+            in 2018-2019
+          </p>
         </div>
       </section>
       {/* Events slider */}
@@ -63,7 +84,7 @@ const Index = props => (
         <div className={styles.recent_news}>
           <div className={styles.recent_header}>
             <h3>Recent News</h3>
-            <Link href="./news">
+            <Link href='./news'>
               <u className={styles.see_all}>See all news posts</u>
             </Link>
           </div>
@@ -79,12 +100,12 @@ const Index = props => (
             />
           ))}
         </div>
-        <Link href="./news">
+        <Link href='./news'>
           <u className={styles.see_all_mobile}>See all news posts</u>
         </Link>
         <div className={styles.recent_header}>
           <h3>Recent Podcasts</h3>
-          <Link href="./podcasts">
+          <Link href='./podcasts'>
             <u className={styles.see_all}>See all podcasts</u>
           </Link>
         </div>
@@ -100,15 +121,15 @@ const Index = props => (
             );
           })}
         </div>
-        <Link href="./podcasts">
+        <Link href='./podcasts'>
           <u className={styles.see_all_mobile}>See all podcasts</u>
         </Link>
       </section>
     </div>
     <img
       className={styles.home_footer_image}
-      src="/static/images/ws_home_whale.svg"
-      alt="Whale"
+      src='/static/images/ws_home_whale.svg'
+      alt='Whale'
     />
   </Layout>
 );
@@ -117,23 +138,23 @@ const Index = props => (
 Index.getInitialProps = async function() {
   const db = process.env.DATABASE_URL;
   // Get events
-  const event_data = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
-    events => events.json()
-  );
+  const event_data = await fetch(
+    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`
+  ).then(events => events.json());
   // Filter out old events
   const events = event_data.filter(
     event => new Date(event.acf.date) >= Date.now()
   );
 
   // Get podcasts
-  const podcasts = await fetch(`${db}/wp-json/wp/v2/posts?categories=4`).then(
-    podcasts => podcasts.json()
-  );
+  const podcasts = await fetch(
+    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=4`
+  ).then(podcasts => podcasts.json());
 
   // Get news/blog posts
-  const news = await fetch(`${db}/wp-json/wp/v2/posts?categories=3`).then(
-    news => news.json()
-  );
+  const news = await fetch(
+    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`
+  ).then(news => news.json());
 
   // Only grab first 4 podcasts and 3 news posts
   podcasts.length = 4;

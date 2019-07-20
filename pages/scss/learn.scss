@@ -1,9 +1,9 @@
-@import 'variables';
-@import 'mixins';
+@import "variables";
+@import "mixins";
 
 .learn {
   .learn_header {
-    background-image: url('/static/images/ws_learn_header.svg');
+    background-image: url("/static/images/ws_learn_header.svg");
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,4 +17,10 @@
       }
     }
   }
+}
+
+.composition_caption {
+  text-align: center;
+  padding: 10px 0;
+  font-family: $raleway-regular;
 }

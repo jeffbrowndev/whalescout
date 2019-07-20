@@ -1,17 +1,15 @@
-import Layout from "./components/layout";
-import styles from "./scss/app.scss";
-import EventSlider from "./components/eventSlider";
-import fetch from "isomorphic-unfetch";
-import Perk from "./components/perk";
-import ScrollAnimation from "react-animate-on-scroll";
-
-const db = process.env.DATABASE_URL;
+import Layout from './components/layout';
+import styles from './scss/app.scss';
+import EventSlider from './components/eventSlider';
+import fetch from 'isomorphic-unfetch';
+import Perk from './components/perk';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Volunteer = props => (
   <Layout>
     <div className={styles.act}>
       <div className={styles.act_header}>
-        <ScrollAnimation animateIn="fadeIn">
+        <ScrollAnimation animateIn='fadeIn'>
           <div className={styles.act_header_text}>
             <h1 className={styles.naturalist_header}>BE A NATURALIST</h1>
           </div>
@@ -44,7 +42,7 @@ const Volunteer = props => (
             <u>Puget Sound</u> - Volunteers station themselves at public beaches
             on the shorelines of Puget Sound both opportunistically when whales
             are reported in the area and at scheduled times, the second Sunday
-            of the month, and at special events.{" "}
+            of the month, and at special events.{' '}
           </p>
           <p>
             <u>San Juan Island</u> - Whale Scout is a partner in the San Juan
@@ -115,41 +113,41 @@ const Volunteer = props => (
       <div className={styles.perks}>
         <div className={styles.perks_top}>
           <Perk
-            src={`${db}/wp-content/uploads/2019/03/book.svg`}
-            title="Whale Scout Book Club"
-            src={`${db}/wp-content/uploads/2019/03/book.svg`}
-            description="Join our group to read and discuss books about a variety of topics related to whales, Puget Sound, science, etc. We meet about every three months on Saturdays at McMenamins in Bothell. Books are selected based on volunteer selections and a group vote."
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/book.svg`}
+            title='Whale Scout Book Club'
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/book.svg`}
+            description='Join our group to read and discuss books about a variety of topics related to whales, Puget Sound, science, etc. We meet about every three months on Saturdays at McMenamins in Bothell. Books are selected based on volunteer selections and a group vote.'
           />
           <Perk
-            src={`${db}/wp-content/uploads/2019/03/map.svg`}
-            title="Field Trips"
-            description="Past trips have included Cedar River salmon viewing, Elwha River restoration and salmon viewing, Chum salmon viewing on Kitsap. Typically these are day trips but there have been some overnight trips."
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/map.svg`}
+            title='Field Trips'
+            description='Past trips have included Cedar River salmon viewing, Elwha River restoration and salmon viewing, Chum salmon viewing on Kitsap. Typically these are day trips but there have been some overnight trips.'
           />
           <Perk
-            src={`${db}/wp-content/uploads/2019/03/training.svg`}
-            title="Training Sessions"
-            description="Three volunteer training sessions are offered throughout the year. Volunteers are required to attend at least one per year to stay current on the latest scientific findings, messages, and programs offered. Join our newsletter to be informed about our next training opportunity."
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/training.svg`}
+            title='Training Sessions'
+            description='Three volunteer training sessions are offered throughout the year. Volunteers are required to attend at least one per year to stay current on the latest scientific findings, messages, and programs offered. Join our newsletter to be informed about our next training opportunity.'
           />
         </div>
         <div className={styles.perks_bottom}>
           <Perk
-            src={`${db}/wp-content/uploads/2019/03/baloons.svg`}
-            title="Appreciation Parties"
-            description="An annual party held in the spring or summer celebrates all our volunteers for the year of service. We enjoy food, drinks, and a lovely atmosphere at a property in Bellevue - all graciously donated!"
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/baloons.svg`}
+            title='Appreciation Parties'
+            description='An annual party held in the spring or summer celebrates all our volunteers for the year of service. We enjoy food, drinks, and a lovely atmosphere at a property in Bellevue - all graciously donated!'
           />
           <Perk
-            src={`${db}/wp-content/uploads/2019/03/hat.svg`}
-            title="Earn Swag!"
-            description="20 hours of land-based whale watching service earns an extra loaner pair of
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/hat.svg`}
+            title='Earn Swag!'
+            description='20 hours of land-based whale watching service earns an extra loaner pair of
             binoculars. 2 years of service earns a Whale Scout beanie. Plus, every year
-            new interpretive materials are given to volunteers."
+            new interpretive materials are given to volunteers.'
           />
           <Perk
-            src={`${db}/wp-content/uploads/2019/03/friends.svg`}
-            title="Make Friends"
-            description="Meet other like-minded members of your community and enjoy
+            src={`https://admin.whalescout.org/wp-content/uploads/2019/03/friends.svg`}
+            title='Make Friends'
+            description='Meet other like-minded members of your community and enjoy
             spending time sharing an experience, learning about whales, and
-            making a big difference for our ecosystem."
+            making a big difference for our ecosystem.'
           />
         </div>
       </div>
@@ -160,9 +158,9 @@ const Volunteer = props => (
 // Fetch data from Wordpress REST API
 Volunteer.getInitialProps = async function() {
   // Get events
-  const event_data = await fetch(`${db}/wp-json/wp/v2/posts?categories=2`).then(
-    events => events.json()
-  );
+  const event_data = await fetch(
+    `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`
+  ).then(events => events.json());
   // Filter out old events
   const events = event_data.filter(
     event => new Date(event.acf.date) >= Date.now()

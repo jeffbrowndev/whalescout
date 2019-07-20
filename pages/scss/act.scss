@@ -1,12 +1,12 @@
-@import "variables";
-@import "mixins";
+@import 'variables';
+@import 'mixins';
 
 .act {
   .article_container {
     background-color: $white;
   }
   .act_header {
-    background-image: url("/static/images/ws_act_header.svg");
+    background-image: url('/static/images/ws_act_header.svg');
     background-position: bottom center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,6 +89,18 @@
       img {
         width: 100px;
       }
+    }
+  }
+}
+
+.report {
+  margin: 50px 0;
+  text-align: center;
+  .report_image {
+    width: 960px;
+    img {
+      width: 100%;
+      max-width: 400px !important;
     }
   }
 }

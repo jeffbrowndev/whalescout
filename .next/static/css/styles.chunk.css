@@ -256,6 +256,15 @@
       .nCqTnuluilMyA-Yy7kQkV ._2R_1XMWQj2OV6p8ame9DMn ._2Ys4kJ-jQJdrnvAXlvaY7a img {
         width: 100px; }
 
+._1tDRypIv_KpXf3TkbTs3_e {
+  margin: 50px 0;
+  text-align: center; }
+  ._1tDRypIv_KpXf3TkbTs3_e ._15DhKysaO8CmCx77FRruOS {
+    width: 960px; }
+    ._1tDRypIv_KpXf3TkbTs3_e ._15DhKysaO8CmCx77FRruOS img {
+      width: 100%;
+      max-width: 400px !important; }
+
 @font-face {
   font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
@@ -311,6 +320,29 @@
   ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t {
     background: #96cec4;
     padding: 150px 3%; }
+    ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1orNf1CpLORB1yWlIhJw05 {
+      max-width: 1200px;
+      margin: auto;
+      padding-top: 150px; }
+      ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1orNf1CpLORB1yWlIhJw05 p {
+        text-align: center;
+        margin-top: 25px; }
+      ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1orNf1CpLORB1yWlIhJw05 ._3-r0fpLb4PWeQ6CtR2_aTL {
+        cursor: pointer;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0; }
+        ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1orNf1CpLORB1yWlIhJw05 ._3-r0fpLb4PWeQ6CtR2_aTL iframe {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0; }
+      @media screen and (max-width: 1200px) {
+        ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t ._1orNf1CpLORB1yWlIhJw05 {
+          padding-top: 75px; } }
     ._1w075ffhvFBlpjDEm7LJXe ._1A_qMEaUhH144ByvOg4E4t h2 {
       color: #032c4a;
       font-weight: lighter;
@@ -1503,6 +1535,11 @@ a._3EyTS3WYkixn78yOvFOcJ5 {
       ._2g7wOHPH2dBKHHrUJhbM8E ._12xps7v40jCs0lt_1-82el h1 {
         padding: 100px 0; } }
 
+._14YctbDrhhnyv3IBs0431U {
+  text-align: center;
+  padding: 10px 0;
+  font-family: "raleway-regular"; }
+
 @font-face {
   font-family: "volt";
   src: url("/static/fonts/Voltage Bold.otf"); }
@@ -2317,7 +2354,7 @@ a {
 .L2id93Pj_0zKtPPQ7MutF {
   text-align: left;
   width: 960px;
-  margin: 0 auto 25px; }
+  margin: auto; }
   @media screen and (max-width: 1150px) {
     .L2id93Pj_0zKtPPQ7MutF {
       width: 94%; }
@@ -2347,7 +2384,7 @@ a {
 
 ._2YJyO2_MyqzdPg_8Y7pbhf {
   width: 150px;
-  margin: 50px auto 0;
+  margin: 25px auto;
   border-left: 75px solid transparent;
   border-right: 75px solid transparent;
   border-top: 20px solid #96cec4; }

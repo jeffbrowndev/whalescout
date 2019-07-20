@@ -1,6 +1,4 @@
-import styles from "../scss/app.scss";
-
-const db = process.env.DATABASE_URL;
+import styles from '../scss/app.scss';
 
 const Threats = props => (
   <div className={styles.threats}>
@@ -12,7 +10,9 @@ const Threats = props => (
           populations for 90% of their diet
         </p>
       </div>
-      <img src={`${db}/wp-content/uploads/2019/03/chasing.svg`} />
+      <img
+        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/chasing.svg`}
+      />
     </div>
     <div className={styles.threats_middle}>
       <div className={styles.threats_header}>
@@ -22,7 +22,9 @@ const Threats = props => (
           reproductive issues.
         </p>
       </div>
-      <img src={`${db}/wp-content/uploads/2019/03/toxins-1.svg`} />
+      <img
+        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/toxins-1.svg`}
+      />
     </div>
     <div className={styles.threats_bottom}>
       <div className={styles.threats_header}>
@@ -32,7 +34,9 @@ const Threats = props => (
           already diminished prey.
         </p>
       </div>
-      <img src={`${db}/wp-content/uploads/2019/03/vessels.svg`} />
+      <img
+        src={`https://admin.whalescout.org/wp-content/uploads/2019/03/vessels.svg`}
+      />
     </div>
   </div>
 );

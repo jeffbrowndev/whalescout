@@ -1,11 +1,11 @@
-@import "variables";
-@import "mixins";
+@import 'variables';
+@import 'mixins';
 
 .home {
   background: $mediumgreen;
   .home_header {
     width: 100%;
-    background: url("/static/images/ws_home_header.svg") no-repeat;
+    background: url('/static/images/ws_home_header.svg') no-repeat;
     background-size: cover;
     background-position: bottom;
     min-height: 750px;
@@ -39,6 +39,34 @@
   .sub_header {
     background: $mediumgreen;
     padding: $sectionpadding;
+    .whalescout_video {
+      max-width: 1200px;
+      margin: auto;
+      padding-top: 150px;
+      p {
+        text-align: center;
+        margin-top: 25px;
+      }
+      .video_wrapper {
+        cursor: pointer;
+        background-size: contain;
+        background-position: center;
+        position: relative;
+        // 16:9 aspect ratio
+        padding-bottom: 56.25%;
+        height: 0;
+        iframe {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+        }
+      }
+      @include mQ(1200px) {
+        padding-top: 75px;
+      }
+    }
     h2 {
       color: $blue;
       font-weight: lighter;
