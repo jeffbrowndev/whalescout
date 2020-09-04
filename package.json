@@ -29,7 +29,7 @@
     "next-images": "^1.0.4",
     "next-routes": "^1.4.2",
     "node-html-parser": "^1.1.12",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.13.1",
     "npm": "^6.4.1",
     "react": "^16.8.4",
     "react-animate-on-scroll": "^2.1.5",
