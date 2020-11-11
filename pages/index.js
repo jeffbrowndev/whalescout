@@ -9,7 +9,7 @@ import NewsCard from './components/newsCard';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 // Home page
-const Index = props => (
+const Index = (props) => (
   <Layout credits={'Header photo: Jill Clogston | '} color='#a6d5cd'>
     <div className={styles.home}>
       {/* Main header */}
@@ -89,7 +89,7 @@ const Index = props => (
             </Link>
           </div>
 
-          {props.news.map(article => (
+          {props.news.map((article) => (
             <NewsCard
               key={article.id}
               date={article.date}
@@ -110,7 +110,7 @@ const Index = props => (
           </Link>
         </div>
         <div className={styles.recent_podcasts}>
-          {props.podcasts.map(podcast => {
+          {props.podcasts.map((podcast) => {
             return (
               <PodcastCard
                 key={podcast.slug}
@@ -136,25 +136,24 @@ const Index = props => (
 
 // Fetch data from Wordpress REST API
 Index.getInitialProps = async function() {
-  const db = process.env.DATABASE_URL;
   // Get events
   const event_data = await fetch(
     `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=2`
-  ).then(events => events.json());
+  ).then((events) => events.json());
   // Filter out old events
   const events = event_data.filter(
-    event => new Date(event.acf.date) >= Date.now()
+    (event) => new Date(event.acf.date) >= Date.now()
   );
 
   // Get podcasts
   const podcasts = await fetch(
     `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=4`
-  ).then(podcasts => podcasts.json());
+  ).then((podcasts) => podcasts.json());
 
   // Get news/blog posts
   const news = await fetch(
     `https://admin.whalescout.org/wp-json/wp/v2/posts?categories=3`
-  ).then(news => news.json());
+  ).then((news) => news.json());
 
   // Only grab first 4 podcasts and 3 news posts
   podcasts.length = 4;

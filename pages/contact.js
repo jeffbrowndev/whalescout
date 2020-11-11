@@ -6,15 +6,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faFacebook,
   faTwitter,
-  faInstagram
+  faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 library.add(faFacebook, faInstagram, faTwitter);
 
-const db = process.env.DATABASE_URL;
-
-const Contact = props => (
+const Contact = (props) => (
   <Layout>
     <div className={styles.contact}>
       <div className={styles.contact_header}>

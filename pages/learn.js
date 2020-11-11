@@ -5,8 +5,6 @@ import Threats from './components/threats';
 import ScrollAnimation from 'react-animate-on-scroll';
 import Link from 'next/link';
 
-const db = process.env.DATABASE_URL;
-
 export default () => (
   <Layout>
     <div className={styles.learn}>
