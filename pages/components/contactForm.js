@@ -6,7 +6,7 @@ class ContactForm extends React.Component {
     return (
       <form
         method='POST'
-        action={'https://formspree.io/f/mdopdkzk.org'}
+        action={'https://formspree.io/f/info@whalescout.org'}
         className={styles.contact_form}
       >
         <input name='name' placeholder='Name' />
