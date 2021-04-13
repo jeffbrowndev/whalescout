@@ -71,7 +71,7 @@ class EventSlider extends React.Component {
                   slug={event.slug}
                   title={event.acf.title}
                   date={event.acf.date}
-                  description={event.acf.description}
+                  description={event.acf.excerpt}
                   // Use default image if no image is provided
                   image={
                     event.acf.image || './static/images/ws_home_header.svg'

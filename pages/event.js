@@ -2,11 +2,12 @@ import Layout from './components/layout';
 import fetch from 'isomorphic-unfetch';
 import React from 'react';
 import styles from './scss/app.scss';
+import ReactHtmlParser from 'react-html-parser';
 
 class Event extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { event: {} };
+    this.state = { body: {}, acf: {}  };
   }
   componentDidMount() {
     fetch(
@@ -15,58 +16,57 @@ class Event extends React.Component {
       }`
     )
       .then(res => res.json())
-      .then(event => this.setState({ event: event[0].acf }));
+      .then(event => this.setState({ 
+        body: event[0].content.rendered.replace(/\n\n\n\n/g, '<br>'), 
+        acf: event[0].acf 
+      }));
   }
   render() {
-    const event = this.state.event;
+    const event = this.state;
     // Below are event details with defaults available when no information is provided
     return (
       <Layout>
         <div className={styles.event_content}>
           {/* Title */}
-          {event.title ? <h1>{event.title}</h1> : <h1>Helpin' Out Event!</h1>}
+          {event.acf.title ? <h1>{event.acf.title}</h1> : <h1>Helpin' Out Event!</h1>}
           {/* Location */}
-          {event.location_name ? <h2>{`@ ${event.location_name}`}</h2> : ''}
+          {event.acf.location_name ? <h2>{`@ ${event.acf.location_name}`}</h2> : ''}
           {/* Description */}
-          {event.description ? (
-            <p className={styles.event_description}>{event.description}</p>
-          ) : (
-            <p className={styles.event_description}>
-              No event details at this time
-            </p>
-          )}
+          <div className={styles.event_content}>
+              {ReactHtmlParser(event.body)}
+          </div>
           {/* Image */}
-          {event.image ? (
-            <img src={event.image} />
+          {event.acf.image ? (
+            <img src={event.acf.image} />
           ) : (
             <img src='./static/images/ws_home_header.svg' />
           )}
           {/* Image caption */}
-          {event.image_caption ? (
-            <p className={styles.event_caption}>{event.image_caption}</p>
+          {event.acf.image_caption ? (
+            <p className={styles.event_caption}>{event.acf.image_caption}</p>
           ) : (
             ''
           )}
           <h3>Event Details:</h3>
           <ul>
             {/* Date */}
-            {event.date ? <li>{`Date: ${event.date}`}</li> : ''}
+            {event.acf.date ? <li>{`Date: ${event.acf.date}`}</li> : ''}
             {/* Time */}
-            {event.start_time ? (
+            {event.acf.start_time ? (
               <li>
-                {`Time: ${event.start_time}`}
-                {event.end_time ? <span>{` - ${event.end_time}`}</span> : ''}
+                {`Time: ${event.acf.start_time}`}
+                {event.acf.end_time ? <span>{` - ${event.acf.end_time}`}</span> : ''}
               </li>
             ) : (
               'Check back for details!'
             )}
 
             {/* Address */}
-            {event.location_name ? (
+            {event.acf.location_name ? (
               <li>
-                {`Location: ${event.location_name}`}
-                {event.location_address ? (
-                  <span>{`, ${event.location_address}`}</span>
+                {`Location: ${event.acf.location_name}`}
+                {event.acf.location_address ? (
+                  <span>{`, ${event.acf.location_address}`}</span>
                 ) : (
                   ''
                 )}
@@ -75,44 +75,44 @@ class Event extends React.Component {
               'Check back for details!'
             )}
             {/* What to bring */}
-            {event.what_to_bring ? (
-              <li>{`What to bring: ${event.what_to_bring}`}</li>
+            {event.acf.what_to_bring ? (
+              <li>{`What to bring: ${event.acf.what_to_bring}`}</li>
             ) : (
               ''
             )}
             {/* Provided */}
-            {event.provided ? <li>{`Provided: ${event.provided}`}</li> : ''}
+            {event.acf.provided ? <li>{`Provided: ${event.acf.provided}`}</li> : ''}
             {/* Age rescrictions */}
-            {event.age_restrictions > 0 ? (
+            {event.acf.age_restrictions > 0 ? (
               <li>{`Youth under the age of ${
-                event.age_restrictions
+                event.acf.age_restrictions
               } must be accompanied by an adult or guardian.`}</li>
             ) : (
               <li>All ages welcome!</li>
             )}
             {/* Youth waiver */}
-            {event.youth_waiver_form ? <li /> : <li />}
+            {event.acf.youth_waiver_form ? <li /> : <li />}
             {/* Facebook link */}
-            {event.facebook_link ? (
-              <a href={event.facebook_link} target='_blank'>
+            {event.acf.facebook_link ? (
+              <a href={event.acf.facebook_link} target='_blank'>
                 <li>View this event on Facebook</li>
               </a>
             ) : (
               ''
             )}
             {/* Supporters */}
-            {event.partners_supporters ? (
+            {event.acf.partners_supporters ? (
               <li>{`Partners/supporters for this event: ${
-                event.partners_supporters
+                event.acf.partners_supporters
               }`}</li>
             ) : (
               ''
             )}
             {/* Sign up */}
-            {event.sign_up ? (
+            {event.acf.sign_up ? (
               <li>
                 Space will be limited!{' '}
-                <a href={event.sign_up} target='_blank'>
+                <a href={event.acf.sign_up} target='_blank'>
                   Sign up required
                 </a>
               </li>

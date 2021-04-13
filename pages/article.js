@@ -9,7 +9,7 @@ import ReactHtmlParser from 'react-html-parser';
 class Article extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { main: {}, acf: {} };
+    this.state = {};
   }
   componentDidMount() {
     fetch(
@@ -29,6 +29,7 @@ class Article extends React.Component {
   }
   render() {
     const article = this.state;
+    
     return (
       <Layout>
         <div className={styles.article_content}>
