@@ -208,7 +208,7 @@ export default () => (
             salmon more places to live, spawn, and thrive. The more salmon there
             are, the more food killer whales have to eat. No matter where you
             live, you can make a difference with{' '}
-            <Link href='www.podmatch.org'>PodMatch</Link>, through your
+            <Link href='https://www.podmatch.org'>PodMatch</Link>, through your
             donations, or via participation with groups throughout the west
             coast. <br />
             <br />
